@@ -1,0 +1,73 @@
+---
+title: "Appraisal document"
+description: |
+date: "`r Sys.Date()`"
+author: 
+  - first_name: "David"
+    last_name: "Simons"
+    url: https://www.dsimons.org
+    orcid_id: 0000-0001-9655-1656
+output: 
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+knit: (function(inputFile, encoding) {
+    rmarkdown::render(inputFile, encoding = encoding, output_dir = here::here())
+  })
+always_allow_html: yes
+bibliography: "`r here::here('reports', 'citations', 'citations.bib')`"
+---
+
+# Introduction
+
+  + Zoonoses emergence associated with anthropogenic habitat disturbance, climate alteration and wildlife trade.
+  + In risk terms appears that bats and rodents are associated with greatest risk of zoonosis spillover events with subsequent potential for epidemics.
+  + Several important factors are thought to be associated with this risk, land use change and poor healthcare infrastructure (specifically disease surveillance and diagnostics).
+  + West Africa and particularly Sierra Leone are at risk of spillover events from Rodent and Bat species.
+  + Lassa fever is a good model system to investigate because of this.
+  + Lassa fever is a zoonotic infectious disease caused by *Lassa mammarenavirus*, first cultured in the 1960's near Jos, Nigeria. Subsequently identified in most West African countries. 
+  + Endemic in Nigeria, Liberia, Guinea and Sierra Leone with sporadic cases reported elsewhere.
+  + Associated with seasonal epidemics (after rains). Typically stuttering human-to-human transmission and predominantly identified in healthcare settings.
+  + Unclear scale of problem, 400,000-4,800,000 cases per year. Likely significant number of asymptomatic cases and high levels of transmission based on serological studies.
+  + In those acutely diagnoses case fatality rates range between 20-50%, limited treatment options.
+  + Currently no licensed vaccine however, novel adenovirus vectored vaccine has entered Phase 1 trials supported by CEPI.
+  + CEPI also have initiated a regional epidemiological study to understand the scale of community transmission and possible range of asymptomatic- or pauci-symptomatic cases.
+  + This project will concentrate on the endemic region of the Eastern Province of Sierra Leone.
+  + Aim to characterise socio-ecological drivers of Lassa fever virus spillover risk from reservoir species.
+    1. Understand the role of rodent assemblage structures and population dynamics on the prevalence of known and suspected reservoir species of *Lassa mammarenavirus*
+    2. Investigate the prevalence of *Lassa mammarenavirus* seropositivity among rodent and peri-domestic species in a Lassa fever endemic region of Sierra Leone
+    3. Develop and trial a species agnostic serological assay for *Lassa mammarenavirus* to understand the role of different species on Lassa fever risk
+    4. Parameterise a mechanistic viral transmission model of *Lassa mammarenavirus* in known reservoir species to characterise risk of spillover into human populations
+
+## Project outline
+
+To address the above aims the following projects will contribute to this thesis:
+  1. A comprehensive literature review will be conducted to identify studies investigate the role of rodent species in viral transmission in West Africa
+  2. Longitudinal rodent trapping will be conducted at Lassa fever endemic sites in Eastern Sierra Leone over a 2 year period. 
+  3. Serological studies investigating *Lassa mammarenavirus* seropositivity will be conducted in rodents and peridomestic species
+  4. Development of a species agnostic serological assay
+  5. Parameterisation of a mathematical model of viral transmission in rodent populations to investigate spillover risk
+
+## Project timeline
+
+
+# Scoping review: Rodent trapping in West Africa
+
+Initial draft
+
+# Rodent trapping to inform rodent species distributions in Eastern Sierra Leone
+
+Project begun
+
+# Serological investigation of *Lassa mammarenavirus* among rodents and peridomestic species in Eastern Sierra Leone
+
+Samples from rodent trapping and recently begun animal studies
+
+# Development of a novel cross species serological assay for *Lassa mammarenavirus*
+
+Epitope targets identified, LIPS expression underway, field trials likely 2022
+
+# Parameterisation of a mathematical model of viral transmission
+
+Very early stages
