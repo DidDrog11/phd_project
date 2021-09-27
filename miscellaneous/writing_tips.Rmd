@@ -1,0 +1,28 @@
+---
+title: "Writing tips"
+description: |
+date: "`r Sys.Date()`"
+author: 
+  - first_name: "David"
+    last_name: "Simons"
+    url: https://www.dsimons.org
+    orcid_id: 0000-0001-9655-1656
+output: 
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+knit: (function(inputFile, encoding) {
+    rmarkdown::render(inputFile, encoding = encoding, output_dir = here::here())
+  })
+always_allow_html: yes
+bibliography: "`r here::here('citations', 'document_citations.bib')`"
+---
+
+  1. Think about what you want to say and try to write it as concisely and simply as possible
+  2. Flow of paragraphs to include linking and reinforcing the message
+  3. No comma after include or such as
+  4. Lists in a sentance use - rather than including, 
+  5. Keep terminology consistent
+  6. Signposting either at the beginning of a paragraph and linking to the above or at the end of a paragraph.
+  7. New paragraphs when the topic changes
