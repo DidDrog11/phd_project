@@ -67,3 +67,5 @@ Species accumulation curves have been produced for the first two visits from Lal
 As we catch an increasing number of individuals we are seeing them clustering within expected habitats.
 
 ![Clustering of species within preferred habitat classes](visit_reports_figures/species_locations.png)
+
+/pagebreak
