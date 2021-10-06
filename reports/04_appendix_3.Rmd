@@ -68,4 +68,4 @@ As we catch an increasing number of individuals we are seeing them clustering wi
 
 ![Clustering of species within preferred habitat classes](visit_reports_figures/species_locations.png)
 
-/pagebreak
+\pagebreak
