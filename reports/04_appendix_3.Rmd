@@ -1,12 +1,8 @@
 ---
 output: 
-  # distill::distill_article:
-  #   toc: true
-  #   toc_depth: 3
-  #   toc_float: true
-  # pandoc_args: ["--number-sections"]
-  # word_document
   bookdown::pdf_document2:
+    includes:
+      in_header: "preamble.tex"
 csl: "harvard.csl"
 ---
 
@@ -71,3 +67,5 @@ Species accumulation curves have been produced for the first two visits from Lal
 As we catch an increasing number of individuals we are seeing them clustering within expected habitats.
 
 ![Clustering of species within preferred habitat classes](visit_reports_figures/species_locations.png)
+
+\pagebreak
