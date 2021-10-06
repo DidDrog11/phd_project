@@ -1,14 +1,13 @@
 ---
 title: "Development of a dynamic model for the emergence of Lassa fever in West Africa: Appraisal 2021"
 site: bookdown::bookdown_site
-output:
+output: 
   bookdown::pdf_document2:
     includes:
-header-includes:
-    - \usepackage{setspace}\doublespacing
+      in_header: "preamble.tex"
+csl: "harvard.csl"
 lof: false
 bibliography: citations/appraisal_citations.bib
-csl: "harvard.csl"
 ---
 
 ```{r setup, include=FALSE}

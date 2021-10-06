@@ -1,12 +1,8 @@
 ---
 output: 
-  # distill::distill_article:
-  #   toc: true
-  #   toc_depth: 3
-  #   toc_float: true
-  # pandoc_args: ["--number-sections"]
-  # word_document
   bookdown::pdf_document2:
+    includes:
+      in_header: "preamble.tex"
 csl: "harvard.csl"
 ---
 
@@ -15,3 +11,5 @@ csl: "harvard.csl"
 This poster was produced for the International Conference on (Re-)Emerging Infectious Diseases conference. This poster documents the workflow and initial results of our bioinformatic pathway to identify potential epitopes of interest for our Luciferase Immunoprecipitation Assay that we are developing alongside collaborators at UCL and the International Atomic Energy Association. The poster is available at higher resolution [here](https://www.dsimons.org/posts/2021-04-06-luciferase-immunoprecipitations-system/index.html)
 
 ![ICREID poster](icreid_poster/poster.pdf)
+
+\pagebreak

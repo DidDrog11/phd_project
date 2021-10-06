@@ -1,3 +1,7 @@
 bookdown::pdf_book:
-    toc: yes
+    toc: true
     toc_depth: 3
+    includes:
+      in_header: preamble.tex
+urlcolor: blue
+number_sections: true

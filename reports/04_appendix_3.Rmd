@@ -1,12 +1,8 @@
 ---
 output: 
-  # distill::distill_article:
-  #   toc: true
-  #   toc_depth: 3
-  #   toc_float: true
-  # pandoc_args: ["--number-sections"]
-  # word_document
   bookdown::pdf_document2:
+    includes:
+      in_header: "preamble.tex"
 csl: "harvard.csl"
 ---
 
