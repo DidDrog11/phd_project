@@ -1,0 +1,16 @@
+---
+title: "Development of a dynamic model for the emergence of Lassa fever in West Africa: Appraisal 2021"
+site: bookdown::bookdown_site
+output:
+  bookdown::pdf_document2:
+    includes:
+header-includes:
+    - \usepackage{setspace}\doublespacing
+lof: false
+bibliography: citations/appraisal_citations.bib
+csl: "harvard.csl"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE)
+```

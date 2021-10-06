@@ -3,6 +3,7 @@ remotes::install_github("giocomai/ganttrify")
 
 if (!require("pacman")) install.packages("pacman")
 pkgs = c(
+  "bookdown",
   "here",
   "tidyverse",
   "ganttrify"
