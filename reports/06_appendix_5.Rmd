@@ -7,3 +7,5 @@ csl: "harvard.csl"
 ---
 
 # Appendix 5: Training log
+
+\includepdf[pages = -, nup = 2 , pagecommand = {}]{training_log/training_log.pdf}
