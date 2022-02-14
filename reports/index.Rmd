@@ -1,5 +1,9 @@
 ---
-title: "Development of a dynamic model for the emergence of Lassa fever in West Africa: Appraisal 2021"
+title: "Development of a dynamic model for the emergence of Lassa fever in West Africa" 
+subtitle:
+  - "Report for RVC appraisal 2021-10-19"
+author:
+  - "David Simons"
 site: bookdown::bookdown_site
 output: 
   bookdown::pdf_document2:

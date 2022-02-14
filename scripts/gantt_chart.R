@@ -19,3 +19,7 @@ gantt_chart <- ganttrify(project = gantt_activities,
 
 ggsave(filename = here("output", "gantt.png"), dpi = 300, plot = gantt_chart,
        width = 10, height = 11)
+
+ggsave(filename = here("reports", "appraisal_figures", "gantt.png"), dpi = 300, plot = gantt_chart,
+       width = 10, height = 11)
+

@@ -155,15 +155,17 @@ A draft model framework has been produced. A comprehensive review of dynamic mod
 
 ## Project timeline
 
+n.b. updated project timelines 2022-02-01
+
 ![timeline](appraisal_figures/gantt.png)\
 
 The current status of each chapter in relation to the above timeline is highlighted.
 
-  + Chapter 2: Scoping review is at the manuscript draft stage. This project will also significantly contribute to the general introduction of the final thesis. 
-  + Chapter 3 and 4: Rodent trapping will produce the majority of empirical data collection for the thesis. It was initiated in November 2019, data collection from this arm of the project is expected to be completed in May 2023. However, the projects (2.1 and 2.2) the data will be used in will be initially conducted using interim results to increase the feasibility of the timeline.
-    + Lab work was intended to start in July 2021, however, failure to obtain adequate reagents in country have pushed this back to November/December 2021.
+  + Chapter 2: The scoping review is at the manuscript draft stage and will hopefully be submitted for publication towards the end of 2021.
+  + Chapter 3 and 4: Rodent trapping will produce the basis for all empirical data collection for this thesis. It was initiated in November 2019, data collection from this arm of the project is ongoing and is expected to be completed in May 2023. However, for projects 2.1 and 2.2 preliminary data will be used initially to generate an analysis pipeline and produce interim results to increase the feasibility of the timeline.
+    + Lab work was intended to start in July 2021, however, failure to obtain adequate reagents in country and need for training in Germany have pushed this back to March 2022.
   + Chapter 5: A field team has been deployed to obtain non-rodent, peridomestic species samples for Lassa serology and LIPS development.
-  + Chapter 6: LIPS development is ongoing; several posters have been presented on the methodology used to reach the current stage of development (expression within *vero* cells). Optimisiation is ongoing and will be followed up with validation and benchmarking.
+  + Chapter 6: LIPS development is ongoing; several posters have been presented on the methodology used to reach this current stage of development (expression within *vero* cells) and a manuscript is in preparation describing the diverse phylogeny of *Lassa mammarenavirus* and the impact this has on diagnostic assay development. Optimisiation is ongoing and will be followed up with validation and benchmarking.
   + Chapter 7: A conceptual model has been drafted which will undergo refinement and testing prior to parameterisation with empirical data.
   
 ## Training and development

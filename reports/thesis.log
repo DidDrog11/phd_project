@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.10.4)  6 OCT 2021 18:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.10.4)  1 FEB 2022 14:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -374,7 +374,7 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 ) (/Users/david/Library/TinyTeX/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 72.
+Package hyperref Info: Option `colorlinks' set `true' on input line 73.
 (/Users/david/Library/TinyTeX/texmf-dist/tex/latex/chngcntr/chngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
@@ -413,24 +413,24 @@ File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 ) (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
 
 (/Users/david/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.s
 ty
@@ -442,7 +442,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 104.
+Package hyperref Info: Link coloring ON on input line 112.
 (/Users/david/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (/Users/david/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
@@ -454,9 +454,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count298
 )
-LaTeX Info: Redefining \ref on input line 104.
-LaTeX Info: Redefining \pageref on input line 104.
-LaTeX Info: Redefining \nameref on input line 104.
+LaTeX Info: Redefining \ref on input line 112.
+LaTeX Info: Redefining \pageref on input line 112.
+LaTeX Info: Redefining \nameref on input line 112.
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write3
 \openout3 = `thesis.out'.
@@ -503,37 +503,37 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-06.
+14.
 (/Users/david/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-06.
+14.
 (/Users/david/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-106.
+114.
 (/Users/david/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-106.
+114.
 (/Users/david/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 106.
+(Font)              <12> on input line 114.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 106.
+(Font)              <8> on input line 114.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 106.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 106
+(Font)              <6> on input line 114.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 114
 .
 (/Users/david/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 106
+LaTeX Font Info:    Trying to load font information for U+msb on input line 114
 .
 (/Users/david/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -552,271 +552,271 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \openout4 = `thesis.toc'.
 
 [3] [4]
-<appraisal_figures/system_dynamics_zoonoses.png, id=333, 659.5842pt x 406.6392p
+<appraisal_figures/system_dynamics_zoonoses.png, id=334, 659.5842pt x 406.6392p
 t>
 File: appraisal_figures/system_dynamics_zoonoses.png Graphic file (type png)
 <use appraisal_figures/system_dynamics_zoonoses.png>
 Package pdftex.def Info: appraisal_figures/system_dynamics_zoonoses.png  used o
-n input line 126.
+n input line 134.
 (pdftex.def)             Requested size: 469.7674pt x 289.61555pt.
 [5] [6 <./appraisal_figures/system_dynamics_zoonoses.png>] [7] [8]
-<appraisal_figures/lassa_cases_mastomys_range.png, id=357, 867.24pt x 867.24pt>
+<appraisal_figures/lassa_cases_mastomys_range.png, id=358, 867.24pt x 867.24pt>
 
 File: appraisal_figures/lassa_cases_mastomys_range.png Graphic file (type png)
 <use appraisal_figures/lassa_cases_mastomys_range.png>
 Package pdftex.def Info: appraisal_figures/lassa_cases_mastomys_range.png  used
- on input line 154.
+ on input line 162.
 (pdftex.def)             Requested size: 469.75827pt x 469.75827pt.
 [9] [10 <./appraisal_figures/lassa_cases_mastomys_range.png>] [11] [12] [13]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-34.
+42.
 (/Users/david/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [14] [15] [16] [17]
-<appraisal_figures/model_draft_2021-10-04.png, id=443, 2972.10374pt x 3323.4162
+<appraisal_figures/model_draft_2021-10-04.png, id=444, 2972.10374pt x 3323.4162
 4pt>
 File: appraisal_figures/model_draft_2021-10-04.png Graphic file (type png)
 <use appraisal_figures/model_draft_2021-10-04.png>
 Package pdftex.def Info: appraisal_figures/model_draft_2021-10-04.png  used on 
-input line 327.
+input line 335.
 (pdftex.def)             Requested size: 469.74144pt x 525.26645pt.
-<appraisal_figures/gantt.png, id=444, 722.7pt x 794.97pt>
+[18] [19 <./appraisal_figures/model_draft_2021-10-04.png>]
+<appraisal_figures/gantt.png, id=462, 3011.25pt x 3312.375pt>
 File: appraisal_figures/gantt.png Graphic file (type png)
 <use appraisal_figures/gantt.png>
-Package pdftex.def Info: appraisal_figures/gantt.png  used on input line 337.
-(pdftex.def)             Requested size: 469.76045pt x 516.73651pt.
+Package pdftex.def Info: appraisal_figures/gantt.png  used on input line 347.
+(pdftex.def)             Requested size: 469.72556pt x 516.6981pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
 
  []
 
-[18] [19 <./appraisal_figures/model_draft_2021-10-04.png>]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
-44.
+54.
 (/Users/david/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [20 <./appraisal_figures/gantt.png>] [21] [22] [23] [24] [25] [26]
-<scoping_review_figures/Fig_1_Panel_A.png, id=523, 722.7pt x 578.16pt>
+<scoping_review_figures/Fig_1_Panel_A.png, id=524, 722.7pt x 578.16pt>
 File: scoping_review_figures/Fig_1_Panel_A.png Graphic file (type png)
 <use scoping_review_figures/Fig_1_Panel_A.png>
 Package pdftex.def Info: scoping_review_figures/Fig_1_Panel_A.png  used on inpu
-t line 469.
+t line 479.
 (pdftex.def)             Requested size: 469.76045pt x 375.80836pt.
-<scoping_review_figures/Figure_2.png, id=524, 3613.5pt x 3011.25pt>
+<scoping_review_figures/Figure_2.png, id=525, 3613.5pt x 3011.25pt>
 File: scoping_review_figures/Figure_2.png Graphic file (type png)
 <use scoping_review_figures/Figure_2.png>
 Package pdftex.def Info: scoping_review_figures/Figure_2.png  used on input lin
-e 482.
+e 492.
 (pdftex.def)             Requested size: 469.71635pt x 391.4303pt.
 [27] [28 <./scoping_review_figures/Fig_1_Panel_A.png>] [29 <./scoping_review_fi
 gures/Figure_2.png>]
-<scoping_review_figures/Figure_3.png, id=545, 1228.59pt x 722.7pt>
+<scoping_review_figures/Figure_3.png, id=546, 1228.59pt x 722.7pt>
 File: scoping_review_figures/Figure_3.png Graphic file (type png)
 <use scoping_review_figures/Figure_3.png>
 Package pdftex.def Info: scoping_review_figures/Figure_3.png  used on input lin
-e 490.
+e 500.
 (pdftex.def)             Requested size: 469.75606pt x 276.32709pt.
 [30 <./scoping_review_figures/Figure_3.png>]
-<scoping_review_figures/Figure_4.png, id=553, 1011.78pt x 1300.86pt>
+<scoping_review_figures/Figure_4.png, id=554, 1011.78pt x 1300.86pt>
 File: scoping_review_figures/Figure_4.png Graphic file (type png)
 <use scoping_review_figures/Figure_4.png>
 Package pdftex.def Info: scoping_review_figures/Figure_4.png  used on input lin
-e 505.
+e 515.
 (pdftex.def)             Requested size: 469.76266pt x 603.98058pt.
 
-LaTeX Warning: Float too large for page by 26.05057pt on input line 507.
+LaTeX Warning: Float too large for page by 26.05057pt on input line 517.
 
 [31] [32 <./scoping_review_figures/Figure_4.png>]
-<scoping_review_figures/Figure_5_combined.png, id=567, 7227.0pt x 3613.5pt>
+<scoping_review_figures/Figure_5_combined.png, id=568, 7227.0pt x 3613.5pt>
 File: scoping_review_figures/Figure_5_combined.png Graphic file (type png)
 <use scoping_review_figures/Figure_5_combined.png>
 Package pdftex.def Info: scoping_review_figures/Figure_5_combined.png  used on 
-input line 522.
+input line 532.
 (pdftex.def)             Requested size: 469.66122pt x 234.83061pt.
 [33]
-<scoping_review_figures/Figure_6.png, id=573, 1011.78pt x 867.24pt>
+<scoping_review_figures/Figure_6.png, id=574, 1011.78pt x 867.24pt>
 File: scoping_review_figures/Figure_6.png Graphic file (type png)
 <use scoping_review_figures/Figure_6.png>
 Package pdftex.def Info: scoping_review_figures/Figure_6.png  used on input lin
-e 535.
+e 545.
 (pdftex.def)             Requested size: 469.76266pt x 402.65372pt.
 [34 <./scoping_review_figures/Figure_5_combined.png>] [35 <./scoping_review_fig
 ures/Figure_6.png>] [36] [37] [38] [39]
-<protocol_figures/village_traps.png, id=616, 2409.0pt x 3011.25pt>
+<protocol_figures/village_traps.png, id=617, 2409.0pt x 3011.25pt>
 File: protocol_figures/village_traps.png Graphic file (type png)
 <use protocol_figures/village_traps.png>
 Package pdftex.def Info: protocol_figures/village_traps.png  used on input line
- 630.
+ 640.
 (pdftex.def)             Requested size: 469.73474pt x 587.16843pt.
 [40] [41 <./protocol_figures/village_traps.png>] [42] [43] [44] [45] [46] [47] 
-[48] [49]
-<visit_reports_figures/villages_plots.png, id=711, 7227.0pt x 2409.0pt>
+[48] [49] [50]
+<visit_reports_figures/villages_plots.png, id=716, 7227.0pt x 2409.0pt>
 File: visit_reports_figures/villages_plots.png Graphic file (type png)
 <use visit_reports_figures/villages_plots.png>
 Package pdftex.def Info: visit_reports_figures/villages_plots.png  used on inpu
-t line 1200.
+t line 1218.
 (pdftex.def)             Requested size: 469.66122pt x 156.55374pt.
-[50 <./visit_reports_figures/villages_plots.png>]
-<visit_reports_figures/sites_in_habitats_c.png, id=718, 1806.75pt x 1117.17375p
+[51 <./visit_reports_figures/villages_plots.png>]
+<visit_reports_figures/sites_in_habitats_c.png, id=723, 1806.75pt x 1117.17375p
 t>
 File: visit_reports_figures/sites_in_habitats_c.png Graphic file (type png)
 <use visit_reports_figures/sites_in_habitats_c.png>
 Package pdftex.def Info: visit_reports_figures/sites_in_habitats_c.png  used on
- input line 1210.
+ input line 1228.
 (pdftex.def)             Requested size: 469.74393pt x 290.45833pt.
-<visit_reports_figures/trap_plots.png, id=719, 3613.5pt x 2409.0pt>
+<visit_reports_figures/trap_plots.png, id=724, 3613.5pt x 2409.0pt>
 File: visit_reports_figures/trap_plots.png Graphic file (type png)
 <use visit_reports_figures/trap_plots.png>
 Package pdftex.def Info: visit_reports_figures/trap_plots.png  used on input li
-ne 1218.
+ne 1236.
 (pdftex.def)             Requested size: 469.71635pt x 313.14424pt.
-[51 <./visit_reports_figures/sites_in_habitats_c.png>] [52 <./visit_reports_fig
+[52 <./visit_reports_figures/sites_in_habitats_c.png>] [53 <./visit_reports_fig
 ures/trap_plots.png>]
-<visit_reports_figures/species_caught.png, id=732, 3592.42125pt x 3449.88875pt>
+<visit_reports_figures/species_caught.png, id=737, 3592.42125pt x 3449.88875pt>
 
 File: visit_reports_figures/species_caught.png Graphic file (type png)
 <use visit_reports_figures/species_caught.png>
 Package pdftex.def Info: visit_reports_figures/species_caught.png  used on inpu
-t line 1228.
+t line 1246.
 (pdftex.def)             Requested size: 469.71713pt x 451.0807pt.
-[53 <./visit_reports_figures/species_caught.png>]
-<visit_reports_figures/species_accumulation.png, id=739, 3592.42125pt x 3449.88
+[54 <./visit_reports_figures/species_caught.png>]
+<visit_reports_figures/species_accumulation.png, id=744, 3592.42125pt x 3449.88
 875pt>
 File: visit_reports_figures/species_accumulation.png Graphic file (type png)
 <use visit_reports_figures/species_accumulation.png>
 Package pdftex.def Info: visit_reports_figures/species_accumulation.png  used o
-n input line 1238.
+n input line 1256.
 (pdftex.def)             Requested size: 469.71713pt x 451.0807pt.
-[54 <./visit_reports_figures/species_accumulation.png>]
-<visit_reports_figures/species_locations.png, id=746, 3592.42125pt x 3449.88875
+[55 <./visit_reports_figures/species_accumulation.png>]
+<visit_reports_figures/species_locations.png, id=752, 3592.42125pt x 3449.88875
 pt>
 File: visit_reports_figures/species_locations.png Graphic file (type png)
 <use visit_reports_figures/species_locations.png>
 Package pdftex.def Info: visit_reports_figures/species_locations.png  used on i
-nput line 1248.
+nput line 1266.
 (pdftex.def)             Requested size: 469.71713pt x 451.0807pt.
-[55 <./visit_reports_figures/species_locations.png>]
-<icreid_poster/poster.pdf, id=755, 2392.94pt x 3383.64125pt>
+[56 <./visit_reports_figures/species_locations.png>]
+<icreid_poster/poster.pdf, id=760, 2392.94pt x 3383.64125pt>
 File: icreid_poster/poster.pdf Graphic file (type pdf)
 <use icreid_poster/poster.pdf>
-Package pdftex.def Info: icreid_poster/poster.pdf  used on input line 1261.
+Package pdftex.def Info: icreid_poster/poster.pdf  used on input line 1279.
 (pdftex.def)             Requested size: 459.95775pt x 650.3849pt.
 
-LaTeX Warning: Float too large for page by 23.89932pt on input line 1263.
+LaTeX Warning: Float too large for page by 23.89932pt on input line 1281.
 
-[56] [57 <./icreid_poster/poster.pdf>]
-<training_log/training_log.pdf, id=871, 597.53236pt x 845.05714pt>
+[57] [58 <./icreid_poster/poster.pdf>]
+<training_log/training_log.pdf, id=876, 597.53236pt x 845.05714pt>
 File: training_log/training_log.pdf Graphic file (type pdf)
 <use training_log/training_log.pdf>
-Package pdftex.def Info: training_log/training_log.pdf  used on input line 1270
+Package pdftex.def Info: training_log/training_log.pdf  used on input line 1288
 .
 (pdftex.def)             Requested size: 459.93723pt x 650.4639pt.
 File: training_log/training_log.pdf Graphic file (type pdf)
 <use training_log/training_log.pdf>
-Package pdftex.def Info: training_log/training_log.pdf  used on input line 1270
+Package pdftex.def Info: training_log/training_log.pdf  used on input line 1288
 .
 (pdftex.def)             Requested size: 459.93723pt x 650.4639pt.
-<training_log/training_log.pdf, id=874, page=1, 597.53236pt x 845.05714pt>
+<training_log/training_log.pdf, id=879, page=1, 597.53236pt x 845.05714pt>
 File: training_log/training_log.pdf Graphic file (type pdf)
 <use training_log/training_log.pdf, page 1>
 Package pdftex.def Info: training_log/training_log.pdf , page1 used on input li
-ne 1270.
+ne 1288.
 (pdftex.def)             Requested size: 597.5309pt x 845.05507pt.
 File: training_log/training_log.pdf Graphic file (type pdf)
 <use training_log/training_log.pdf, page 1>
 Package pdftex.def Info: training_log/training_log.pdf , page1 used on input li
-ne 1270.
+ne 1288.
 (pdftex.def)             Requested size: 307.16275pt x 434.40338pt.
-[58]
+[59]
 File: training_log/training_log.pdf Graphic file (type pdf)
 <use training_log/training_log.pdf, page 1>
 Package pdftex.def Info: training_log/training_log.pdf , page1 used on input li
-ne 1270.
-(pdftex.def)             Requested size: 307.16275pt x 434.40338pt.
-File: training_log/training_log.pdf Graphic file (type pdf)
-<use training_log/training_log.pdf, page 1>
-Package pdftex.def Info: training_log/training_log.pdf , page1 used on input li
-ne 1270.
-(pdftex.def)             Requested size: 307.16275pt x 434.40338pt.
-<training_log/training_log.pdf, id=880, page=2, 597.53236pt x 845.05714pt>
-File: training_log/training_log.pdf Graphic file (type pdf)
-<use training_log/training_log.pdf, page 2>
-Package pdftex.def Info: training_log/training_log.pdf , page2 used on input li
-ne 1270.
-(pdftex.def)             Requested size: 307.16275pt x 434.40338pt.
-File: training_log/training_log.pdf Graphic file (type pdf)
-<use training_log/training_log.pdf, page 2>
-Package pdftex.def Info: training_log/training_log.pdf , page2 used on input li
-ne 1270.
+ne 1288.
 (pdftex.def)             Requested size: 307.16275pt x 434.40338pt.
 File: training_log/training_log.pdf Graphic file (type pdf)
 <use training_log/training_log.pdf, page 1>
 Package pdftex.def Info: training_log/training_log.pdf , page1 used on input li
-ne 1270.
+ne 1288.
+(pdftex.def)             Requested size: 307.16275pt x 434.40338pt.
+<training_log/training_log.pdf, id=885, page=2, 597.53236pt x 845.05714pt>
+File: training_log/training_log.pdf Graphic file (type pdf)
+<use training_log/training_log.pdf, page 2>
+Package pdftex.def Info: training_log/training_log.pdf , page2 used on input li
+ne 1288.
 (pdftex.def)             Requested size: 307.16275pt x 434.40338pt.
 File: training_log/training_log.pdf Graphic file (type pdf)
 <use training_log/training_log.pdf, page 2>
 Package pdftex.def Info: training_log/training_log.pdf , page2 used on input li
-ne 1270.
+ne 1288.
 (pdftex.def)             Requested size: 307.16275pt x 434.40338pt.
-[59 <./training_log/training_log.pdf> <./training_log/training_log.pdf
+File: training_log/training_log.pdf Graphic file (type pdf)
+<use training_log/training_log.pdf, page 1>
+Package pdftex.def Info: training_log/training_log.pdf , page1 used on input li
+ne 1288.
+(pdftex.def)             Requested size: 307.16275pt x 434.40338pt.
+File: training_log/training_log.pdf Graphic file (type pdf)
+<use training_log/training_log.pdf, page 2>
+Package pdftex.def Info: training_log/training_log.pdf , page2 used on input li
+ne 1288.
+(pdftex.def)             Requested size: 307.16275pt x 434.40338pt.
+[60 <./training_log/training_log.pdf> <./training_log/training_log.pdf
 
 pdfTeX warning: pdflatex (file ./training_log/training_log.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
 >]
-<training_log/training_log.pdf, id=904, page=3, 597.53236pt x 845.05714pt>
+<training_log/training_log.pdf, id=909, page=3, 597.53236pt x 845.05714pt>
 File: training_log/training_log.pdf Graphic file (type pdf)
 <use training_log/training_log.pdf, page 3>
 Package pdftex.def Info: training_log/training_log.pdf , page3 used on input li
-ne 1270.
+ne 1288.
 (pdftex.def)             Requested size: 307.16275pt x 434.40338pt.
 File: training_log/training_log.pdf Graphic file (type pdf)
 <use training_log/training_log.pdf, page 3>
 Package pdftex.def Info: training_log/training_log.pdf , page3 used on input li
-ne 1270.
+ne 1288.
 (pdftex.def)             Requested size: 307.16275pt x 434.40338pt.
 File: training_log/training_log.pdf Graphic file (type pdf)
 <use training_log/training_log.pdf, page 1>
 Package pdftex.def Info: training_log/training_log.pdf , page1 used on input li
-ne 1270.
+ne 1288.
 (pdftex.def)             Requested size: 307.16275pt x 434.40338pt.
 File: training_log/training_log.pdf Graphic file (type pdf)
 <use training_log/training_log.pdf, page 1>
 Package pdftex.def Info: training_log/training_log.pdf , page1 used on input li
-ne 1270.
+ne 1288.
 (pdftex.def)             Requested size: 307.16275pt x 434.40338pt.
 File: training_log/training_log.pdf Graphic file (type pdf)
 <use training_log/training_log.pdf, page 3>
 Package pdftex.def Info: training_log/training_log.pdf , page3 used on input li
-ne 1270.
+ne 1288.
 (pdftex.def)             Requested size: 307.16275pt x 434.40338pt.
-[60 <./training_log/training_log.pdf>] [61] [62] [63]
-Underfull \hbox (badness 2158) in paragraph at lines 1421--1423
+[61 <./training_log/training_log.pdf>] [62] [63] [64]
+Underfull \hbox (badness 2158) in paragraph at lines 1439--1441
 [][]\T1/lmr/m/n/10 Jones, B.A. \T1/lmr/m/it/10 et al. \T1/lmr/m/n/10 (2013) `Zo
 ono-sis emer-gence linked to agri-cul-tural in-ten-si-fi-ca-tion and en-vi-
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 1421--1423
+Underfull \hbox (badness 1924) in paragraph at lines 1439--1441
 \T1/lmr/m/n/10 ron-men-tal change', \T1/lmr/m/it/10 Pro-ceed-ings of the Na-tio
 nal Academy of Sci-ences\T1/lmr/m/n/10 , 110(21), pp. 8399--8404.
  []
 
-[64] [65]
-Underfull \hbox (badness 1540) in paragraph at lines 1487--1489
+[65] [66]
+Underfull \hbox (badness 1540) in paragraph at lines 1505--1507
 \T1/lmr/m/it/10 Philo-soph-i-cal Trans-ac-tions of the Royal So-ci-ety B: Bi-o-
 log-i-cal Sci-ences\T1/lmr/m/n/10 , 374(1782), p. 20180336.
  []
 
-[66] [67] [68] (./thesis.aux)
+[67] [68] [69] (./thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: EE91A84833427DB8149A79EFA4AC14FB;12866.
  ) 
 Here is how much of TeX's memory you used:
- 12179 strings out of 480559
- 184736 string characters out of 5902367
- 486736 words of memory out of 5000000
- 29158 multiletter control sequences out of 15000+600000
+ 12181 strings out of 480559
+ 184751 string characters out of 5902367
+ 486729 words of memory out of 5000000
+ 29159 multiletter control sequences out of 15000+600000
  468174 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,17n,67p,4043b,539s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -830,15 +830,16 @@ t/fonts/type1/public/lm/lmbx12.pfb></Users/david/Library/TinyTeX/texmf-dist/fon
 ts/type1/public/lm/lmbxi10.pfb></Users/david/Library/TinyTeX/texmf-dist/fonts/t
 ype1/public/lm/lmmi10.pfb></Users/david/Library/TinyTeX/texmf-dist/fonts/type1/
 public/lm/lmr10.pfb></Users/david/Library/TinyTeX/texmf-dist/fonts/type1/public
-/lm/lmr17.pfb></Users/david/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lm
-r7.pfb></Users/david/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pf
-b></Users/david/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri7.pfb></Us
-ers/david/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></Users/d
-avid/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on thesis.pdf (68 pages, 11782081 bytes).
+/lm/lmr12.pfb></Users/david/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lm
+r17.pfb></Users/david/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb
+></Users/david/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb></Us
+ers/david/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri7.pfb></Users/da
+vid/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></Users/david/L
+ibrary/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+Output written on thesis.pdf (69 pages, 11823894 bytes).
 PDF statistics:
- 1292 PDF objects out of 1440 (max. 8388607)
- 1097 compressed objects within 11 object streams
- 388 named destinations out of 1000 (max. 500000)
+ 1302 PDF objects out of 1440 (max. 8388607)
+ 1103 compressed objects within 12 object streams
+ 389 named destinations out of 1000 (max. 500000)
  593 words of extra memory for PDF output out of 10000 (max. 10000000)
 

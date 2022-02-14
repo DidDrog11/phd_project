@@ -12,23 +12,27 @@ Five villages have been enrolled, one will not be carried forward due to concern
 
   + Bambawo (coordinates 8.009 N, -11.1303 E)
     + Visit 1 - 2021-06-23 to 2021-06-27
-    + Visit 2 - 2021-10
+    + Stopped after a single visit
   + Lalehun (coordinates  8.1975 N, -11.0803 E) 
-    + Visit 1 - 2020-11-30 to 2020-12-03
+    + Pilot/Visit 1 - 2020-11-30 to 2020-12-03
     + Visit 2 - 2021-04-01 to 2021-04-04
     + Visit 3 - 2021-07-08 to 2021-07-12
-    + Visit 4 - 2021-10
+    + Visit 4 - 2021-10-12 to 2021-10-15
+    + Visit 5 - 2022-01-16 to 2022-01-19
   + Lambayama (coordinates 7.8544 N, -11.1897 E)
     + Visit 1 - 2021-06-28 to 2021-07-02
-    + Visit 2 - 2021-10
+    + Visit 2 - 2021-10-28 to 2021-10-31
+    + Visit 3 - 2022
   + Seilama (coordinates 8.1222 N, -11.1936 E)
-    + Visit 1 - 2020-12-05 to 2020-12-09
+    + Pilot/Visit 1 - 2020-12-05 to 2020-12-09
     + Visit 2 - 2021-04-12 to 2021-04-15
     + Visit 3 - 2021-07-13 to 2021-07-17
-    + Visit 4 - 2021-10
+    + Visit 4 - 2021-10-16 to 2021-10-19
+    + Visit 5 - 2022-01-18 to 2022-01-21
   + Baiama (coordinates 7.83708 N, -11.26845 E)
     + Visit 1 - 2021-07-03 to 2021-07-07
-    + Visit 2 - 2021-10
+    + Visit 2 - 2021-10-22 to 2021-10-25
+    + Visit 3 - 2022
     
 \pagebreak
 
