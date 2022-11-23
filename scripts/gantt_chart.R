@@ -8,8 +8,8 @@ gantt_chart <- ganttrify(project = gantt_activities,
           by_date = TRUE,
           project_start_date = "2020-09",
           size_text_relative = 1, 
-          size_activity = 2,
-          size_wp = 2,
+          size_activity = 3,
+          size_wp = 3,
           label_wrap = FALSE,
           axis_text_align = "left",
           mark_quarters = TRUE,
@@ -18,7 +18,9 @@ gantt_chart <- ganttrify(project = gantt_activities,
   theme(axis.text.y = element_text(hjust = 0),
         axis.text.x = element_text(color = c("gray30", 0, 0))) +
   labs(title = "PhD project timeline, 2020-2023",
-       caption = "C = Completed")
+       caption = "C = Completed (updated 2022-10-26)")
 
 ggsave(filename = here("output", "gantt.pdf"), plot = gantt_chart, device = cairo_pdf,
-       width = 14, height = 16)
+       width = 12, height = 14)
+ggsave(filename = here("output", "gantt.svg"), plot = gantt_chart,
+       width = 12, height = 14)
