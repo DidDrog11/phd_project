@@ -1,7 +1,7 @@
-book_filename: "thesis"
+book_filename: "upgrade_report"
 language:
   ui:
     chapter_name: "Chapter "
 delete_merged_file: true
-# rmd_files: 
-#   latex: ["index.Rmd", "01_appraisal_report.Rmd"]
+rmd_files: ["index.Rmd",
+            "01_appraisal_report.Rmd"]

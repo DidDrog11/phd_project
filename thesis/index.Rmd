@@ -1,0 +1,64 @@
+---
+title: "Development of a dynamic model for the emergence of Lassa fever in West Africa" 
+subtitle:
+  - "Draft Thesis November 2022"
+author:
+  - "David Simons"
+date:
+  - "November 2022"
+site: bookdown::bookdown_site
+output: 
+  bookdown::pdf_document2:
+    includes:
+      in_header: "preamble.tex"
+bibliography: ["citations/appraisal_citations.bib"]
+csl: "harvard.csl"
+lof: true
+lot: true
+space_between_paragraphs: true
+---
+
+```{r knitr-options, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, dpi = 320, 
+                      fig.width = 8, fig.height = 8,
+                      out.width = "80%", fig.align = 'center')
+```
+
+```{r include_packages, include = FALSE}
+if (!require(devtools))
+  install.packages("devtools", repos = "http://cran.rstudio.com")
+if (!require(thesisdown))
+  devtools::install_github("ismayc/thesisdown")
+library(thesisdown)
+if (!require(tidyverse))
+  install.packages("tidyverse", repos = "http://cran.rstudio.com")
+```
+
+
+A dissertation submitted in partial fulfillment of the requirements for the degree of **Doctor of Philosophy**
+
+## Declaration {-}
+
+I certify that:   
+
++ The thesis being submitted for examination is my own account of my own research;
++ My research has been conducted ethically;
++ Where I have drawn on the work, ideas and results of others this has been appropriately cited in the thesis;
++ Where any collaboration has taken place with other researchers, I have clearly stated in the thesis my own personal contribution;
++ The entirety of the work described in the thesis has been undertaken subsequent to my registration for the higher degree for which I am submitting for examination;
++ The thesis submitted is within the required word limit as specified by the RVC.
+
+## Abstract {-}
+
+```{r abstract, child = "00-abstract.Rmd"}
+```
+
+## List of Acronyms {-}
+
+```{r acknowledgements, child = "00-acronyms.Rmd"}
+```
+
+## Acknowledgements {-}
+
+```{r acknowledgements, child = "00-acknowledgements.Rmd"}
+```
