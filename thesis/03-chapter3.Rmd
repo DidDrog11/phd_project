@@ -1,3 +1,33 @@
 # Small mammal species community structures vary importantly by land-use type in a Lassa fever endemic region of Sierra Leone. {#chapter3}
 
-Placeholder
+## Preamble
+
+## Abstract
+
+## Introduction
+
+## Methods
+
+### Study area
+
+### Rodent sampling
+
+### Statistical analysis
+
+#### Rodent occurrence and species assemblage structure
+
+#### Co-occurrence of rodent species
+
+## Results
+
+### Rodent occurrence and species assemblage structure
+
+### Estimating the effect of land use on species occurrence and richness
+
+### Co-occurrence of rodent species
+
+## Discussion
+
+## Summary
+
+\newpage

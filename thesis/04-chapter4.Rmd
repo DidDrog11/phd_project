@@ -1,3 +1,29 @@
 # Reconstructing rodent contact networks to understand potential routes of *Lassa mammarenavirus* transmission. {#chapter4}
 
-Placeholder
+## Preamble
+
+## Introduction
+
+## Methods
+
+### Study area
+
+### Rodent sampling
+
+### *Lassa mammarenavirus* serology
+
+### Statistical analysis
+
+#### How does landuse-, species- and individual-level heterogeneity influence contact networks?
+
+## Results 
+
+### *Lassa mammarenavirus* serology
+
+### Rodent contact networks
+
+## Discussion
+
+## Summary
+
+\newpage

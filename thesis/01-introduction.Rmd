@@ -1,0 +1,88 @@
+```{r introduction-setup, include=FALSE, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE, dpi = 320, cache = TRUE,
+                      fig.width = 8, fig.height = 8,
+                      out.width = "80%", fig.align = 'center')
+##packages
+library(tidyverse)
+library(here)
+library(countrycode)
+library(rnaturalearth)
+library(sf)
+```
+
+
+# Introduction {#introduction}
+
+## Zoonotic infectious diseases
+
+**Zoonotic infectious diseases** are infections caused by pathogens that can cause clinical disease in humans that are directly or indirectly transmitted from animal **hosts**. Transmission events from animal populations into human populations are termed **spillover events**, these can lead to sustained **outbreaks** within human populations that can progress to localised **epidemics** or global **pandemics**. These pathogenic organisms may, or may not, cause clinical disease in their animal hosts. For example, *Lassa mammarenavirus*, the causative agent of Lassa Fever in humans does not cause clinical disease in rodent host species as measured by organ dysfunction, weight loss or behavioural change, while in humans can lead to severe clinical symptoms and death [@safronetz_temporal_2022]. In contrast, Highly Pathogenic Avian Influenza, caused by *Influenza A virus* (subtype H5N1), leads to significant morbidity and mortality in infected bird species in addition to in infected humans [@haider_unusually_2017; @writing_committee_of_the_second_world_health_organization_consultation_on_clinical_aspects_of_human_infection_with_avian_influenza_a_h5n1_virus_update_2008]. A distinction exists between zoonotic infectious diseases that regularly spillover into human populations from wild or domestic animals, with limited onward human-to-human transmission (i.e., Nipah and Lassa Fever), those that exhibit limited but sustained human-to-human transmission (i.e., Ebola and Monkeypox) and finally those that become adapted to human hosts and become infectious diseases of zoonotic origin (i.e., HIV and SARS-CoV-2) [@luby_recurrent_2009; @lo_iacono_using_2015; @legrand_understanding_2007; @fine_transmission_1988; @jones_global_2008]. Among the infectious diseases with limited human-to-human transmission (less than 10% of human cases lead to another infected human), there is an important caveat that there is evidence of important contribution of super-spreading events, where some infected humans lead to a disproportionally high number of secondary human cases [@lo_iacono_using_2015].
+
+These different classes of zoonotic infectious disease often become conflated, in this thesis I will focus on zoonotic infectious diseases and not infectious diseases of zoonotic origin. Zoonotic infectious diseases with limited human-to-human transmission following spillover from animal hosts typically remain geographically constrained to their endemic region, defined by host animal ranges, pathogen extent or both. A recent exception to this has been the 2022 international Monkeypox pandemic. Monkeypox, caused by the *Monkeypox virus*, is endemic to Central and West Africa, with regular spillover events into human populations. These events can lead to large outbreaks in this region, for example in Nigeria in 2017 and multiple outbreaks in the Democratic Republic of Congo since 2000 [@ogoina_2017_2019; @titanji_monkeypox_2022]. In early 2022 a number of cases were detected globally in individuals with history of recent travel, cases were disproportionately identified in a community of gay, bisexual and other men who have sex with men, the maintenance of transmission chains in this community was found to be as a result of network structures of these communities [@vivancos_community_2022; @endo_heavy-tailed_2022]. 
+
+While the global Monkeypox outbreak and ongoing SARS-CoV-2 pandemic are important examples of zoonotic infectious diseases causing epidemics outside of their endemic regions these are relatively rare events to spillover events within the endemic regions [need references to support or dispute this]. These episodes act to highlight the ongoing hazard of spillover and reinforce the importance of ongoing surveillance of zoonoses in endemic zones.
+
+### Surveillance of endemic zoonotic infectious diseases
+
+Detection of outbreaks of zoonotic infectious diseases relies primarily upon clinical case detection of infected humans rather than evidence of infection among wild or domestic animals. Few health systems utilise active surveillance systems with testing of animal populations, a notable exception is *West Nile virus* surveillance in birds and horses in Europe [@gossner_west_2017]. Here, surveillance in an animal-human-vector approach informs public health agencies to increased risk of human infection from this vector borne disease. In West Africa, detection of outbreaks of zoonotic infectious diseases such as, Ebola, Lassa Fever, Monkeypox and Leptospirosis occurs following identification of human cases (Figure \@ref(fig:global-zoonotic-disease-surveillance)). Surveillance among host species is limited to academic or programmatic research which has been used to identify regions at potentially greater risk for spillover events which can aid in risk stratification of patients that present with symptoms consistent with these diseases [references, such as Happi 2022, Leski 2015]. 
+
+Human cases presenting to healthcare are classified as suspected, possible, probable or confirmed cases of the disease of interest. This classification occurs based on clinical symptoms, disease progression and known risk factors. Individuals presenting to healthcare may become suspected cases in the context of a known outbreak or failure of treatment for more common infections, such as malaria and bacterial infections [reference needed]. Once suspicion is raised for a potential zoonotic infectious disease as a cause of presentation, individuals may be tested for known pathogens according to local guidance, the availability of this testing varies by location. In Nigeria, the Nigerian Centre for Disease Control have rapidly expanded testing capacity for **Viral Haemorrhagic Fevers** including Lassa Fever and Ebola, the availability of these assays is less in other countries within the endemic region. 
+
+```{r global-zoonotic-disease-surveillance, out.width = "100%", fig.cap = "Global Health Security Index country scores for the sub-domains of (top) 2.3) Real-time surveillance and reporting and (bottom) 1.2.2) Surveillance systems for zoonotic diseases/pathogens. Real time surveillance and reporting for epidemics of potential international concern is rated highly in several North and South American countries and countries in East and South East Asia and Oceania. Zoonotic disease surveillance is rated highly in European, North and South American countries and Oceania. Generally surveillance for zoonotic infectious disease is limited across much of Africa."}
+ghs_data <- read_csv(here("thesis", "introduction_files", "ghs_index.csv"), show_col_types = FALSE)
+
+ghs_data <- ghs_data %>%
+  mutate(iso3c = countrycode(Country, origin = "country.name", destination = "iso3c")) %>%
+  left_join(codelist %>%
+              select(iso3c, un.region.name), by = "iso3c")
+
+world <- ne_countries(scale = 110, returnclass = "sf") %>%
+  select(iso_a3)
+
+ghs_data %>%
+  left_join(world, by = c("iso3c" = "iso_a3")) %>%
+  st_as_sf() %>%
+  ggplot() +
+  geom_sf(aes(fill = Value)) +
+  facet_wrap(~ Factor, ncol = 1) +
+  scale_fill_viridis_c(option = "cividis") +
+  labs(fill = "GHS Index score") +
+  theme_bw()
+```
+
+### Predicting changing zoonotic spillover risk
+
+One purpose of surveillance in animal species is to inform risk prediction models of outbreaks of known zoonotic infectious diseases and novel pathogens.
+
+### Rodent borne zoonotic infectious diseases
+
+### Sampling rodent hosts
+
+The remainder of this thesis will focus on the West African region and more specifically on Lassa Fever as a case study [?too early to focus down].
+
+## *Lassa mammarenavirus* and Lassa Fever
+
+### *Lassa mammarenvirus* epidemiology
+
+### Lassa Fever epidemiology
+
+### Lassa Fever treatment
+
+### Lassa Fever in Sierra Leone
+
+## Rodent hosts of *Lassa mammarenavirus*
+
+### Heterogeneity of rodent occurrence
+
+### Heterogeneity of rodent abundance
+
+## Systems approaches to endemic zoonoses
+
+## Aims and objectives of the thesis 
+
+### Aim 
+
+### Objectives
+
+## Summary
+
+\newpage

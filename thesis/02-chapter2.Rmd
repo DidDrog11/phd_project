@@ -1,6 +1,6 @@
 # Rodent trapping studies as an overlooked information source for understanding endemic and novel zoonotic spillover {#chapter2}
 
-## Summary
+## Preamble
 
 ## Abstract
 
@@ -10,13 +10,13 @@
 
 ### Data sources
 
-#### Host and pathogen trapping data
+### Host and pathogen trapping data
 
-### Analysis
+## Analysis
 
-#### What is the extent of spatial bias in the rodent trapping data?
+### What is the extent of spatial bias in the rodent trapping data?
 
-#### Are rodent trapping derived host-pathogen associations present in a consolidated zoonoses dataset?
+### Are rodent trapping derived host-pathogen associations present in a consolidated zoonoses dataset?
 
 ## Results
 
@@ -28,3 +28,6 @@
 
 ## Discussion
 
+## Summary
+
+\newpage

@@ -11,7 +11,7 @@ output:
   bookdown::pdf_document2:
     includes:
       in_header: "preamble.tex"
-bibliography: ["citations/appraisal_citations.bib"]
+bibliography: ["references/references.bib"]
 csl: "harvard.csl"
 lof: true
 lot: true
@@ -53,12 +53,32 @@ I certify that:
 ```{r abstract, child = "00-abstract.Rmd"}
 ```
 
+## Impact statement {-}
+
+```{r impact, child = "00-impactstatement.Rmd"}
+```
+
 ## List of Acronyms {-}
 
-```{r acknowledgements, child = "00-acronyms.Rmd"}
+```{r acronyms, child = "00-acronyms.Rmd"}
+```
+
+## Definitions used {-}
+
+```{r definitions, child = "00-definitions.Rmd"}
 ```
 
 ## Acknowledgements {-}
 
 ```{r acknowledgements, child = "00-acknowledgements.Rmd"}
+```
+
+## Chapter overview and collaborators {-}
+
+```{r collaborators, child = "00-chapteroverview.Rmd"}
+```
+
+## Thesis output {-}
+
+```{r output, child = "00-output.Rmd"}
 ```

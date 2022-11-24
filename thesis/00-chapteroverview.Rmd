@@ -1,0 +1,11 @@
+* **Chapter \@ref(introduction):** Background information is given. This information helps motivate future chapters.
+
+* **Chapter \@ref(chapter2):** This chapter presents a study conducted to synthesise rodent trapping data from West Africa. Focussing on a comparison to consolidated data sources on rodent host species ranges, presence-absence data and host-pathogen associations. The spatial biases of rodent trapping data are explored and data is presented in a suitable format for other researchers to incorporate in their analyses to mitigate bias from other data sources.
+
+* **Chapter \@ref(chapter3):** This chapter presents data from a two year rodent trapping study implemented as part of this thesis. This chapter focusses on rodent detection in different land use types. A model of occurrence by land use type is produced accounting for imperfect detection in observations of rodents.
+
+* **Chapter \@ref(chapter4):** This chapter presents data on rodent antibody prevalence to *Lassa mammarenavirus* from samples obtained as part of the two year rodent trapping study. The prevalence of antibodies to this virus are described at species and land use level. Contact networks between individuals of different species are reconstructed to investigate potential transmission networks.
+
+* **Chapter \@ref(chapter5):** This chapter consolidates data from the two previous chapters to produce a hazard map of *Lassa mammarenavirus* spillover in Eastern Sierra Leone.
+
+* **Chapter \@ref(discussionchapter):** Results from all previous Chapters are summarised and discussed as a whole. The strengths and weaknesses of the analysis in this thesis are outlined. Further work is outlined.

@@ -1,0 +1,391 @@
+﻿Country,Value,Factor
+Australia,100,Zoonotic Disease Surveillance
+Belarus,100,Zoonotic Disease Surveillance
+Brazil,100,Zoonotic Disease Surveillance
+Canada,100,Zoonotic Disease Surveillance
+France,100,Zoonotic Disease Surveillance
+Germany,100,Zoonotic Disease Surveillance
+Ireland,100,Zoonotic Disease Surveillance
+Liechtenstein,100,Zoonotic Disease Surveillance
+Lithuania,100,Zoonotic Disease Surveillance
+Mexico,100,Zoonotic Disease Surveillance
+Netherlands,100,Zoonotic Disease Surveillance
+Norway,100,Zoonotic Disease Surveillance
+Slovenia,100,Zoonotic Disease Surveillance
+South Africa,100,Zoonotic Disease Surveillance
+South Korea,100,Zoonotic Disease Surveillance
+Sweden,100,Zoonotic Disease Surveillance
+Switzerland,100,Zoonotic Disease Surveillance
+United Kingdom,100,Zoonotic Disease Surveillance
+United States of America,100,Zoonotic Disease Surveillance
+Uruguay,100,Zoonotic Disease Surveillance
+Albania,66.7,Zoonotic Disease Surveillance
+Argentina,66.7,Zoonotic Disease Surveillance
+Armenia,66.7,Zoonotic Disease Surveillance
+Austria,66.7,Zoonotic Disease Surveillance
+Bahamas,66.7,Zoonotic Disease Surveillance
+Bangladesh,66.7,Zoonotic Disease Surveillance
+Belgium,66.7,Zoonotic Disease Surveillance
+Bhutan,66.7,Zoonotic Disease Surveillance
+Bolivia,66.7,Zoonotic Disease Surveillance
+Bosnia and Hercegovina,66.7,Zoonotic Disease Surveillance
+Bulgaria,66.7,Zoonotic Disease Surveillance
+Cambodia,66.7,Zoonotic Disease Surveillance
+Cameroon,66.7,Zoonotic Disease Surveillance
+Chile,66.7,Zoonotic Disease Surveillance
+China,66.7,Zoonotic Disease Surveillance
+Colombia,66.7,Zoonotic Disease Surveillance
+Costa Rica,66.7,Zoonotic Disease Surveillance
+Croatia,66.7,Zoonotic Disease Surveillance
+Cuba,66.7,Zoonotic Disease Surveillance
+Cyprus,66.7,Zoonotic Disease Surveillance
+Czech Republic,66.7,Zoonotic Disease Surveillance
+Denmark,66.7,Zoonotic Disease Surveillance
+Ecuador,66.7,Zoonotic Disease Surveillance
+El Salvador,66.7,Zoonotic Disease Surveillance
+Finland,66.7,Zoonotic Disease Surveillance
+Guatemala,66.7,Zoonotic Disease Surveillance
+Hungary,66.7,Zoonotic Disease Surveillance
+Iceland,66.7,Zoonotic Disease Surveillance
+India,66.7,Zoonotic Disease Surveillance
+Iran,66.7,Zoonotic Disease Surveillance
+Israel,66.7,Zoonotic Disease Surveillance
+Italy,66.7,Zoonotic Disease Surveillance
+Japan,66.7,Zoonotic Disease Surveillance
+Kenya,66.7,Zoonotic Disease Surveillance
+Latvia,66.7,Zoonotic Disease Surveillance
+Malaysia,66.7,Zoonotic Disease Surveillance
+Mauritius,66.7,Zoonotic Disease Surveillance
+Moldova,66.7,Zoonotic Disease Surveillance
+Montenegro,66.7,Zoonotic Disease Surveillance
+Myanmar,66.7,Zoonotic Disease Surveillance
+New Zealand,66.7,Zoonotic Disease Surveillance
+North Macedonia,66.7,Zoonotic Disease Surveillance
+Peru,66.7,Zoonotic Disease Surveillance
+Romania,66.7,Zoonotic Disease Surveillance
+Russia,66.7,Zoonotic Disease Surveillance
+Serbia,66.7,Zoonotic Disease Surveillance
+Singapore,66.7,Zoonotic Disease Surveillance
+Spain,66.7,Zoonotic Disease Surveillance
+Thailand,66.7,Zoonotic Disease Surveillance
+Turkey,66.7,Zoonotic Disease Surveillance
+Vietnam,66.7,Zoonotic Disease Surveillance
+Algeria,33.3,Zoonotic Disease Surveillance
+Andorra,33.3,Zoonotic Disease Surveillance
+Azerbaijan,33.3,Zoonotic Disease Surveillance
+Belize,33.3,Zoonotic Disease Surveillance
+Brunei,33.3,Zoonotic Disease Surveillance
+Burkina Faso,33.3,Zoonotic Disease Surveillance
+Congo (Brazzaville),33.3,Zoonotic Disease Surveillance
+Congo (Democratic Republic),33.3,Zoonotic Disease Surveillance
+Côte d'Ivoire,33.3,Zoonotic Disease Surveillance
+Dominica,33.3,Zoonotic Disease Surveillance
+Dominican Republic,33.3,Zoonotic Disease Surveillance
+Estonia,33.3,Zoonotic Disease Surveillance
+eSwatini,33.3,Zoonotic Disease Surveillance
+Gabon,33.3,Zoonotic Disease Surveillance
+Georgia,33.3,Zoonotic Disease Surveillance
+Ghana,33.3,Zoonotic Disease Surveillance
+Greece,33.3,Zoonotic Disease Surveillance
+Grenada,33.3,Zoonotic Disease Surveillance
+Haiti,33.3,Zoonotic Disease Surveillance
+Indonesia,33.3,Zoonotic Disease Surveillance
+Jamaica,33.3,Zoonotic Disease Surveillance
+Kazakhstan,33.3,Zoonotic Disease Surveillance
+Liberia,33.3,Zoonotic Disease Surveillance
+Madagascar,33.3,Zoonotic Disease Surveillance
+Mauritania,33.3,Zoonotic Disease Surveillance
+"Micronesia, Federated States of",33.3,Zoonotic Disease Surveillance
+Mongolia,33.3,Zoonotic Disease Surveillance
+Morocco,33.3,Zoonotic Disease Surveillance
+Nepal,33.3,Zoonotic Disease Surveillance
+Niue,33.3,Zoonotic Disease Surveillance
+Oman,33.3,Zoonotic Disease Surveillance
+Pakistan,33.3,Zoonotic Disease Surveillance
+Panama,33.3,Zoonotic Disease Surveillance
+Philippines,33.3,Zoonotic Disease Surveillance
+Poland,33.3,Zoonotic Disease Surveillance
+Portugal,33.3,Zoonotic Disease Surveillance
+Rwanda,33.3,Zoonotic Disease Surveillance
+San Marino,33.3,Zoonotic Disease Surveillance
+Saudi Arabia,33.3,Zoonotic Disease Surveillance
+Senegal,33.3,Zoonotic Disease Surveillance
+Slovakia,33.3,Zoonotic Disease Surveillance
+Solomon Islands,33.3,Zoonotic Disease Surveillance
+Tajikistan,33.3,Zoonotic Disease Surveillance
+Tanzania,33.3,Zoonotic Disease Surveillance
+Trinidad and Tobago,33.3,Zoonotic Disease Surveillance
+Uganda,33.3,Zoonotic Disease Surveillance
+Ukraine,33.3,Zoonotic Disease Surveillance
+Uzbekistan,33.3,Zoonotic Disease Surveillance
+Afghanistan,0,Zoonotic Disease Surveillance
+Angola,0,Zoonotic Disease Surveillance
+Antigua & Barbuda,0,Zoonotic Disease Surveillance
+Bahrain,0,Zoonotic Disease Surveillance
+Barbados,0,Zoonotic Disease Surveillance
+Benin,0,Zoonotic Disease Surveillance
+Botswana,0,Zoonotic Disease Surveillance
+Burundi,0,Zoonotic Disease Surveillance
+Cabo Verde,0,Zoonotic Disease Surveillance
+Central African Republic,0,Zoonotic Disease Surveillance
+Chad,0,Zoonotic Disease Surveillance
+Comoros,0,Zoonotic Disease Surveillance
+Cook Islands,0,Zoonotic Disease Surveillance
+Djibouti,0,Zoonotic Disease Surveillance
+Egypt,0,Zoonotic Disease Surveillance
+Equatorial Guinea,0,Zoonotic Disease Surveillance
+Eritrea,0,Zoonotic Disease Surveillance
+Ethiopia,0,Zoonotic Disease Surveillance
+Fiji,0,Zoonotic Disease Surveillance
+Gambia,0,Zoonotic Disease Surveillance
+Guinea,0,Zoonotic Disease Surveillance
+Guinea-Bissau,0,Zoonotic Disease Surveillance
+Guyana,0,Zoonotic Disease Surveillance
+Honduras,0,Zoonotic Disease Surveillance
+Iraq,0,Zoonotic Disease Surveillance
+Jordan,0,Zoonotic Disease Surveillance
+Kiribati,0,Zoonotic Disease Surveillance
+Kuwait,0,Zoonotic Disease Surveillance
+Kyrgyz Republic,0,Zoonotic Disease Surveillance
+Laos,0,Zoonotic Disease Surveillance
+Lebanon,0,Zoonotic Disease Surveillance
+Lesotho,0,Zoonotic Disease Surveillance
+Libya,0,Zoonotic Disease Surveillance
+Luxembourg,0,Zoonotic Disease Surveillance
+Malawi,0,Zoonotic Disease Surveillance
+Maldives,0,Zoonotic Disease Surveillance
+Mali,0,Zoonotic Disease Surveillance
+Malta,0,Zoonotic Disease Surveillance
+Marshall Islands,0,Zoonotic Disease Surveillance
+Monaco,0,Zoonotic Disease Surveillance
+Mozambique,0,Zoonotic Disease Surveillance
+Namibia,0,Zoonotic Disease Surveillance
+Nauru,0,Zoonotic Disease Surveillance
+Nicaragua,0,Zoonotic Disease Surveillance
+Niger,0,Zoonotic Disease Surveillance
+Nigeria,0,Zoonotic Disease Surveillance
+North Korea,0,Zoonotic Disease Surveillance
+Palau,0,Zoonotic Disease Surveillance
+Papua New Guinea,0,Zoonotic Disease Surveillance
+Paraguay,0,Zoonotic Disease Surveillance
+Qatar,0,Zoonotic Disease Surveillance
+Samoa,0,Zoonotic Disease Surveillance
+São Tomé and Príncipe,0,Zoonotic Disease Surveillance
+Seychelles,0,Zoonotic Disease Surveillance
+Sierra Leone,0,Zoonotic Disease Surveillance
+Somalia,0,Zoonotic Disease Surveillance
+South Sudan,0,Zoonotic Disease Surveillance
+Sri Lanka,0,Zoonotic Disease Surveillance
+St Kitts & Nevis,0,Zoonotic Disease Surveillance
+St Lucia,0,Zoonotic Disease Surveillance
+St Vincent & The Grenadines,0,Zoonotic Disease Surveillance
+Sudan,0,Zoonotic Disease Surveillance
+Suriname,0,Zoonotic Disease Surveillance
+Syria,0,Zoonotic Disease Surveillance
+Timor-Leste,0,Zoonotic Disease Surveillance
+Togo,0,Zoonotic Disease Surveillance
+Tonga,0,Zoonotic Disease Surveillance
+Tunisia,0,Zoonotic Disease Surveillance
+Turkmenistan,0,Zoonotic Disease Surveillance
+Tuvalu,0,Zoonotic Disease Surveillance
+United Arab Emirates,0,Zoonotic Disease Surveillance
+Vanuatu,0,Zoonotic Disease Surveillance
+Venezuela,0,Zoonotic Disease Surveillance
+Yemen,0,Zoonotic Disease Surveillance
+Zambia,0,Zoonotic Disease Surveillance
+Zimbabwe,0,Zoonotic Disease Surveillance
+Argentina,100,Real Time Surveillance and Reporting
+Australia,100,Real Time Surveillance and Reporting
+Japan,100,Real Time Surveillance and Reporting
+Malaysia,100,Real Time Surveillance and Reporting
+Mexico,100,Real Time Surveillance and Reporting
+Nigeria,100,Real Time Surveillance and Reporting
+Peru,100,Real Time Surveillance and Reporting
+Spain,100,Real Time Surveillance and Reporting
+Thailand,100,Real Time Surveillance and Reporting
+United Kingdom,100,Real Time Surveillance and Reporting
+United States of America,100,Real Time Surveillance and Reporting
+Brazil,87.5,Real Time Surveillance and Reporting
+Chile,87.5,Real Time Surveillance and Reporting
+Finland,87.5,Real Time Surveillance and Reporting
+Philippines,87.5,Real Time Surveillance and Reporting
+Saudi Arabia,87.5,Real Time Surveillance and Reporting
+Singapore,87.5,Real Time Surveillance and Reporting
+South Korea,87.5,Real Time Surveillance and Reporting
+Brunei,75,Real Time Surveillance and Reporting
+Germany,75,Real Time Surveillance and Reporting
+India,75,Real Time Surveillance and Reporting
+Indonesia,75,Real Time Surveillance and Reporting
+Kenya,75,Real Time Surveillance and Reporting
+Latvia,75,Real Time Surveillance and Reporting
+Nepal,75,Real Time Surveillance and Reporting
+Portugal,75,Real Time Surveillance and Reporting
+Qatar,75,Real Time Surveillance and Reporting
+Bangladesh,62.5,Real Time Surveillance and Reporting
+Bulgaria,62.5,Real Time Surveillance and Reporting
+Cambodia,62.5,Real Time Surveillance and Reporting
+China,62.5,Real Time Surveillance and Reporting
+Colombia,62.5,Real Time Surveillance and Reporting
+Denmark,62.5,Real Time Surveillance and Reporting
+El Salvador,62.5,Real Time Surveillance and Reporting
+France,62.5,Real Time Surveillance and Reporting
+Ghana,62.5,Real Time Surveillance and Reporting
+Ireland,62.5,Real Time Surveillance and Reporting
+Kazakhstan,62.5,Real Time Surveillance and Reporting
+Kyrgyz Republic,62.5,Real Time Surveillance and Reporting
+Montenegro,62.5,Real Time Surveillance and Reporting
+New Zealand,62.5,Real Time Surveillance and Reporting
+Oman,62.5,Real Time Surveillance and Reporting
+Rwanda,62.5,Real Time Surveillance and Reporting
+Sierra Leone,62.5,Real Time Surveillance and Reporting
+South Africa,62.5,Real Time Surveillance and Reporting
+South Sudan,62.5,Real Time Surveillance and Reporting
+Sri Lanka,62.5,Real Time Surveillance and Reporting
+Sweden,62.5,Real Time Surveillance and Reporting
+Vietnam,62.5,Real Time Surveillance and Reporting
+Armenia,50,Real Time Surveillance and Reporting
+Austria,50,Real Time Surveillance and Reporting
+Azerbaijan,50,Real Time Surveillance and Reporting
+Botswana,50,Real Time Surveillance and Reporting
+Burkina Faso,50,Real Time Surveillance and Reporting
+Canada,50,Real Time Surveillance and Reporting
+Czech Republic,50,Real Time Surveillance and Reporting
+Ecuador,50,Real Time Surveillance and Reporting
+Estonia,50,Real Time Surveillance and Reporting
+Guinea,50,Real Time Surveillance and Reporting
+Hungary,50,Real Time Surveillance and Reporting
+Italy,50,Real Time Surveillance and Reporting
+Lithuania,50,Real Time Surveillance and Reporting
+Mali,50,Real Time Surveillance and Reporting
+Mozambique,50,Real Time Surveillance and Reporting
+Nicaragua,50,Real Time Surveillance and Reporting
+Panama,50,Real Time Surveillance and Reporting
+Poland,50,Real Time Surveillance and Reporting
+Russia,50,Real Time Surveillance and Reporting
+Zambia,50,Real Time Surveillance and Reporting
+Afghanistan,37.5,Real Time Surveillance and Reporting
+Algeria,37.5,Real Time Surveillance and Reporting
+Belgium,37.5,Real Time Surveillance and Reporting
+Belize,37.5,Real Time Surveillance and Reporting
+Bhutan,37.5,Real Time Surveillance and Reporting
+Bolivia,37.5,Real Time Surveillance and Reporting
+Congo (Brazzaville),37.5,Real Time Surveillance and Reporting
+Côte d'Ivoire,37.5,Real Time Surveillance and Reporting
+Georgia,37.5,Real Time Surveillance and Reporting
+Iran,37.5,Real Time Surveillance and Reporting
+Jamaica,37.5,Real Time Surveillance and Reporting
+Laos,37.5,Real Time Surveillance and Reporting
+Lebanon,37.5,Real Time Surveillance and Reporting
+Luxembourg,37.5,Real Time Surveillance and Reporting
+Madagascar,37.5,Real Time Surveillance and Reporting
+Marshall Islands,37.5,Real Time Surveillance and Reporting
+Myanmar,37.5,Real Time Surveillance and Reporting
+Netherlands,37.5,Real Time Surveillance and Reporting
+North Macedonia,37.5,Real Time Surveillance and Reporting
+Pakistan,37.5,Real Time Surveillance and Reporting
+Paraguay,37.5,Real Time Surveillance and Reporting
+Switzerland,37.5,Real Time Surveillance and Reporting
+Turkey,37.5,Real Time Surveillance and Reporting
+United Arab Emirates,37.5,Real Time Surveillance and Reporting
+Bahrain,25,Real Time Surveillance and Reporting
+Benin,25,Real Time Surveillance and Reporting
+Burundi,25,Real Time Surveillance and Reporting
+Central African Republic,25,Real Time Surveillance and Reporting
+Chad,25,Real Time Surveillance and Reporting
+Congo (Democratic Republic),25,Real Time Surveillance and Reporting
+Costa Rica,25,Real Time Surveillance and Reporting
+Croatia,25,Real Time Surveillance and Reporting
+Ethiopia,25,Real Time Surveillance and Reporting
+Gabon,25,Real Time Surveillance and Reporting
+Gambia,25,Real Time Surveillance and Reporting
+Greece,25,Real Time Surveillance and Reporting
+Guatemala,25,Real Time Surveillance and Reporting
+Haiti,25,Real Time Surveillance and Reporting
+Iraq,25,Real Time Surveillance and Reporting
+Israel,25,Real Time Surveillance and Reporting
+Lesotho,25,Real Time Surveillance and Reporting
+Maldives,25,Real Time Surveillance and Reporting
+Mauritania,25,Real Time Surveillance and Reporting
+Namibia,25,Real Time Surveillance and Reporting
+Niger,25,Real Time Surveillance and Reporting
+Norway,25,Real Time Surveillance and Reporting
+Samoa,25,Real Time Surveillance and Reporting
+Senegal,25,Real Time Surveillance and Reporting
+Slovakia,25,Real Time Surveillance and Reporting
+Sudan,25,Real Time Surveillance and Reporting
+Suriname,25,Real Time Surveillance and Reporting
+Tajikistan,25,Real Time Surveillance and Reporting
+Togo,25,Real Time Surveillance and Reporting
+Tonga,25,Real Time Surveillance and Reporting
+Uganda,25,Real Time Surveillance and Reporting
+Uzbekistan,25,Real Time Surveillance and Reporting
+Venezuela,25,Real Time Surveillance and Reporting
+Zimbabwe,25,Real Time Surveillance and Reporting
+Albania,12.5,Real Time Surveillance and Reporting
+Bahamas,12.5,Real Time Surveillance and Reporting
+Barbados,12.5,Real Time Surveillance and Reporting
+Dominican Republic,12.5,Real Time Surveillance and Reporting
+eSwatini,12.5,Real Time Surveillance and Reporting
+Fiji,12.5,Real Time Surveillance and Reporting
+Guyana,12.5,Real Time Surveillance and Reporting
+Liberia,12.5,Real Time Surveillance and Reporting
+Libya,12.5,Real Time Surveillance and Reporting
+Liechtenstein,12.5,Real Time Surveillance and Reporting
+Mauritius,12.5,Real Time Surveillance and Reporting
+"Micronesia, Federated States of",12.5,Real Time Surveillance and Reporting
+Moldova,12.5,Real Time Surveillance and Reporting
+Mongolia,12.5,Real Time Surveillance and Reporting
+Papua New Guinea,12.5,Real Time Surveillance and Reporting
+Slovenia,12.5,Real Time Surveillance and Reporting
+Timor-Leste,12.5,Real Time Surveillance and Reporting
+Trinidad and Tobago,12.5,Real Time Surveillance and Reporting
+Andorra,0,Real Time Surveillance and Reporting
+Angola,0,Real Time Surveillance and Reporting
+Antigua & Barbuda,0,Real Time Surveillance and Reporting
+Belarus,0,Real Time Surveillance and Reporting
+Bosnia and Hercegovina,0,Real Time Surveillance and Reporting
+Cabo Verde,0,Real Time Surveillance and Reporting
+Cameroon,0,Real Time Surveillance and Reporting
+Comoros,0,Real Time Surveillance and Reporting
+Cook Islands,0,Real Time Surveillance and Reporting
+Cuba,0,Real Time Surveillance and Reporting
+Cyprus,0,Real Time Surveillance and Reporting
+Djibouti,0,Real Time Surveillance and Reporting
+Dominica,0,Real Time Surveillance and Reporting
+Egypt,0,Real Time Surveillance and Reporting
+Equatorial Guinea,0,Real Time Surveillance and Reporting
+Eritrea,0,Real Time Surveillance and Reporting
+Grenada,0,Real Time Surveillance and Reporting
+Guinea-Bissau,0,Real Time Surveillance and Reporting
+Honduras,0,Real Time Surveillance and Reporting
+Iceland,0,Real Time Surveillance and Reporting
+Jordan,0,Real Time Surveillance and Reporting
+Kiribati,0,Real Time Surveillance and Reporting
+Kuwait,0,Real Time Surveillance and Reporting
+Malawi,0,Real Time Surveillance and Reporting
+Malta,0,Real Time Surveillance and Reporting
+Monaco,0,Real Time Surveillance and Reporting
+Morocco,0,Real Time Surveillance and Reporting
+Nauru,0,Real Time Surveillance and Reporting
+Niue,0,Real Time Surveillance and Reporting
+North Korea,0,Real Time Surveillance and Reporting
+Palau,0,Real Time Surveillance and Reporting
+Romania,0,Real Time Surveillance and Reporting
+San Marino,0,Real Time Surveillance and Reporting
+São Tomé and Príncipe,0,Real Time Surveillance and Reporting
+Serbia,0,Real Time Surveillance and Reporting
+Seychelles,0,Real Time Surveillance and Reporting
+Solomon Islands,0,Real Time Surveillance and Reporting
+Somalia,0,Real Time Surveillance and Reporting
+St Kitts & Nevis,0,Real Time Surveillance and Reporting
+St Lucia,0,Real Time Surveillance and Reporting
+St Vincent & The Grenadines,0,Real Time Surveillance and Reporting
+Syria,0,Real Time Surveillance and Reporting
+Tanzania,0,Real Time Surveillance and Reporting
+Tunisia,0,Real Time Surveillance and Reporting
+Turkmenistan,0,Real Time Surveillance and Reporting
+Tuvalu,0,Real Time Surveillance and Reporting
+Ukraine,0,Real Time Surveillance and Reporting
+Uruguay,0,Real Time Surveillance and Reporting
+Vanuatu,0,Real Time Surveillance and Reporting
+Yemen,0,Real Time Surveillance and Reporting
