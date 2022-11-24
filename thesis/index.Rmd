@@ -30,8 +30,17 @@ if (!require(devtools))
 if (!require(thesisdown))
   devtools::install_github("ismayc/thesisdown")
 library(thesisdown)
-if (!require(tidyverse))
-  install.packages("tidyverse", repos = "http://cran.rstudio.com")
+if (!require(pacman))
+  install.packages("pacman", repos = "http://cran.rstudio.com")
+pkgs =
+  c("ggspatial",
+    "googledrive",
+    "here",
+    "sf",
+    "tidyterra",
+    "tidyverse")
+
+pacman::p_load(pkgs, character.only = T)
 ```
 
 
