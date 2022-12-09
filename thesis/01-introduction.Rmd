@@ -15,7 +15,9 @@ library(sf)
 
 ## Zoonotic infectious diseases
 
-**Zoonotic infectious diseases** are infections caused by pathogens that can cause clinical disease in humans that are directly or indirectly transmitted from animal **hosts**. Transmission events from animal populations into human populations are termed **spillover events**, these can lead to sustained **outbreaks** within human populations that can progress to localised **epidemics** or global **pandemics**. These pathogenic organisms may, or may not, cause clinical disease in their animal hosts. For example, *Lassa mammarenavirus*, the causative agent of Lassa Fever in humans does not cause clinical disease in rodent host species as measured by organ dysfunction, weight loss or behavioural change, while in humans can lead to severe clinical symptoms and death [@safronetz_temporal_2022]. In contrast, Highly Pathogenic Avian Influenza, caused by *Influenza A virus* (subtype H5N1), leads to significant morbidity and mortality in infected bird species in addition to in infected humans [@haider_unusually_2017; @writing_committee_of_the_second_world_health_organization_consultation_on_clinical_aspects_of_human_infection_with_avian_influenza_a_h5n1_virus_update_2008]. A distinction exists between zoonotic infectious diseases that regularly spillover into human populations from wild or domestic animals, with limited onward human-to-human transmission (i.e., Nipah and Lassa Fever), those that exhibit limited but sustained human-to-human transmission (i.e., Ebola and Monkeypox) and finally those that become adapted to human hosts and become infectious diseases of zoonotic origin (i.e., HIV and SARS-CoV-2) [@luby_recurrent_2009; @lo_iacono_using_2015; @legrand_understanding_2007; @fine_transmission_1988; @jones_global_2008]. Among the infectious diseases with limited human-to-human transmission (less than 10% of human cases lead to another infected human), there is an important caveat that there is evidence of important contribution of super-spreading events, where some infected humans lead to a disproportionally high number of secondary human cases [@lo_iacono_using_2015].
+**Zoonotic infectious diseases** are infections caused by pathogens that can cause clinical disease in humans that are directly or indirectly transmitted from animal **hosts**. Transmission events from animal populations into human populations are termed **spillover events**, these can lead to sustained **outbreaks** within human populations that can progress to localised **epidemics** or global **pandemics**. These pathogenic organisms may, or may not, cause clinical disease in their animal hosts. For example, *Lassa mammarenavirus*, the causative agent of Lassa Fever in humans does not cause clinical disease in rodent host species as measured by organ dysfunction, weight loss or behavioural change, while in humans can lead to severe clinical symptoms and death [@safronetz_temporal_2022]. In contrast, Highly Pathogenic Avian Influenza, caused by *Influenza A virus* (subtype H5N1), leads to significant morbidity and mortality in infected bird species in addition to in infected humans [@haider_unusually_2017; @writing_committee_of_the_second_world_health_organization_consultation_on_clinical_aspects_of_human_infection_with_avian_influenza_a_h5n1_virus_update_2008]. 
+
+A distinction exists between zoonotic infectious diseases that regularly spillover into human populations from wild or domestic animals, with limited onward human-to-human transmission (i.e., Nipah and Lassa Fever), those that exhibit limited but sustained human-to-human transmission (i.e., Ebola and Monkeypox) and finally those that become adapted to human hosts and become infectious diseases of zoonotic origin (i.e., HIV and SARS-CoV-2) [@luby_recurrent_2009; @lo_iacono_using_2015; @legrand_understanding_2007; @fine_transmission_1988; @jones_global_2008]. Among the infectious diseases with limited human-to-human transmission (less than 10% of human cases lead to another infected human), there is an important caveat that there is evidence of important contribution of super-spreading events, where some infected humans lead to a disproportionally high number of secondary human cases [@lo_iacono_using_2015].
 
 These different classes of zoonotic infectious disease often become conflated, in this thesis I will focus on zoonotic infectious diseases and not infectious diseases of zoonotic origin. Zoonotic infectious diseases with limited human-to-human transmission following spillover from animal hosts typically remain geographically constrained to their endemic region, defined by host animal ranges, pathogen extent or both. A recent exception to this has been the 2022 international Monkeypox pandemic. Monkeypox, caused by the *Monkeypox virus*, is endemic to Central and West Africa, with regular spillover events into human populations. These events can lead to large outbreaks in this region, for example in Nigeria in 2017 and multiple outbreaks in the Democratic Republic of Congo since 2000 [@ogoina_2017_2019; @titanji_monkeypox_2022]. In early 2022 a number of cases were detected globally in individuals with history of recent travel, cases were disproportionately identified in a community of gay, bisexual and other men who have sex with men, the maintenance of transmission chains in this community was found to be as a result of network structures of these communities [@vivancos_community_2022; @endo_heavy-tailed_2022]. 
 
@@ -26,6 +28,8 @@ While the global Monkeypox outbreak and ongoing SARS-CoV-2 pandemic are importan
 Currently detection of outbreaks of zoonotic infectious diseases relies primarily upon clinical case detection of infected humans rather than evidence of circulating transmission among wild or domestic animals. Few health systems utilise active surveillance systems with testing of animal populations, a notable exception is *West Nile virus* surveillance in birds and horses in Europe [@gossner_west_2017]. Here, surveillance in an animal-human-vector approach informs public health agencies to increased risk of human infection from this vector borne disease. While in West Africa, detection of outbreaks of endemic zoonotic infectious diseases such as, Ebola, Lassa Fever, Monkeypox and Leptospirosis occurs following identification of human cases (Figure \@ref(fig:global-zoonotic-disease-surveillance)). Surveillance among host species is limited to academic or programmatic research which has been used to identify regions at potentially greater risk for spillover events, this information is then used to aid risk stratification of patients that present with symptoms consistent with these diseases, based on when in the year they present, the location from which they present and suspected risk behaviours [@leski_sequence_2015; @happi_increased_2022]. Fewer countries, with none in West Africa have surveillance systems that combine animal and human data [@wendt_zoonotic_2015].
 
 Human cases presenting to healthcare are classified as suspected, possible, probable or confirmed cases of the disease of interest. This classification occurs based on clinical symptoms, disease progression and known risk factors. Individuals presenting to healthcare may become suspected cases in the context of a known outbreak or failure of treatment for more common infections, such as malaria and bacterial infections [reference needed]. Once suspicion is raised for a potential zoonotic infectious disease as a cause of presentation, individuals may be tested for known pathogens according to local guidance, the availability of this testing varies by location. In Nigeria, the Nigerian Centre for Disease Control have rapidly expanded testing capacity for **Viral Haemorrhagic Fevers** including Lassa Fever and Ebola, assays for these pathogens are less available in other regions within the endemic region with samples being transferred to national, regional or international reference laboratories [@world_health_organisation_lassa_2022 ;@yadouleton_lassa_2020]. 
+
+Conversely the majority of pathogens of animal species do not cause clinical disease in humans. Surveillance of pathogens in animal populations occurs for multiple reasons including animal health and welfare, conservation and agriculture. The information gathered by sampling efforts in animals can inform
 
 ```{r global-zoonotic-disease-surveillance, out.width = "100%", fig.cap = "Global Health Security Index country scores for the sub-domains of (top) 2.3) Real-time surveillance and reporting and (bottom) 1.2.2) Surveillance systems for zoonotic diseases/pathogens. Real time surveillance and reporting for epidemics of potential international concern is rated highly in several North and South American countries and countries in East and South East Asia and Oceania. Zoonotic disease surveillance is rated highly in European, North and South American countries and Oceania. Generally surveillance for zoonotic infectious disease is limited across much of Africa."}
 ghs_data <- read_csv(here("thesis", "introduction_files", "ghs_index.csv"), show_col_types = FALSE)
@@ -51,15 +55,98 @@ ghs_data %>%
 
 ### Predicting zoonotic spillover risk in a changing world
 
-One purpose of surveillance in animal species is to inform risk prediction tools of outbreaks of known zoonotic infectious diseases and novel pathogens. These tools can be to guide local public health responses through early warning systems or to guide international investment in pandemic prevention [@carlson_future_2021; @morse_prediction_2012]. Descriptions of previously reported zoonotic spillover events, adjusted for reporting biases, and combined with known host reservoir status and pathogen distributions can highlight regions at increased risk [@jones_global_2008; @han_global_2016]. These models can also be used to identify host and pathogen species that would benefit from further investigation. Bats (Chiroptera) and Rodents (Rodentia) are two taxa that contribute the greatest hazard of zoonotic spillover. These characteristics are driven by their widespread occurrence, encroachment of human activity within their natural habitats and species level traits that lead to high zoonotic pathogen burdens [references]. Pathogens that are predicted to spillover into human populations share fewer characteristics and come from a wide range of viral, bacterial and fungal taxa. For this reason much of prediction is focussed on the distribution of host species with pathogen prevalence assumed constant among much of a species range. There are several important exceptions to these assumptions, typically in host species with large home ranges but it is likely that this assumption does not hold true for most host-pathogen systems. For example *Lassa mammarenavirus* infection among its primary rodent host species has only been observed in its westernmost range, similarly for *Nipah henipavirus* which is observed only in the northern range of its primary bat host species (Figure \@ref(fig-lassa-nipah-range)).
+One purpose of surveillance in animal species is to inform risk prediction tools of outbreaks of known zoonotic infectious diseases and novel pathogen emergence. These tools aim to guide local public health responses through early warning systems or to effectively direct international investment towards pandemic prevention [@carlson_future_2021; @morse_prediction_2012]. Descriptions of previously reported zoonotic spillover events adjusting for reporting biases and combined with known host-pathogen distributions can highlight regions at increased risk [@jones_global_2008; @han_global_2016]. These models can also be used to identify host and pathogen species that require further investigations to understand pathogen prevalence. Bats (Chiroptera) and Rodents (Rodentia) are two taxa that contribute the greatest hazard of zoonotic spillover. These characteristics are driven by their widespread occurrence, encroachment of human activity within their natural habitats and species level traits that lead to high zoonotic pathogen burdens [references]. Pathogens that are predicted to spillover into human populations have more diverse pathogen characteristics and come from a wide range of viral, bacterial and fungal taxa. For this reason much of the prediction effort is focussed on the distribution of host species with pathogen prevalence assumed constant among much of a species range. There are several important examples that show violation of these simplifying assumptions. These examples typically come from host species with large home ranges but it is likely that this assumption does not hold true for most host-pathogen systems. For example *Lassa mammarenavirus* infection among its primary rodent host species has only been observed in its westernmost range, similarly for *Nipah henipavirus* which is observed only in the northern range of its primary bat host species (Figure \@ref(fig-lassa-nipah-range)).
 
-The cause of this heterogeneity of pathogen prevalence and therefore spillover risk within a hosts range is multifactorial. First, presence of additional microorganisms that are non-pathogenic to humans within a species range may provide cross immunity that prevent expansion of the zoonotic pathogen into a wider area. Second, sp 
+```{r host-pathogen-associations, out.width = "100%", fig.cap = "The sampling of the global host-pathogen system is incomplete, and sparse. A recent effort to combine available data sources shows highlights the better understanding of pathogens of several mammal taxa. Focussing on Rodentia we can also observe temporal biases to pathogen identification."}
+
+if(!file.exists(here("thesis", "introduction_files", "clover.rds"))) {
+  clover <- list(bacteria = read_csv(gzcon(url("https://github.com/viralemergence/clover/raw/main/clover/clover_1.0_allpathogens/CLOVER_1.0_Bacteria_AssociationsFlatFile.csv")), show_col_types = FALSE),
+                 other = read_csv(gzcon(url("https://github.com/viralemergence/clover/raw/main/clover/clover_1.0_allpathogens/CLOVER_1.0_HelminthProtozoaFungi_AssociationsFlatFile.csv")), show_col_types = FALSE),
+                 viruses = read_csv(gzcon(url("https://github.com/viralemergence/clover/raw/main/clover/clover_1.0_allpathogens/CLOVER_1.0_Viruses_AssociationsFlatFile.csv")), show_col_types = FALSE)) %>%
+    bind_rows()
+  
+  all_h_p <- clover %>%
+    filter(HostClass == "mammalia") %>%
+    filter(PathogenNCBIResolved == TRUE) %>%
+    select(HostOrder, HostGenus, Host, PathogenType, Pathogen, ReleaseYear, PublicationYear) %>%
+    mutate(year = pmin(ReleaseYear, PublicationYear, na.rm = TRUE)) %>%
+    select(HostOrder, HostGenus, Host, PathogenType, Pathogen, year) %>%
+    group_by(HostGenus, Host, PathogenType, Pathogen, year) %>%
+    distinct() %>%
+    group_by(HostOrder, HostGenus, Host, PathogenType, Pathogen) %>%
+    arrange(year) %>%
+    slice(1)
+  
+  summary_all <- all_h_p %>%
+    distinct(HostOrder, Host, PathogenType, Pathogen) %>%
+    group_by(HostOrder, Host, PathogenType, Pathogen) %>%
+    summarise(N = n()) %>%
+    group_by(HostOrder, PathogenType) %>%
+    summarise(N = sum(N)) %>%
+    arrange(-N)
+  
+  rodentia_clover <- all_h_p %>%
+    filter(HostOrder == "rodentia")
+  
+  clover_data <- list(summary_all = summary_all,
+                      rodentia_clover = rodentia_clover)
+  
+  write_rds(clover_data, here("thesis", "introduction_files", "clover.rds")) 
+  
+} else {
+  
+  clover_data <- read_rds(here("thesis", "introduction_files", "clover.rds"))
+}
+
+known_pathogens <- clover_data$summary_all %>%
+  ungroup() %>%
+  mutate(HostOrder = fct_inorder(str_to_sentence(HostOrder)),
+         PathogenType = fct_inorder(str_to_title(str_replace_all(PathogenType, "/", " and ")))) %>%
+  ggplot() +
+  geom_col(aes(x = HostOrder, fill = PathogenType, y = N)) +
+  scale_y_continuous(trans = "log10") +
+  scale_fill_brewer(palette = "Dark2") +
+  coord_flip() +
+  facet_wrap(~ PathogenType) +
+  theme_bw() +
+  labs(x = "Host order",
+       fill = "Pathogen type",
+       y = "Number",
+       title = "Known pathogens of mammal species")
+
+
+rodent_pathogen_discovery <- clover_data$rodentia_clover %>%
+  ungroup() %>%
+  mutate(PathogenType = fct(str_to_title(str_replace_all(PathogenType, "/", " and ")), levels = levels(known_pathogens$data$PathogenType))) %>%
+  ggplot() +
+  geom_bar(aes(x = year, fill = PathogenType)) +
+  scale_fill_brewer(palette = "Dark2") +
+  facet_wrap(~ PathogenType, ncol = 1) +
+  theme_bw() +
+  guides(fill = "none") +
+  labs(x = "Year",
+       y = "Number",
+       title = "Pathogen discovery in Rodentia")
+  
+known_pathogens
+
+rodent_pathogen_discovery
+```
+```{r lassa-nipah-range, out.width = "100%", fig.cap = "Lassa mammarenavirus is an example of a rodent-borne zoonosis where pathogen prevalence is not consistent with host species range. Nipah henipavirus is an example of a bat-borne zoonosis where pathogen prevalance is not consistent with the host species range."}
+
+```
 
 ### Rodent borne zoonotic infectious diseases
 
+I have previously included examples that apply from multiple taxa of host species. For the remainder of this thesis I will focus on rodent borne zoonotic infectious diseases and will subsequently focus down on the case study of this thesis *Lassa mammarenavirus* in Sierra Leone.
+
+The cause of this heterogeneity of pathogen prevalence and therefore spillover hazard within a hosts range is multifactorial. First, presence of additional microorganisms that are non-pathogenic to humans within a host species' range may provide cross immunity that prevent expansion of the zoonotic pathogen species into a wider area. Second, host species may be comprised of multiple clades which may have immunological differences which prevent efficient transmission of a pathogen adapted to one of the clades. Third, environmental suitability for the pathogen may vary across the host species range, this is of particular importance for pathogens that have environmental stages in the chain of transmission. Finally, presence of a pathogen in a host species may be dependent on the presence of other species or intermediate hosts for the pathogen that do not exist throughout the primary hosts range. Further, within a hosts range their occurrence and abundance may vary. For example in a species rich environment where a single host species conveys the hazard of spillover increased competition from conspecifics may reduce the host species' abundance in the landscape effectively "diluting" the hazard of spillover. Further, reduced biodiversity in a location may lead to non-host species not being present in a landscape, features of hosts that may contribute to their host status may also make them more resistant to factors that can drive local extinction and so these species are more likely to exist in species depauparate environments, increasing the hazard. Clearance of forest landscapes for monoculture agriculture may also lead to increased resources leading to increased populations of host species and increasing the scope for pathogen transmission among the species where previously this would not be sustained.
+
+This heterogeneity will combine to modulate the hazard of zoonotic pathogen spillover from infected hosts into human populations. However, this is only a single layer of the risk of zoonotic pathogen spillover. The existence of the hazard in time and space alone will not necessarily lead to infection and disease in humans. This additional level is termed the risk and overlays the baseline hazard. Several factors may increase or decrease the risk of spillover. Human activity such as hunting for food may increase the risk of contact with an infectious host. Human activity in locations within close spatio-temporal windows as infected hosts may increase the risk of infection (i.e. using the same water sources). These also bring in societal levels of risk due to food security, access to clean water etc. Land use change may lead to infectious hosts accessing areas of human habitation or food storage as resources become less accessible in non-disturbed regions. Construction of human buildings in areas of habitation of the host species may lead to the host nesting in human domiciles for shelter. 
+
 ### Sampling rodent hosts
 
-The remainder of this thesis will focus on the West African region and more specifically on Lassa Fever as a case study [?too early to focus down].
+**Figure of rodent zoonotic pathogens from CLOVER dataset**
 
 ## *Lassa mammarenavirus* and Lassa Fever
 
