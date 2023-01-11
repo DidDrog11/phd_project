@@ -13,95 +13,97 @@ library(sf)
 
 # Introduction {#introduction}
 
-  1. What are zoonotic infectious diseases?   
-  
-## Emerging infectious diseases
-
-    + Emerging infectious diseases
-    + Epidemic    
-    + Pandemic  
 
 ## Zoonotic infectious diseases
 
-    + Infectious diseases   
-    + Zoonoses    
-    + Spillover   
-    + Outbreak    
 
-Zoonotic infectious diseases are infections caused by pathogens that can cause clinical disease in humans that are directly or indirectly transmitted from animal hosts. A "zoonosis" is any disease or infection that is naturally transmissible from vertebrate animals or an animal reservoir to humans, either directly or indirectly [reference WHO https://www.who.int/news-room/fact-sheets/detail/zoonoses]. Direct transmission includes, bites and scratches (i.e., *Rabies lyssavirus* and *Bartonella hanselae*) while indirect transmission can occur through arthropod vectors (i.e., *Orentia tsustsugamushi*, Scrub typhus), environmental contamination (i.e., Leptospirosis) and through food (i.e., Salmonellosis). The wider term, "zoonotic disease" is often used for a disease that first originated in non-human animals, even when disease transmission is currently entirely within the human population in the absence of animals or an animal reservoir (e.g., HIV) [@kock_2022]. Transmission events from vertebrate animal populations into human populations are termed spillover events, which can, under certain circumstances, lead to sustained outbreaks within human populations that can progress to localised epidemics or global pandemics [@plowright_2017]. These zoonotic pathogens may, or may not, cause clinical disease in their animal hosts. For example, *Lassa mammarenavirus* (LASV), the causative agent of Lassa fever in humans does not cause clinical disease in rodent host species as measured by organ dysfunction, weight loss or behavioural change, while infection in humans can lead to severe clinical symptoms and death [@safronetz_temporal_2022]. In contrast, Highly Pathogenic Avian Influenza, caused by *Influenza A virus* (subtype H5N1), leads to significant morbidity and mortality in infected bird species alongside pathogenicity in humans [@haider_unusually_2017; @writing_committee_of_the_second_world_health_organization_consultation_on_clinical_aspects_of_human_infection_with_avian_influenza_a_h5n1_virus_update_2008]. 
+Zoonotic infectious diseases are infections caused by pathogens that can cause clinical disease in humans and are transmitted from animal hosts. Specifically, a "zoonosis" is any disease or infection that is naturally transmissible from vertebrate animals or an animal reservoir to humans, either through direct or indirect pathways [reference WHO https://www.who.int/news-room/fact-sheets/detail/zoonoses]. Examples of direct transmission include, bites and scratches (i.e., *Rabies lyssavirus* and *Bartonella hanselae*) while indirect transmission can occur via arthropod vectors (i.e., *Orentia tsustsugamushi*, Scrub typhus), environmental contamination (i.e., Leptospirosis) and through food (i.e., Salmonellosis). The wider term "zoonotic disease" is often used for a disease that first originated in non-human animals, even when disease transmission is currently entirely within the human population in the absence of animals or an animal reservoir (e.g., HIV) [@kock_2022]. Individual transmission events from vertebrate animal populations into human populations - spillover events - can, under certain circumstances, lead to sustained outbreaks that may progress to localised epidemics or global pandemics [@plowright_2017]. These zoonotic pathogens may - or may not - cause clinical disease in their animal hosts. For example, *Lassa mammarenavirus* (LASV), the causative agent of Lassa fever in humans does not cause clinical disease in rodent host species' as measured through organ dysfunction, weight loss or behavioural change. LASV infection in humans can lead to severe clinical symptoms and death [@safronetz_temporal_2022]. In contrast, Highly Pathogenic Avian Influenza, caused by *Influenza A virus* (subtype H5N1), leads to significant morbidity and mortality in infected bird species alongside pathogenicity in humans [@haider_unusually_2017; @writing_committee_of_the_second_world_health_organization_consultation_on_clinical_aspects_of_human_infection_with_avian_influenza_a_h5n1_virus_update_2008]. 
 
-A zoonosis may display different patterns of spillover from wild or domestic animals and transmission in human populations. Nipah virus infection (*Nipah henipavirus*) and Lassa fever (LASV) spillover into human populations from wild animal sources at frequent intervals but cause limited onward human-to-human transmission leading to small-sized, geographically constrained outbreaks of human disease [@luby_recurrent_2009; @lo_iacono_using_2015]. Ebola virus disease (*Sudan ebolavirus* and *Zaire ebolavirus*) and mpox (formerly Monkeypox, *Monkeypox virus*) generally exhibit sustained human-to-human transmission following spillover from wild or domestic animals, but due to the transmission dynamics of these pathogens, outbreaks are typically constrained to local epidemics [@legrand_understanding_2007; @fine_transmission_1988]. Finally, some pathogens may be better adapted to transmission among humans through their transmission dynamics or similarities between human physiology and their original vertebrate host, these are able to rapidly expand beyond the geographic region of the spillover event through human transmission chains and may become zoonotic diseases with no further transmission from wild or domestic animal populations (i.e., HIV and SARS-CoV-2) [@jones_global_2008].
 
-While the 2022 mpox outbreak and ongoing SARS-CoV-2 pandemic are important examples of zoonoses causing epidemics and pandemics beyond their host species regions, these remain relatively rare events when compared to recurrent spillover events within endemic regions. For example, phylogenetic analysis of circulating mpox and SARS-CoV-2 lineages of human infections indicate a most common recent ancestor x years prior. A similar analysis of LASV human infections indicates a most common recent ancestor y year prior, consistent with repeated spillover events into human populations of genetically distant pathogens. This would be consistent with a limited number of spillover events causing the epidemics of mpox and SARS-CoV-2 while LASV has been introduced into human populations at multiple discrete time points. [need references to support or dispute this]. This highlights the ongoing hazard of local spillover into human populations in endemic regions and reinforces the importance of ongoing surveillance of zoonoses.
+Zoonoses display a range of patterns of spillover from wild or domestic animals and transmission in human populations. Nipah virus infection (*Nipah henipavirus*) and Lassa fever (LASV) spillover into human populations from wild animal sources occur at relatively frequent intervals but result in limited, onward human-to-human transmission leading to small-sized, geographically constrained outbreaks of human disease [@luby_recurrent_2009; @lo_iacono_using_2015]. Ebola virus disease (*Sudan ebolavirus* and *Zaire ebolavirus*) and mpox (formerly Monkeypox, *Monkeypox virus*) exhibit sustained human-to-human transmission following spillover from wild or domestic animals, but due to the transmission dynamics of these pathogens, outbreaks are generally constrained to local epidemics [@legrand_understanding_2007; @fine_transmission_1988]. Finally, some pathogens may be better adapted to transmission among humans due to their transmission dynamics or similarities between human physiology and their original vertebrate host, these are able to rapidly expand beyond the geographic region of the initial spillover event via human transmission chains and may become zoonotic diseases with no further transmission from wild or domestic animal populations (i.e., HIV and SARS-CoV-2) [ref].
 
-    + One Health    
-    + Climate, Landuse and biodiversity change    
-    
-  2. Why do we care?    
-    + History of infectious diseases    
-    + AIDS, Ebola, COVID-19   
-    + Global health equity    
-    + Globalisation and Biosecurity   
-    
-  3. Where do they happen?    
-    + Reporting of zoonotic infectious diseases   
-    + Unrecognised spillover    
-    + Combination of both hazard and risk   
-    + Socio-economic factors, a complex system    
-    
-  4. Can we predict them?   
-    + Tools for prediction    
-    + Surveillance    
-    + Data quality and availability   
-    
-  5. Will they occur more frequently?   
+
+These patterns of spillover are evidenced through phylogenetic analysis of viral sequences from human populations. For example, phylogenetic analysis of currently circulating mpox and SARS-CoV-2 indicate a most common recent ancestor **X** years prior [ref]. A similar analysis of LASV human infections indicates a most common recent ancestor **Y** year prior, consistent with repeated spillover events into human populations of genetically distant pathogens [ref]. These findings are suggestive of a limited number of spillover events establishing the epidemics of mpox and SARS-CoV-2 with LASV introduced into human populations at multiple discrete time points. While the 2022 mpox outbreak and ongoing SARS-CoV-2 pandemic are important examples of zoonoses causing epidemics and pandemics beyond their host species' ranges, these remain relatively rare events when compared to recurrent spillover events within endemic regions [ref]. The situation of LASV highlights the ongoing hazard of local spillover into human populations in endemic regions and reinforces the importance of surveillance of known zoonoses.
+
+
+When considering interventions to reduce the impact of zoonoses in endemic settings an approach that incorporates knowledge of multiple interacting systems are required. Understanding the role of environmental, wildlife and human factors on the hazard and risk of spillover events are necessary. This is often termed the "One Health" approach, a "collaborative, multisectoral, and transdisciplinary approach - working at the local, regional, national and global levels - with the goal of achieving optimal health outcomes recognizing the interconnection between people, animals, plants, and their shared environment." [@CDC_2023]. This framework is particularly useful when considering how spillover of zoonoses occur in a setting of ongoing climate, landuse and biodiversity change.
+
+
+## Global change and zoonoses
+
+
+Anthropogenic climate change is hypothesised to modify the risk of zoonoses to human populations through several mechanisms [ref]. Changes in mean temperature and precipitation will increase environmental suitability for some pathogens and hosts leading to range expansion of endemic regions. Environmentally transmitted zoonoses such as Leptospira will become viable, with therfore increasing prevalence, in environments where low temperatures or low precipitation previously limited transmission. Vector borne zoonoses such as West Nile Virus are currently demonstrating range expansion as mosquito vector population numbers are increased across a larger geographic range [ref]. Climate change is occurring alongside anthropogenic landuse change with natural habitats converted into human dominated landscapes (i.e., farming and urban landuse) [ref]. Encroachment of human activity into zoonotic host animal ranges has been hypothesised to further increase the risk of spillover events into human populations, through increasing the animal-human interface raising the probability of direct and indirect contact with infected hosts of zoonoses [@murray_2013]. Additionally, increased interactions between wildlife and domesticated animals can also increase the risk of subsequent zoonosis spillover into human populations where wild sylvatic animals are hosts of pathogens that may be amplified in domesticated animals following transmission (i.e. Nipah virus) [ref]. Together climate and landuse change can also modify species' home ranges. This can drive contact events between current hosts of zoonoses and potential hosts, increasing the potential for cross-species pathogen transmission and the subsequent expansion of a zoonoses' endemic range [@carlson_2022]. This phenomenon has been observed in Hendra virus where a Southern range expansion of the black fruit bat host (*Pteropus alecto*) has resulted in domesticated horses in Australia being infected, with subsequent spillover events into human populations [@yuen_2021].
+
+
+An additional mechanism through which zoonosis spillover risk is modulated is animal biodiversity. Several mechanisms for the association of animal biodiversity and zoonosis risk have been proposed. The "Dilution effect", initially developed using the Lyme disease (*Borrelia burgdorferi*) zoonosis system which comprises several vectors and animal hosts, proposes that in settings of low species diversity (measured as species richness) that infection rates increase in a specified host species, the inverse being that a greater amount of animal biodiversity reduces the rate of zoonosis spillover into human populations [@ostfeld_2000]. This theory has been supported by investigations of a large number of zoonoses including parasites, bacteria, viruses and fungi [@keesing_2010; @civitello_2015]. There is ongoing debate as to whether this is a general property of zoonosis systems as several studies have suggested the inverse, an "Amplification effect", where increasing biodiversity, particularly through introduction of a new host, or more competent host species can increase the rate of infection in hosts and potentially the risk of zoonosis spillover [@johnson_2012; @halliday_2017]. 
+
+
+Climate, landuse and biodiversity change are interacting components within an ecosystem and attributing an effect of each independently to the risk of zoonosis spillover is challenging [@gibb_2020]. A synthesis of the effect of landuse change on biodiversity across multiple scales and zoonosis systems found that species richness of host species of zoonosis increased but not non-host species across a landuse gradient of anthropogenic disturbance from undisturbed to urban landuse [@gibb_2020]. These changes are also occurring at different rates globally. Climate, landuse and biodiversity change occurring in regions associated with a greater diversity of known zoonotic pathogens is likely to have a greater impact on the risk of zoonosis spillover than in settings of low diversity of zoonotic pathogens. Because of this, focussing studies in the tropics where zoonotic pathogen diversity is predicted to be greatest may be beneficial for future research [ref].
+
+
+## Locations of zoonoses
+
+
+The overwhelming majority of microorganisms are non-pathogenic and provide important ecosystem services. Pathogenic organisms are typically adapted to a single host species with a small subset of these being zoonoses. Zoonoses are globally distributed, found on all continents. Zoonoses comprise, bacteria, fungi, parasites and viruses. The global virome is estimated at X species with Y expected to be zoonoses. The distribution of known zoonoses is biased by global sampling effort. Expected diversity of zoonoses is greatest in the tropics i.e., South America, Africa and South East Asia.
+
+
+West Africa is a nexus of for global change in addition to increasing human population. The impact of known and novel zoonoses in this region requires further understanding. 
     + Rate of discovery   
     + Surveillance bias   
     + Reporting bias    
-    + Global change   
     
-  6. What do we know about the hosts?   
+Viruses are important zoonoses.    
+    + Mutation and diversity    
+    + Treatment options   
+    + Transmission potential    
+    + Health burden   
+
+## Hosts of zoonoses
+
+
+Zoonoses are observed in most animal orders. The orders with the highest number of known zoonoses are Chiroptera and Rodentia. Zoonoses from rodents are expected in West Africa.
+
+
+Properties of these species support them being hosts of zoonoses.
     + Trait associations    
     + Immunology    
     + Host ranges   
     + Biodiversity and dilution   
     + Human-host interactions   
-    
-  7. Why should we care about rodents?    
+
+Synanthropy among hosts of zoonoses leads to increased hazard of spillover.
     + Commensalism    
     + Abundance   
     + Known zoonoses    
-    
-  8. What do we know about the pathogens?   
-    + Bacteria inc. AMR   
-    + Parasites   
-    + Funghi    
-    + Viruses   
-    
-  9. Why do we care about viruses?    
-    + Mutation and diversity    
-    + Treatment options   
-    + Transmission potential    
-    + Health burden   
-    
-  10. What is Lassa fever?    
+
+
+## Lassa fever
+
+### *Lassa mammarenavirus* and Lassa fever
+
     + Describe virology and ecology   
     + Strains   
-    
-  11. What do we know?    
     + Epidemiology    
     + Ecology   
     + Viral lifecycle   
     + Risk factors of human infection 
     + Lassa fever pathology
-    + Sequaelae of human infection    
-    
-  12. What don't we know?   
+    + Sequaelae of human infection   
+
+### Lassa fever in Sierra Leone
+
     + Current risk    
-    + Effective prevention and vaccines   
-    + Effective treatment   
-    + Range expansion   
-  
+    + Prior research
+    
+### Rodent hosts of *Lassa mammarenavirus*
+
+    + Known reservoirs
+    + Potential reservoirs
+    
+### Heterogeneity of rodent occurrence and abundance
+
+    + Effect of landuse on occurrence
+    
 
 ### Surveillance of endemic zoonotic infectious diseases
 
@@ -112,6 +114,7 @@ Human cases presenting to healthcare are classified as suspected, possible, prob
 Conversely the majority of pathogens of animal species do not cause clinical disease in humans. Surveillance of pathogens in animal populations occurs for multiple reasons including animal health and welfare, conservation and agriculture. The information gathered by sampling efforts in animals can inform
 
 ```{r global-zoonotic-disease-surveillance, out.width = "100%", fig.cap = "Global Health Security Index country scores for the sub-domains of (top) 2.3) Real-time surveillance and reporting and (bottom) 1.2.2) Surveillance systems for zoonotic diseases/pathogens. Real time surveillance and reporting for epidemics of potential international concern is rated highly in several North and South American countries and countries in East and South East Asia and Oceania. Zoonotic disease surveillance is rated highly in European, North and South American countries and Oceania. Generally surveillance for zoonotic infectious disease is limited across much of Africa."}
+
 ghs_data <- read_csv(here("thesis", "introduction_files", "ghs_index.csv"), show_col_types = FALSE)
 
 ghs_data <- ghs_data %>%
@@ -224,33 +227,16 @@ The cause of this heterogeneity of pathogen prevalence and therefore spillover h
 
 This heterogeneity will combine to modulate the hazard of zoonotic pathogen spillover from infected hosts into human populations. However, this is only a single layer of the risk of zoonotic pathogen spillover. The existence of the hazard in time and space alone will not necessarily lead to infection and disease in humans. This additional level is termed the risk and overlays the baseline hazard. Several factors may increase or decrease the risk of spillover. Human activity such as hunting for food may increase the risk of contact with an infectious host. Human activity in locations within close spatio-temporal windows as infected hosts may increase the risk of infection (i.e. using the same water sources). These also bring in societal levels of risk due to food security, access to clean water etc. Land use change may lead to infectious hosts accessing areas of human habitation or food storage as resources become less accessible in non-disturbed regions. Construction of human buildings in areas of habitation of the host species may lead to the host nesting in human domiciles for shelter. 
 
-### Sampling rodent hosts
 
-**Figure of rodent zoonotic pathogens from CLOVER dataset**
+## Aims of the thesis 
 
-## *Lassa mammarenavirus* and Lassa fever
+The first aim of this thesis is to synthesise information on rodent and pathogen sampling from rodent trapping studies across West Africa to quantify the biases in currently available data. I hypothesise that rodent and pathogen sampling is spatially and taxonomically biased which will have implications on inference able to be drawn from currently available data about the hazard of zoonosis spillover risk across the region. I test the null hypothesis that rodent and pathogen sampling is conducted randomly in space across the region and propose an alternative hypothesis that rodent sampling is spatially clustered. I describe the occurrence of known and potential hosts of zoonosis from presence and absence data and compare this to currently available resources and produce host-pathogen associations from these data.
 
-### *Lassa mammarenvirus* epidemiology
 
-### Lassa fever epidemiology
+The second aim of this thesis is to investigate the association of rodent species diversity and landuse type in a Lassa fever endemic region of Eastern Sierra Leone. I hypothesise that known hosts of Lassa fever occur preferentially in human dominated landuse types with higher rodent species diversity in less disturbed landuse types. I test the null hypothesis that the probability of occurrence of rodent species does not change across landuse types and propose an alternative hypothesis that hosts of Lassa fever have a higher probability of occurrence in human dominated landuse types. 
 
-### Lassa fever treatment
 
-### Lassa fever in Sierra Leone
-
-## Rodent hosts of *Lassa mammarenavirus*
-
-### Heterogeneity of rodent occurrence
-
-### Heterogeneity of rodent abundance
-
-## Systems approaches to endemic zoonoses
-
-## Aims and objectives of the thesis 
-
-### Aim 
-
-### Objectives
+The final aim of this thesis is to recreate Lassa fever transmission networks among rodent species. Using rodent trapping data
 
 ## Summary
 

@@ -6,6 +6,4 @@
 
 * **Chapter \@ref(chapter4):** This chapter presents data on rodent antibody prevalence to *Lassa mammarenavirus* from samples obtained as part of the two year rodent trapping study. The prevalence of antibodies to this virus are described at species and land use level. Contact networks between individuals of different species are reconstructed to investigate potential transmission networks.
 
-* **Chapter \@ref(chapter5):** This chapter consolidates data from the two previous chapters to produce a hazard map of *Lassa mammarenavirus* spillover in Eastern Sierra Leone.
-
 * **Chapter \@ref(discussionchapter):** Results from all previous Chapters are summarised and discussed as a whole. The strengths and weaknesses of the analysis in this thesis are outlined. Further work is outlined.

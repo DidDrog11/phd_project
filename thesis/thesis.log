@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.7)  13 DEC 2022 16:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.7)  10 JAN 2023 16:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -579,29 +579,29 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 <thesis_files/figure-latex/global-zoonotic-disease-surveillance-1.pdf, id=248, 578.16pt x 578.16pt>
 File: thesis_files/figure-latex/global-zoonotic-disease-surveillance-1.pdf Graphic file (type pdf)
 <use thesis_files/figure-latex/global-zoonotic-disease-surveillance-1.pdf>
-Package pdftex.def Info: thesis_files/figure-latex/global-zoonotic-disease-surveillance-1.pdf  used on input line 260.
+Package pdftex.def Info: thesis_files/figure-latex/global-zoonotic-disease-surveillance-1.pdf  used on input line 252.
 (pdftex.def)             Requested size: 469.75385pt x 469.75385pt.
 
-LaTeX Warning: Reference `fig-lassa-nipah-range' on page 9 undefined on input line 270.
+LaTeX Warning: Reference `fig-lassa-nipah-range' on page 9 undefined on input line 262.
 
 [9] [10 <./thesis_files/figure-latex/global-zoonotic-disease-surveillance-1.pdf>]
 <thesis_files/figure-latex/host-pathogen-associations-1.pdf, id=265, 578.16pt x 578.16pt>
 File: thesis_files/figure-latex/host-pathogen-associations-1.pdf Graphic file (type pdf)
 <use thesis_files/figure-latex/host-pathogen-associations-1.pdf>
-Package pdftex.def Info: thesis_files/figure-latex/host-pathogen-associations-1.pdf  used on input line 274.
+Package pdftex.def Info: thesis_files/figure-latex/host-pathogen-associations-1.pdf  used on input line 266.
 (pdftex.def)             Requested size: 469.75385pt x 469.75385pt.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 281.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 273.
 (c:/Users/ucbtds4/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 283.
+LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 275.
 (c:/Users/ucbtds4/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 <thesis_files/figure-latex/host-pathogen-associations-2.pdf, id=266, 578.16pt x 578.16pt>
 File: thesis_files/figure-latex/host-pathogen-associations-2.pdf Graphic file (type pdf)
 <use thesis_files/figure-latex/host-pathogen-associations-2.pdf>
-Package pdftex.def Info: thesis_files/figure-latex/host-pathogen-associations-2.pdf  used on input line 287.
+Package pdftex.def Info: thesis_files/figure-latex/host-pathogen-associations-2.pdf  used on input line 279.
 (pdftex.def)             Requested size: 469.75385pt x 469.75385pt.
 [11] [12 <./thesis_files/figure-latex/host-pathogen-associations-1.pdf>] [13 <./thesis_files/figure-latex/host-pathogen-associations-2.pdf>] [14] [15] [16] [17] [18] [19] [20] [21] (./thesis.aux)
 
@@ -609,18 +609,18 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 14773 strings out of 476908
- 243780 string characters out of 5822665
+ 14762 strings out of 476908
+ 243608 string characters out of 5822665
  614924 words of memory out of 5000000
  35365 multiletter control sequences out of 15000+600000
- 541056 words of font info for 161 fonts, out of 8000000 for 9000
+ 540749 words of font info for 158 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 66i,6n,67p,2012b,561s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,6n,67p,2141b,555s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/Users/ucbtds4/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/Users/ucbtds4/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/Users/ucbtds4/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/Users/ucbtds4/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/ucbtds4/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/Users/ucbtds4/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/ucbtds4/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/ucbtds4/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/Users/ucbtds4/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/ucbtds4/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on thesis.pdf (21 pages, 386552 bytes).
+Output written on thesis.pdf (21 pages, 385640 bytes).
 PDF statistics:
- 761 PDF objects out of 1000 (max. 8388607)
- 706 compressed objects within 8 object streams
- 220 named destinations out of 1000 (max. 500000)
+ 748 PDF objects out of 1000 (max. 8388607)
+ 694 compressed objects within 7 object streams
+ 215 named destinations out of 1000 (max. 500000)
  35440 words of extra memory for PDF output out of 35830 (max. 10000000)
 

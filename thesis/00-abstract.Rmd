@@ -12,5 +12,3 @@ Studies assessing locations at greatest risk typically rely upon large consolida
 Understanding the interplay between different rodent species in a host-pathogen system is important to understand the hazard of zoonotic spillover events. Here, I have reported on a rodent sampling study in a Lassa Fever endemic region to describe the association of species detection and land use type accounting for imperfect detection. \par
 
 Within these different land use types species contact each other at different rates. This has implications for the transmission of pathogens within these settings. Here, I have described the contact patterns between individuals of different species and the prevalence of antibodies to our target pathogen to model potential transmission networks. \par
-
-Finally I use the data produced in Chapters 3 and 4 to model the hazard of zoonotic spillover in Eastern Sierra Leone. I adopt a BART to produce a multi-species distribution model to predict the occupancy of different species across the region and information on antibody prevalence to model the occurrence of the pathogen of interest. \par
