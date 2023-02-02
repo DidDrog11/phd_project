@@ -7,7 +7,9 @@ pkgs = c(
   "dbplyr",
   "ganttrify",
   "ggplot2",
-  "here"
+  "here",
+  "tidyverse",
+  "lubridate"
 )
 
 pacman::p_load(pkgs, character.only = T)
