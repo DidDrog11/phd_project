@@ -1,5 +1,5 @@
 # devtools::install_github("DidDrog11/DavidsPack")
-remotes::install_github("giocomai/ganttrify")
+#remotes::install_github("giocomai/ganttrify")
 
 if (!require("pacman")) install.packages("pacman")
 pkgs = c(
