@@ -352,6 +352,43 @@ Describe the different clades and other arenaviruses and how that may limit expa
 
 Figure of seroprevalence among sampled *M. natalensis* and other species.
 
+```{r rodent-lassa-seroprevalence, out.width = "100%", fig.cap = "Prevalence of acute infection with LASV or antibodies to LASV in rodent species sampled in West Africa. The size of a point relates to the number of samples of that species tested and the colour to the country in which the rodent was sampled. Where possible the rodent species is identified, for individuals only identified to genus level the genera from which samples obtained is shown. Six rodent species have been found to be acutely infected with LASV with 10 species having detectable antibodies. The majority of samples have been obtained from rodents trapped in Guinea and Sierra Leone. Data extracted from multiple sources see Simons et al. 2023 for a list of references."}
+
+review_data <- read_tsv(here("thesis", "introduction_files", "taxa.txt")) %>%
+  filter(str_detect(specificEpithet, "Lassa") & occurrenceStatus == "Present")
+
+lassa_testing <- review_data %>%
+  mutate(rodent_species = str_remove_all(associatedTaxa, "parasite of "),
+         n_tested = as.numeric(str_extract(occurrenceRemarks, "\\d+")),
+         n_positive = as.numeric(organismQuantity),
+         method = case_when(str_detect(identificationRemarks, "PCR|Culture") ~ "Acute infection",
+                            str_detect(identificationRemarks, "Serology") ~ "Serology"),
+         rodent_species = fct_rev(factor(str_to_sentence(case_when(rodent_species == "mastomys" ~ "mastomys spp.",
+                                                           rodent_species == "crocidura" ~ "crocidura spp.",
+                                                           rodent_species == "praomys" ~ "praomys spp.",
+                                                           rodent_species == "rattus" ~ "rattus spp.",
+                                                           rodent_species == "rodentia" ~ "rodentia spp.",
+                                                           TRUE ~ rodent_species)),
+                                 levels = c("Mastomys natalensis", "Mastomys erythroleucus", "Mastomys spp.", "Rattus rattus", "Rattus spp.", "Praomys daltoni", "Praomys rostratus", "Praomys spp.", "Gerbilliscus kempii", "Mus minutoides", "Mus baoulei", "Mus musculus", "Hylomyscus pamfi", "Lemniscomys striatus", "Crocidura spp.", "Lophuromys sikapusi", "Rodentia spp."))),
+         perc_positive = round(n_positive/n_tested * 100, 1)) %>%
+  select(country, rodent_species, perc_positive, n_tested, n_positive, method, bibliographicCitation)
+
+lassa_testing$perc_positive[lassa_testing$perc_positive == 200] <- 100
+
+ggplot() +
+  geom_point(data = lassa_testing, aes(y = rodent_species, x = perc_positive, size = n_tested, colour = country), position = position_jitter(height = 0.2), alpha = 0.5) +
+  scale_size(range = c(1, 6)) +
+  scale_colour_brewer(palette = "Set1") +
+  facet_grid(~ method) +
+  theme_bw() +
+  labs(y = element_blank(),
+       x = "Percentage positive",
+       colour = "Country",
+       size = "Number assayed")
+
+```
+
+
 
 Describe other native rodent species.
 
