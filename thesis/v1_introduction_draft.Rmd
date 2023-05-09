@@ -1,3 +1,10 @@
+---
+output:
+  word_document
+
+---
+
+
 ```{r introduction-setup, include=FALSE, echo = FALSE}
 knitr::opts_chunk$set(echo = FALSE, dpi = 320, cache = TRUE,
                       message = FALSE,

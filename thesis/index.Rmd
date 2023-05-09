@@ -36,6 +36,9 @@ pkgs =
   c("ggspatial",
     "googledrive",
     "here",
+    "mapdata",
+    "maps",
+    "maptools",
     "sf",
     "tidyterra",
     "tidyverse")
@@ -44,7 +47,7 @@ pacman::p_load(pkgs, character.only = T)
 ```
 
 
-A dissertation submitted in partial fulfillment of the requirements for the degree of **Doctor of Philosophy**
+A dissertation submitted in partial fulfilment of the requirements for the degree of **Doctor of Philosophy**
 
 ## Declaration {-}
 
