@@ -3,5 +3,6 @@ bookdown::pdf_book:
     toc_depth: 3
     includes:
       in_header: preamble.tex
+    latex_engine: xelatex
 urlcolor: blue
 number_sections: true
