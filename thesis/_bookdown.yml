@@ -8,5 +8,6 @@ rmd_files: ["index.Rmd",
             "02-chapter2.Rmd",
             "03-chapter3.Rmd",
             "04-chapter4.Rmd", 
-            "98-discussion.Rmd", 
-            "99-references.Rmd"]
+            "05-discussion.Rmd", 
+            "06-bibliography.Rmd",
+            "07-appendix.Rmd"]

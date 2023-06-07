@@ -1,11 +1,11 @@
 ---
 title: "Development of a dynamic model for the emergence of Lassa fever in West Africa" 
 subtitle:
-  - "Draft Thesis November 2022"
+  - "Draft Thesis June 2023"
 author:
   - "David Simons"
 date:
-  - "November 2022"
+  - "June 2023"
 site: bookdown::bookdown_site
 output: 
   bookdown::pdf_document2:
@@ -16,6 +16,7 @@ csl: "harvard.csl"
 lof: true
 lot: true
 space_between_paragraphs: true
+always_allow_html: true
 ---
 
 ```{r knitr-options, include = FALSE}
@@ -49,6 +50,8 @@ pacman::p_load(pkgs, character.only = T)
 
 A dissertation submitted in partial fulfilment of the requirements for the degree of **Doctor of Philosophy**
 
+\newpage
+
 ## Declaration {-}
 
 I certify that:   
@@ -60,10 +63,14 @@ I certify that:
 + The entirety of the work described in the thesis has been undertaken subsequent to my registration for the higher degree for which I am submitting for examination;
 + The thesis submitted is within the required word limit as specified by the RVC.
 
+\newpage
+
 ## Abstract {-}
 
 ```{r abstract, child = "00-abstract.Rmd"}
 ```
+
+\newpage
 
 ## Impact statement {-}
 
@@ -80,17 +87,26 @@ I certify that:
 ```{r definitions, child = "00-definitions.Rmd"}
 ```
 
+\newpage
+
 ## Acknowledgements {-}
 
 ```{r acknowledgements, child = "00-acknowledgements.Rmd"}
 ```
+
+\newpage
 
 ## Chapter overview and collaborators {-}
 
 ```{r collaborators, child = "00-chapteroverview.Rmd"}
 ```
 
-## Thesis output {-}
+\newpage
+
+
+## Thesis outputs {-}
 
 ```{r output, child = "00-output.Rmd"}
 ```
+
+\newpage
