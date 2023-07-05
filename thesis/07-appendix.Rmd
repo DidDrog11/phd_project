@@ -1,3 +1,193 @@
-# Appendix {#appendixA}
+\newpage
 
-This will be Appendix A.
+# (APPENDIX) Appendix {-}
+
+# Appendix A
+
+## Published article in *PLoS NTD*
+
+\includepdf[pages=-, pagecommand={}, templatesize={\textwidth}{\textheight  - 25pt}, trim=0 0 0 20pt,]{appendices_files/A1.pdf}
+
+\FloatBarrier
+
+## Published article in *International Health*
+
+\includepdf[pages=-, pagecommand={}, templatesize={\textwidth}{\textheight  - 25pt}, trim=0 0 0 20pt,]{appendices_files/A2.pdf}
+
+\FloatBarrier
+
+# Appendix B
+
+## Images representative of trapping grid locations {#trap-location-images}
+
+\includepdf[pages=-, pagecommand={}, templatesize={\textwidth}{\textheight  - 25pt}, trim=0 0 0 20pt,]{appendices_files/B1.pdf}
+
+\FloatBarrier
+
+## Trapping effort within each trapping grid {#trap-effort-grid}
+
+
+### Baiama
+
+```{r baiama-traps, fig.scap = "Locations of traps in Baiama", fig.cap = '(ref:long-b1)'}
+
+knitr::include_graphics(here("thesis", "appendices_files", "B2-1.png"))
+
+```
+
+(ref:long-b1) A) Trapping effort within 49m^2^ grid cells in Baiama. Facets show the locations of trapping grids placed in different land use types. Darker colours are associated with an increased number of trap nights within the grid cell.
+\FloatBarrier
+
+### Lalehun
+
+```{r lalehun-traps, fig.scap = "Locations of traps in Lalehun", fig.cap = '(ref:long-b2)'}
+
+knitr::include_graphics(here("thesis", "appendices_files", "B2-2.png"))
+
+```
+
+(ref:long-b2) B) Trapping effort within 49m^2^ grid cells in Lalehun. Facets show the locations of trapping grids placed in different land use types. Darker colours are associated with an increased number of trap nights within the grid cell.
+\FloatBarrier
+
+### Lambayama
+
+```{r lambayama-traps, fig.scap = "Locations of traps in Lambayama", fig.cap = '(ref:long-b3)'}
+
+knitr::include_graphics(here("thesis", "appendices_files", "B2-3.png"))
+
+```
+
+(ref:long-b3) C) Trapping effort within 49m^2^ grid cells in Lambayama. Facets show the locations of trapping grids placed in different land use types. Lambayama was a peri-urban village with no nearby forest. Darker colours are associated with an increased number of trap nights within the grid cell.
+\FloatBarrier
+
+### Seilama
+
+```{r seilama-traps, fig.scap = "Locations of traps in Seilama", fig.cap = '(ref:long-b4)'}
+
+knitr::include_graphics(here("thesis", "appendices_files", "B2-4.png"))
+
+```
+
+(ref:long-b4)  D) Trapping effort within 49m^2^ grid cells in Seilama. Facets show the locations of trapping grids placed in different land use types. Darker colours are associated with an increased number of trap nights within the grid cell.
+\FloatBarrier
+
+\newpage
+
+## Rodent trapping and laboratory protocol {#study-protocol}
+
+\includepdf[pages=-, pagecommand={}, templatesize={\textwidth}{\textheight  - 25pt}, trim=0 0 0 20pt,]{appendices_files/B3.pdf}
+
+\FloatBarrier
+
+## Schematic of trap location harmonisation {#trap-harmonisation}
+
+```{r harmonisation-traps, fig.scap = "Schematic of harmonising trap locations", fig.cap = '(ref:long-b5)'}
+
+knitr::include_graphics(here("thesis", "appendices_files", "B4.png"))
+
+```
+
+(ref:long-b5) Schematic diagram of conversion from trap locations to grids. A) Individual traps were placed in a grid structure in a pre-specified location. While attempts were made to keep trap locations over repeated visits individual traps were often placed in slightly different locations. This is shown in the schematic using different colours to represent different visits. B) To harmonize the locations of traps to coordinates that could be used in the spatial occupancy model we aligned a regular grid with grid cell sizes of 49m^2 over the trapping area and assigned individuals traps to these cells. C) The number of traps and therefore the number of trap nights within each grid cell was aggregated for each visit. The number of trap nights informed the detection component of the species occupancy model. Detection histories were produced for each grid cell that was sampled for each species. Grid cells were assigned a 1 if any trap within the grid cell detected the species and 0 otherwise.
+
+\FloatBarrier
+
+## Small mammal taxonomic key {#taxonomic-key}
+
+\includepdf[pages=-, pagecommand={}, templatesize={\textwidth}{\textheight  - 25pt}, trim=0 0 0 20pt,]{appendices_files/B5.pdf}
+
+\FloatBarrier
+
+## Conceptual model of the association of land use change and rodent species communities {#conceptual-model}
+
+```{r conceptual-model, fig.scap = "Conceptual model of the association of land use and rodent communities", fig.cap = "Conceptual model used to identify potential causal pathways for inclusion of variables for the occupancy and detection model specification."}
+
+knitr::include_graphics(here("thesis", "appendices_files", "B6.png"))
+
+```
+
+\FloatBarrier
+
+# Appendix C
+
+## Species detection rate by season {#detection-species}
+
+```{r detection-season, fig.scap = "Species detection by season", fig.cap = "Mean detection rate per 1,000 trap nights, aggregated at the village level for each species comparing the detection rate between the dry and rainy season."}
+
+knitr::include_graphics(here("thesis", "appendices_files", "C1.png"))
+
+```
+
+\FloatBarrier
+
+## Marginal effects of detection parameters {#detection-parameters}
+
+```{r marginal-rainfall, fig.scap = "Marginal effect of rainfall on detection", fig.cap = '(ref:long-c1)'}
+
+knitr::include_graphics(here("thesis", "appendices_files", "C2-1.png"))
+
+```
+
+(ref:long-c1) The marginal effect of mean monthly rainfall on the probability of detection of a species in a grid cell. The black line shows the mean modelled probability of detection for the amount of monthly rainfall, the shaded grey region represents the 95% Credible Interval (CrI). Probability of detection varies by species with higher values for the invasive rodent species *M. musculus* and *R. rattus*, than the native rodent species. There is a general response of decreasing probability of detection with increasing rainfall.
+
+```{r marginal-moon, fig.scap = "Marginal effect of moon phase on detection", fig.cap = '(ref:long-c2)'}
+
+knitr::include_graphics(here("thesis", "appendices_files", "C2-2.png"))
+
+```
+
+(ref:long-c2) The marginal effect of the fraction of the full moon on the probability of detection of a species in a grid cell. The black line shows the mean modelled probability of detection for the moon phase, the shaded grey region represents the 95% CrI. Probability of detection varies by species with higher values for the invasive rodent species *M. musculus* and *R. rattus*, than the native rodent species. There is no important response to moon phase for most species. The probability of detection appears to fall for *M. natalensis* with increasing moon phase but the credible intervals overlap for the entire range.
+
+```{r marginal-tn, fig.scap = "Marginal effect of trapping effort on detection", fig.cap = '(ref:long-c3)'}
+
+knitr::include_graphics(here("thesis", "appendices_files", "C2-3.png"))
+
+```
+
+(ref:long-c3) The marginal effect of trapping effort (TN) on the probability of detection of a species in a grid cell. The black line shows the mean modelled probability of detection trapping effort, the shaded grey region represents the 95% CrI. Probability of detection is low for all species at low levels of TN. The probability of detection with increasing TN varies by species. The invasive rodent species *M. musculus* and *R. rattus* show a sinusoidal response over the range of TNs that were observed in this study with the probability of detection being greater than 50% at relatively low numbers of TN (17 and 22 respectively). Much greater trapping effort were required to obtain the same probability of detection for the native rodent species. Only *M. natalensis* requiring 29 TN to reach a probability of 50% detection.
+
+\FloatBarrier
+\newpage
+## Constructed networks from rodent trapping data {#rodent-networks}
+
+### Forest networks
+
+\FloatBarrier
+\includepdf[pages=-, pagecommand={}, templatesize={\textwidth}{\textheight  - 40pt}, trim=0 0 0 20pt,]{appendices_files/C3-1.pdf}
+\FloatBarrier
+
+### Agriculture networks
+
+\FloatBarrier
+\includepdf[pages=-, pagecommand={}, templatesize={\textwidth}{\textheight  - 40pt}, trim=0 0 0 20pt,]{appendices_files/C3-2.pdf}
+\FloatBarrier
+
+### Village networks
+
+\FloatBarrier
+\includepdf[pages=-, pagecommand={}, templatesize={\textwidth}{\textheight  - 40pt}, trim=0 0 0 20pt,]{appendices_files/C3-3.pdf}
+\FloatBarrier
+
+## Contact matrices inferred from rodent community networks {#contact-matrices}
+
+### Forest contact matrix
+
+
+```{r proportion-forest, fig.scap = "Proportion of contacts in forest land use", fig.cap = "The proportion of contacts between small mammal species in forest land use. Darker colours indicate increasing proportions of observed contacts to a species from named a species. Percentages in the cells correspond to the proportion of contacts to a species from a named species."}
+
+knitr::include_graphics(here("thesis", "appendices_files", "C4-1.png"))
+
+```
+
+\FloatBarrier
+\newpage
+
+### Village contact matrix
+
+
+```{r proportion-village, fig.scap = "Proportion of contacts in village land use", fig.cap = "The proportion of contacts between small mammal species in village land use. Darker colours indicate increasing proportions of observed contacts to a species from named a species. Percentages in the cells correspond to the proportion of contacts to a species from a named species."}
+
+knitr::include_graphics(here("thesis", "appendices_files", "C4-2.png"))
+
+```
+
+\FloatBarrier

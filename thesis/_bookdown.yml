@@ -11,3 +11,4 @@ rmd_files: ["index.Rmd",
             "05-discussion.Rmd", 
             "06-bibliography.Rmd",
             "07-appendix.Rmd"]
+auto_pdf: true

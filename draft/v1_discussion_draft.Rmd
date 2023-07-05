@@ -1,0 +1,175 @@
+---
+title: Discussion draft
+output:
+  word_document
+bibliography: references.bib
+---
+
+```{r discussion-setup, include=FALSE, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE, dpi = 320, cache = TRUE,
+                      message = FALSE, warning = FALSE,
+                      fig.width = 8, fig.height = 8,
+                      out.width = "80%", fig.align = 'center')
+# packages
+library(countrycode)
+library(geodata)
+library(here)
+library(rnaturalearth)
+library(sf)
+library(tidyverse)
+```
+
+## Potential discussion outline  
+
+  + Summary conclusions of each chapter
+  + The importance of understanding bias when assessing current risk of zoonosis spillover
+  + The need for long-term studies with reduced bias to estimate the effect of global change i.e., climate, land use and biodiversity change on zoonoses
+  + The need for open science approaches, harmonised study designs and data availability from rodent trapping studies
+  + The importance of sampling the entire rodent community and adopting multi-species approaches to zoonoses
+  + The need to consolidate rodent-focussed and human-focussed studies to examine LASV transmission and understand Lassa epidemiology
+  + Future directions
+
+# Conclusions and future research directions. {#discussionchapter}
+
+The research presented in this thesis provides important new insights on the role of rodent ecology on zoonotic infectious disease spillover risk and the association of anthropogenic land use change with rodent community structure. This final chapter summarises the key findings of this work, placing them in the broader context and includes suggestions for future research.
+
+
+In Chapter 2, I synthesise data from rodent trapping studies conducted in West Africa to investigate the spatial and taxonomic sampling biases of small mammal communities. Comparing this synthesised dataset to two commonly used resources for modelling the occurrence of rodents and their associated zoonotic pathogens in West Africa (i.e., GBIF and IUCN), I found that rodent trapping studies can provide a useful additional source of information. This dataset produced from primary studies is capable of counteracting some of the biases present in current data and substantially increasing the sampled area of common rodent species important to zoonotic disease emergence. This study quantified rodent and zoonosis sampling effort and associated biases in West Africa, identifying host and pathogen taxa and geographic regions that would benefit from further study to improve inference for zoonotic infectious disease spillover risk in the region.
+
+
+In Chapter 3, I designed and implemented a three-year standardised rodent sampling study in a Lassa fever endemic region of Sierra Leone to characterise local small mammal communities and investigate the response of community structure to an anthropogenic land use gradient. This study confirmed that synanthropic rodent species were associated with increasing anthropogenic land use, with higher probability of occurrence within these settings. This study further illuminated how species co-occurrence can shape small mammal communities, with the presence of an invasive rodent species moderating the occurrence of a native species important for zoonosis transmission. The effect of species interactions on rodent host species' occurrence probability highlighted the need to adopt community level species distribution models when applied to multiple-host zoonotic disease systems.
+
+
+In Chapter 4, I used the same rodent trapping dataset to infer contact dynamics within small mammal communities. I found that contacts among rodents and shrews followed a long-tailed distribution with most individuals having few contacts, with few individuals having many contacts. The properties of these networks moderate pathogen transmission within the small mammal communities. Our observed networks of small mammal contacts suggest that assumptions of well mixed populations may not hold for LASV transmission in the Eastern province of Sierra Leone. Failing to account for this contact rate heterogeneity by species, rodent abundance and land use type will hamper the production of accurate, dynamic, pathogen transmission models within rodent communities. The low LASV seroprevalence observed in our study system prevented the effect of these contact networks on pathogen transmission being directly modelled. There is therefore a need to conduct these studies over longer time spans, to capture periods of high pathogen prevalence, in order to better understand the temporal and spatial variation in transmission of LASV within the endemic region of Sierra Leone. 
+
+
+Overall the results presented in Chapter 2 indicated that sampling of rodent associated zoonotic pathogens and their hosts is spatially and temporally biased across West Africa. The results from Chapter 3 and 4 including systematic sampling of small mammal communities in Eastern province of Sierra Leone highlighted the spatial heterogeneity in rodent host species’ occurrence across an anthropogenic land use gradient with important differences in community contact structure which will moderate pathogen transmission.
+
+
+## Contribution to understanding sampling biases in currently available rodent host species' distributions
+
+**The purpose of this section is to describe how current and future zoonotic infectious disease risk under changing climate, land use and biodiversity change will be biased by taxanomic and geographic biases. If we want to obtain an accurate inference of how these systems will change under these circumstances we need longer term monitoring that can counteract some of these biases. Two good examples of systems we have a better understanding of are Lyme and Nipah.**
+
+
+The current risk to human communities of rodent associated zoonoses in West Africa is poorly quantified. Despite this, the region is considered to be at high risk of emerging and endemic zoonoses based on current understandings of host species' distributions and zoonotic pathogen prevalence []. Vulnerability to these diseases is exacerbated by high rates of poverty, poor access to healthcare and a limited potential of health and governmental agencies to monitor these zoonoses []. To reduce the public health impact of these zoonoses, public health practitioners and researchers require a better understanding of the distribution of both hosts and their pathogens in West Africa []. Current biased sampling of these host and pathogens across the region severely limit projection of regions at risk of pathogen emergence as shown in Chapter 2. 
+
+
+Identification of regions at substantial risk of known rodent associated zoonoses is presently limited by sparse host-pathogen sampling []. There is no information on the spatial distribution for important rodent hosts of pathogens across much of West Africa. However, even within geographic regions where sampling is more complete substantial host and pathogen taxa level biases remain. Despite this, current sampling indicates substantial heterogeneity in both host occurrence and abundance alongside pathogen prevalence within these host populations. Current efforts to model spatio-temporal risk of zoonoses spillover do not incorporate these substantial biases which leads to reduced confidence in inferred estimates of risk. 
+
+
+A recent illustrative example is an identified outbreak of Lassa fever in Accra, Ghana. Here, 12 acute cases were identified in February 2023 in a region not previously considered endemic and a region considered at low risk by previous spatial models of Lassa fever risk []. It is likely that a lack of host or pathogen sampling in Ghana led to inaccurate estimates of the true risk of disease emergence. For example, while *M. natalensis*, the primary host of LASV is expected to exist throughout Ghana sampling for this species has only been conducted at X locations, or Z% of the country []. Assessment for LASV within this species' population in Ghana has been conducted at even fewer sites with no acute LASV infections detected []. This led to reduced estimates of spillover risk in Ghana consistently from multiple models []. Which ultimately failed to predict that the pathogen was already prevalent or recently invaded the country leading to the observed outbreak. Models therefore specified on biased data may lead to under-appreciation of the current risk of disease outbreaks limiting a health services ability to plan for these events.
+
+
+Quantifying the spatial biases of rodent host and pathogen sampling is an important first step in overcoming the limitations of sampling bias. Although in order to deliver potentially efficacious interventions such as rodent control or raising awareness within human communities a better understanding of both temporally and spatially varying risk is required []. An example of the beneficial effect of long-term monitoring elsewhere in Africa are studies of rabies () in wild and domesticated dogs. In this disease system mobility and contact networks of potential hosts of rabies have been developed that allow targeted interventions (i.e., dog vaccination programmes) to reduce the incidence of rabies infections in human communities []. Interventions such as these are only able to achieve cost-effective control through harmonised study protocols leading to unbiased estimates of animal population dynamics and pathogen transmission [].
+
+
+In addition to understanding current risk of rodent associated zoonoses there is significant interest in understanding the effect of climate, land use and biodiversity change on the future risk of endemic and emerging zoonoses []. Unfortunately, extant biases in host and pathogen sampling will reduce the confidence in inferred risk models if underlying taxonomic and spatial biases are not incorporated []. For example, in the rodent associated Lyme disease system in North America  long-term studies have been able to estimate the effect of multi-year cycles of habitat productivity (i.e., masting) and animal biodiversity with small mammal abundance and pathogen prevalence. Similar multi-season or multi-year cycles are expected to exist with in rodent associated zoonoses in West Africa, but this has not systematically assessed []. For example in Lassa fever, increased human cases are expected to be associated with a population boom in the rodent hosts of LASV, based on data collected from elsewhere in these rodents range []. The existence of similar dynamics in West Africa, and whether they occur homogenously throughout the region is not known. It is likely that populations dynamics among rodent hosts will play an important role in rodent associated pathogen dynamic and disease spillover risk into human populations in these settings but the magnitude of their effect cannot be estimated from currently available datasources.
+
+
+Similarly long-term studies in Oceania have characterised the link between land use and bat host occurrence and abundance with zoonoses spillover into domesticated animals []. In order to quantify the association of land use change on rodent host occurrence and abundance improved harmonisation of rodent sampling data is needed []. Inferring the effect of ongoing land use change on rodent communities from currently available data is challenging when studies have been conducted over short time periods []. Landscape level responses to changing habitats among rodent communities may currently be masked by inter-seasonal or inter-annual variations in rodent occurrence and abundance that are detected within shorter sampling periods. In order to identify long term trends in changing occupancy in response to land use comprehensive studies such as those applied to Nipah virus in Australia are required in West Africa.
+
+
+**The second part of this section is to explore how some of this may be achieved. Discussing harmonisation of these longer term studies and data availability. What this may mean for Lassa in particular and how this can be achieved.**
+
+The lack of long-term studies on rodent-associated zoonoses in West Africa necessitates the use of previously collected data to infer the dynamic risk of spillover for several disease systems []. While it has been recognised that biases exist within currently available data on species distributions and that these biases are not homogenous across taxa or geographic regions []. For example, data are more readily available with less geographic and temporal biases for animal species of economic, cultural, or scientific value []. This has led to rodents and other small mammals being under-reported within available records, which exacerbates the effect of geographic and temporal biases []. The impact of sampling biases had not previously been considered in these settings. The estimates of sampling bias produced in Chapter 2 could be particularly useful for understanding the geographic variation in sampling that can be incorporated into future models of disease risk []. 
+
+
+Maintaining the dataset produced in Chapter 2 and incorporating this into actively curated biodiversity resources would be particularly helpful in increasing the availability of zoonoses host species’ data in currently under-surveilled settings. Current geographic and temporal biases in this data will not solely be counteracted by increased data availability. Despite this, incorporation of primary data onto maintained data repositories such as GBIF or PHAROS will allow researchers, conservationists and public health specialists to interrogate up-to-date consolidated datasets to investigate the occurrence of hosts of rodent-associated zoonoses. Progress in the adoption of Open Science practices with comprehensive study protocols, detailed meta-data and appropriate licensing are needed to support data consolidation and reuse. Increased availability of high quality zoonoses host data will improve confidence in current estimates of zoonoses spillover risk. 
+
+
+Chapter 2 found that relatively small regions of important rodent zoonotic hosts have been sampled. For example, the primary host of LASV has been sampled for in X% of its expected range in West Africa, with a significantly smaller area of its range including testing for LASV []. Currently these studies have shown significant heterogeneity in both the occurrence of this host species and pathogen within this range which are currently not effectively incorporated into geographic risk models of Lassa fever []. The clustered data produced from current pathogen and host sampling efforts leads to inferred risk estimates that must be treated with low confidence []. Additional sampling effort is required across greater geographic scales within West Africa to better capture the spatial and temporal heterogeneity of understand how pathogens are distributed within host species. More representative sampling of host species will improve confidence in current estimates of risk for Lassa fever, estimates of future Lassa fever risk under land use change and other less-studied rodent associated zoonoses.
+
+
+Recognition of the existence of biases is a first step in counteracting its role in inference. A move towards agree reporting standards and data sharing are required, as proposed in Chapter 2 and elsewhere []. Adoption of these approaches are vital to understand how zoonotic disease spillover risk may alter based on changing host distributions under pressures such as land use and climate change []. Specifically, to understand how changing urbanization and biodiversity in West Africa will alter LASV transmission dynamics longer term studies of rodent and pathogen ecology are required. These studies will need to be conducted in several different endemic regions of Lassa fever to incorporate the differences in small mammal communities and local habitats across the endemic region.
+
+
+Work to quantify biases in sampling of hosts and their pathogens to guide disease ecology modelling remains important. The study conducted in Chapter 2 provides a useful template to apply to other disease systems and geographic settings. I have received a small grant from the Verena Consortium to produce a similar global dataset for two important rodent associated zoonoses families, Arenaviridae and Hantaviridae []. I envision that this project will quantify the taxanomic and geographic biases for these two important pathogen families at a global scale and will continue to drive a discussion for more Open Science research practices in disease ecology. 
+
+## Rodent trapping to investigate rodent communities
+
+
+**This section progresses the data sharing and harmonisation of protocols to explore the advantages and disadvantages of expanded rodent trapping to understand disease ecology.** 
+
+When designing the rodent trapping study informing Chapters 3 and 4 I reviewed different approaches for sampling rodent communities. This process highlighted the importance of pre-specifying the analysis that would be performed and tailoring the methodology to achieve this. Multiple methods have been adopted for rodent sampling, ranging from long line-transects, opportunistic trapping, purchasing of cadavers, web-shaped trapping and grid-trapping []. Each of these approaches are more or less suitable depending on the purpose of the sampling []. 
+
+
+For the studies in Chapter 3 and 4 a systematic approach of grid trapping across a land use gradient was used to answer questions around species occupancy across a land use gradient and contact networks among the rodents within the community. Line transects are commonly used to investigate the effect of habitat edges or a gradient of anthropogenic disturbance []. However, this would have prevented me from using the trapping data to construct rodent contact networks and so the decision was taken to lose some of the benefit of line transects (i.e., covering a greater linear distance) in exchange for the benefits of a grid-trapping approach (i.e., covering a greater area). The impact of selecting a specific sampling method on the rate of detection of rodents within the heterogeneous landscape in West Africa is not clear and may be something that requires future exploration. There is limited evidence that line transects result in a higher detection rate but this may limit some of the questions able to be asked of the subsequent dataset [].
+
+
+For LASV the importance of investigating the entire rodent community has become increasingly clear. As an increasing number of rodent species are investigated for evidence of infection with LASV more are found to be acutely infected or have evidence of prior infection []. Recent availability of a rodent validated antibody assay for LASV will potentially increase the number of potential host species within this system and elucidate some of the mechanisms of viral emergence, persistence and maintenance []. For this reason it is important that the entire community is sampled when investing time and effort in rodent trapping, rather than focusing solely on the primary reservoir species. Questions remain about how LASV can persist within rodent communities and it will not be possible to tease this out unless the role of non-reservoir species can be better understood.
+
+
+While systematic rodent trapping is advantageous for understanding the often complex rodent associated zoonosis system it is not without specific challenges. First regular and repeat sampling is important to be able to understand any changes in rodent community structure, species occurrence, population abundance and pathogen prevalence within these communities. This necessitates repeat visits to the same location. In locations such as Sierra Leone this may be challenging due to poor transport infrastructure and dramatic seasonal variations in rainfall that can make some previously selected study sites inaccessible. For this reason appropriate selection of sites is key. Incorporating local knowledge on the accessibility of sites and ease of access in adverse weather conditions can mitigate disruptions caused by weather. I found that it was also important to have substantial community engagement to support the field-workers on their return visits. To encourage this we engaged early with our study communities, integrating the field team and local community workers to conduct the field study and building rapport which led to the successful completion of our three-year trapping study.
+
+
+Second, the number of traps required for systematic sampling within a study village is substantial. We relied on over 350 individual traps during the study period, the cost for this would not have been possible on my research support and training grant and could only be achieved by re-using traps from a previous project in the region LORACS, and using funding from the PANDORA project through my supervisory team. The ability to repair these traps were they to malfunction in Sierra Leone is limited and the sensitivity of the triggers of the traps is expected to decrease with repeated use. The impact of deteriorated traps on our data collection is not known and a method to understand the effective life in field conditions of these traps would be informative. In the absence of this understanding there are concerns that data quality may diminish as the length of the study increases which must be weighted against the value of long term monitoring of these dynamic disease systems.
+
+
+Third, international co-operation required to ensure sampling and processing occurs as planned. Funding for field workers. Fourth, Data management systems to allow real-time assessment of data quality and to allow remote support. 
+
+
+## Developing a better understanding of the role of rodent communities in Lassa fever risk
+
+
+**Moving beyond the trapping specifically what can the rodent communities inform us about the dynamic risk of Lassa fever?**
+
+As discussed throughout this thesis single host species models of zoonoses simplify the complex interactions between pathogens, rodent hosts and incidental human infections.
+
+
+Rodent hosts of LASV were found to exist along anthropogenic land use gradients with the primary rodent reservoir and the majority of other species found previously to be infected with LASV concentrated in areas of human habitation and agricultural settings. Fewer potentially competent viral host species were found in forest settings. The structure of these communities along this land use gradient is likely important for LASV transmission and maintenance within endemic settings.  
+
+
+By designing the rodent trapping study to study the association of land use change with rodent communities structures I was able to show that within agricultural settings rodent species richness and diversity was greatest. If LASV does transmit within and between non-*Mastomys* rodents these contexts may be vital to maintain viral transmission. Any interventions to reduce the risk of Lassa fever in human communities must therefore not limit rodenticide treatment, or rodent removal to within villages only and must incorporate these agricultural settings were the potential for cross-species viral transmission is greatest.  
+
+
+Further, in chapter 3 I found that the interaction between *M. musculus*, an invasive rodent species, and the primary host of LASV may be a cause of the apparent lack of human infections within urban settings. This needs to be expanded on with studies of pathogen competence within non-*Mastomys* rodents and studies in other urban settings within the endemic region to investigate whether this is a consistent finding.  
+
+
+Conducting systematic trapping across the anthropogenic land use gradient allowed the construction of potential rodent contact networks. Chapter 4 showed that ...
+
+
+Looking at contacts may be informative, additional effort to understand the degree of overlap between ranges and estimating the time at risk within these contacts.
+
+
+## Consolidating rodent ecology and human epidemiology and future research directions
+
+
+Limiting studies to investigating the pathogen either within hosts or humans will not allow us to understand the interplay between these dynamic systems which occur on different geographic and temporal scales. A recent study (Adesina 2023) conducted in Nigeria reported extraordinarily high prevalence of active infection with Lassa fever among rodent communities. In one town rodent LASV prevalence was reported at 70%. Sequences of pathogens were sequenced and compared with human derived sequences from the same geographic region to compare most recent common ancestors to estimate transmission dynamics among the rodents in these settings. Unfortunately this work was solely conducted in rodent communities but only data from the two native *Mastomys* species were reported. Evidence of reverse zoonosis in urban settings with pathogen spillback from human populations to rodent populations based on most recent common ancestor, potential issues with bottlenecks, sampling etc. 
+
+
+Rodent borne transmission of LASV occurrs at different spatial and temporal scales to human infection. Multiple studies have found asynchrony in human infection pressure and transmission among rodents. This is evident in locations where human seroprevalence is high while among rodents it is low and in  the reverse where transmission among rodents is observed but human cases of infection are limited. 
+
+
+This may be occurring for several reasons. First, rodent life span is a small fraction of humans with most native rodent species having life expectancy of less than 1 year. This increased turnover in the rodent population compared to human population means that seroconversion and the reflection of this on prior exposure to LASV is difficult to reconcile. For example, a 30 year old human individual could have been infected at any point after they lost maternally derived immunity from which point they would develop antibodies that are detectable for up to X years. For rodents this is further complicated by difficulties in age estimation as it is unclear during which time period they may have developed immunity.
+
+
+In settings with high pathogen prevalence among rodents it follows that humans are exposed to the pathogen during their younger years. It may be that this leads to a mild infection and therefore these infections aren't detected by the passive surveillance in place for Lassa in the endemic regions. Therefore while the risk of infection in these locations is high the risk for Lassa fever disease are low. Further work is needed to tease this out. One approach would be to quantify the force of infection among rodents and people by running paired prospective cohort studies of both rodents and humans. To achieve the aims of this better data collection on rodent ages are required. For example, rodents can be age classified by using eye lens weight. This is suitable for most rodent species but only a few have standardised charts to compare eye lens weight to in order to estimate age. These exist for M. natalensis but not for other species that may be involved in transmission. This approach is not suitable for shrews. 
+
+
+## Things to add in and expand on?
+
+In our study we have collected eye lens weight but the number of individuals found to have antibodies was low which limits the benefit of interpreting this data. This suggests that longer term studies than have typically been conducted will be required. This ties in with our observation of low prevalence in an endemic setting that has been repeated elsewhere. It is likely that the community population structure of rodents is leading to local extinction of LASV prior to it's reintroduction.
+
+
+Spillover rates into human populations, age-stratified contact rates how does infection actually occur?
+
+
+Immunity and disease severity among humans, who gets sick, why?
+
+
+Other advances may be useful for teasing out these patterns. For example genomic data can be useful to associate a human derived infection with specific rodents and viral strains circulating among rodents. This may allow the force of infection to be modelled at a geographic scale. This will be limited by sequencing biases but currently information is lacking.
+
+
+Further, there is additional complexity that must be incorporated if genomic data is to be used. For example antigenic escape and population bottlenecks may distort the rate of spread of the pathogen.
+
+
+It may be useful to test rodent testes or other viral refugia to increase the sensitivity of surveillance.
+
+
+Understanding population dynamics among the rodents in different land use settings is also important and how much these may change by over seasons. Rodent population dynamics in endemic settings - abundance, fecundity, population cycles. Viral transmission dynamics among rodents across scales
+
+
+Expansion of invasive species and changes in LASV epidemiology among humans.
+
+
+\newpage

@@ -1,0 +1,21 @@
+In addition to the work presented in this thesis I have first-authored and been involved in several manuscripts of relevant work. The references for these articles are as follows:
+
+* **Simons D**, Shahab L, Brown J, & Perski O. (2021). The association of smoking status with SARS‐CoV‐2 infection, hospitalization and mortality from COVID‐19: a living rapid evidence review with Bayesian meta‐analyses (version 7). Addiction, 116(6), 1319-1368.https://doi.org/10.1111/add.15276
+
+* **Simons D**, Perski O, Shahab L, Brown J, & Bailey R. (2021). Association of smoking status with hospitalisation for COVID-19 compared with other respiratory viruses a year previous: a case-control study at a single UK National Health Service trust. F1000Research, 10. https://doi.org/10.12688%2Ff1000research.55502.3
+
+* Arruda LB, Free HB, **Simons D**, Ansumana R, Elton L, Haider N, ... & Kock R. (2023). Current sampling and sequencing biases of Lassa mammarenavirus limit inference from phylogeography and molecular epidemiology in Lassa fever endemic regions. medRxiv, 2023-06. https://doi.org/10.1101/2023.06.20.23291686
+
+* Perski O, **Simons D**, Shahab L, & Brown J. (2023). Smoking, nicotine, and COVID-19: triangulation of methods and preregistration are required for robust causal inference. Nicotine and Tobacco Research, 25(2), 356-359. https://doi.org/10.1093/ntr/ntab214
+
+* Vivancos R, Anderson C, Blomquist P, Balasegaram S, Bell A, ..., **Simons D**, ... & Hopkins, S. (2022). Community transmission of monkeypox in the United Kingdom, April to May 2022. Eurosurveillance, 27(22), 2200422. https://doi.org/10.2807/1560-7917.ES.2022.27.22.2200422
+
+* Blomquist P, Bridgen J, Bray N, O’Connell AM, West D, .., **Simons D**, ... & Lake, I. R. (2022). Enhancing epidemiological surveillance of the emergence of the SARS-CoV-2 Omicron variant using spike gene target failure data, England, 15 November to 31 December 2021. Eurosurveillance, 27(11), 2200143. https://doi.org/10.2807/1560-7917.ES.2022.27.11.2200143
+
+* Andrews N, Stowe J, Kirsebom F, Toffa S, Rickeard T, ... **Simons D**, ... & Lopez Bernal, J. (2022). Covid-19 vaccine effectiveness against the Omicron (B. 1.1. 529) variant. New England Journal of Medicine, 386(16), 1532-1546. https://doi.org/10.1056/NEJMoa2119451
+
+* Arruda LB, Haider N, Olayemi A, **Simons D**, Ehichioya D, Yinka-Ogunleye A, ... & Kock R. (2021). The niche of One Health approaches in Lassa fever surveillance and control. Annals of clinical microbiology and antimicrobials, 20(1), 29. https://doi.org/10.1186/s12941-021-00431-0
+
+* Haider N, Yavlinsky A, **Simons D**, Osman AY, Ntoumi F, Zumla A, & Kock R. (2020). Passengers' destinations from China: low risk of Novel Coronavirus (2019-nCoV) transmission into Africa and South America. Epidemiology & Infection, 148, e41. https://doi.org/10.1017/S0950268820000424
+
+* Dexter D, **Simons D**, Kiyaga C, Kapata N, Ntoumi F, Kock R, & Zumla A. (2020). Mitigating the effect of the COVID-19 pandemic on sickle cell disease services in African countries. The Lancet Haematology, 7(6), e430-e432. https://doi.org/10.1016/S2352-3026(20)30122-8

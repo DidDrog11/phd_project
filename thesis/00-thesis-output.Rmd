@@ -1,0 +1,27 @@
+This thesis has produced: peer reviewed papers; preprints; invited talks at academic conferences, workshops and seminars and a web-based application for exploring the data compiled as part of Chapter 2. These outputs are detailed in the following section.
+
+**Peer reviewed papers**
+
+* **Simons D**, Attfield LA, Jones KE, Watson-Jones D, Kock R. (2023). Rodent trapping studies as an overlooked information source for understanding endemic and novel zoonotic spillover. PLoS Negl Trop Dis 17(1): e0010772. https://doi.org/10.1371/journal.pntd.0010772
+
+* **Simons D**. (2023). Lassa fever cases suffer from severe underreporting based on reported fatalities, International Health, ihac076, https://doi.org/10.1093/inthealth/ihac076
+
+**In preparation (preprints)**
+
+* **Simons D**, Gibb R, Bangura U, Sondufu D, Lamin J, Koninga J, Jimmy M, Dawson M, Lahai J, Ansumana R, Kock R, Watson-Jones D, Jones KE. Land use gradients drive spatial variation in Lassa fever host communities in Eastern Sierra Leone.
+
+* **Simons D**, Bangura U, Goyal R, Rushton B, Sondufu D, Lamin J, Koninga J, Jimmy M, Dawson M, Lahai J, Ansumana R, Kock R, Watson-Jones D, Jones KE. Contact networks of small mammals highlight potential transmission foci of Lassa mammarenavirus.
+
+**Invited talks and presentations**
+
+Chapter 2 has been presented at the Ecology and Evolution of Infectious Diseases Conference 2021.
+
+Chapter 3 has been presented at the Planetary Health Alliance conference 2022, the Ecology and Evolution of Infectious Diseases Conference 2022 and the Hospital for Tropical Diseases Grand Round.
+
+Chapter 4 has been presented at the Ecology and Evolution of Infectious Diseases Conference 2023, the Rodent-borne zoonoses workshop hosted by the Center for Infectious Disease Dynamics, Pennsylvania State University (2023) and the Development of transmissible vaccines workshop hosted by the University of Idaho.
+
+The work contained in this thesis will also be presented at the Ecology Society of America annual meeting (2023) and the American Society of Tropical Medicine and Hygiene annual meeting (2023).
+
+**Software**
+
+* **Exploring Rodent Trapping Studies in West Africa**: Developed to showcase the data consolidated in the Chapter 2 and the associated publication "Rodent trapping studies as an overlooked information source for understanding endemic and novel zoonotic spillover article". Link: https://diddrog11.shinyapps.io/scoping_review_app/

@@ -1,16 +1,4 @@
 ---
-title: "Development of a dynamic model for the emergence of Lassa fever in West Africa" 
-subtitle:
-  - "Draft Thesis June 2023"
-author:
-  - "David Simons"
-date:
-  - "June 2023"
-site: bookdown::bookdown_site
-output: 
-  bookdown::pdf_document2:
-    includes:
-      in_header: "preamble.tex"
 bibliography: ["references/references.bib"]
 csl: "harvard.csl"
 lof: true
@@ -22,7 +10,8 @@ always_allow_html: true
 ```{r knitr-options, include = FALSE}
 knitr::opts_chunk$set(echo = FALSE, dpi = 320, 
                       fig.width = 8, fig.height = 8,
-                      out.width = "80%", fig.align = 'center')
+                      out.width = "80%", fig.align = 'center',
+                      warning = FALSE, message = FALSE)
 ```
 
 ```{r include_packages, include = FALSE}
@@ -47,22 +36,6 @@ pkgs =
 pacman::p_load(pkgs, character.only = T)
 ```
 
-
-A dissertation submitted in partial fulfilment of the requirements for the degree of **Doctor of Philosophy**
-
-\newpage
-
-## Declaration {-}
-
-I certify that:   
-
-+ The thesis being submitted for examination is my own account of my own research;
-+ My research has been conducted ethically;
-+ Where I have drawn on the work, ideas and results of others this has been appropriately cited in the thesis;
-+ Where any collaboration has taken place with other researchers, I have clearly stated in the thesis my own personal contribution;
-+ The entirety of the work described in the thesis has been undertaken subsequent to my registration for the higher degree for which I am submitting for examination;
-+ The thesis submitted is within the required word limit as specified by the RVC.
-
 \newpage
 
 ## Abstract {-}
@@ -72,41 +45,23 @@ I certify that:
 
 \newpage
 
-## Impact statement {-}
+## Thesis outputs {-}
 
-```{r impact, child = "00-impactstatement.Rmd"}
+```{r output, child = "00-thesis-output.Rmd"}
 ```
+
+\newpage
+
+## Additional outputs {-}
+
+```{r output, child = "00-additional-output.Rmd"}
+```
+
+\newpage
 
 ## List of Acronyms {-}
 
 ```{r acronyms, child = "00-acronyms.Rmd"}
-```
-
-## Definitions used {-}
-
-```{r definitions, child = "00-definitions.Rmd"}
-```
-
-\newpage
-
-## Acknowledgements {-}
-
-```{r acknowledgements, child = "00-acknowledgements.Rmd"}
-```
-
-\newpage
-
-## Chapter overview and collaborators {-}
-
-```{r collaborators, child = "00-chapteroverview.Rmd"}
-```
-
-\newpage
-
-
-## Thesis outputs {-}
-
-```{r output, child = "00-output.Rmd"}
 ```
 
 \newpage

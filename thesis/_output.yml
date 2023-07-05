@@ -3,6 +3,8 @@ bookdown::pdf_book:
     toc_depth: 3
     includes:
       in_header: preamble.tex
+      before_body: title.tex
     latex_engine: xelatex
+    extra_dependencies: "subfig"
 urlcolor: blue
 number_sections: true

@@ -3,5 +3,26 @@
 \hypersetup{colorlinks=true,linkcolor=blue}
 \usepackage{chngcntr}
 \counterwithin{figure}{section}
+\counterwithin{table}{section}
 \usepackage{pdfpages}
 \usepackage{pdflscape}
+\usepackage{subfig}
+\usepackage{amsmath}
+\numberwithin{equation}{section}
+\usepackage{pdfpages} 
+\usepackage{placeins}
+\renewcommand{\topfraction}{.85}
+\renewcommand{\bottomfraction}{.7}
+\renewcommand{\textfraction}{.15}
+\renewcommand{\floatpagefraction}{.66}
+\setcounter{topnumber}{3}
+\setcounter{bottomnumber}{3}
+\setcounter{totalnumber}{4}
+\usepackage{float}
+\let\origfigure\figure
+\let\endorigfigure\endfigure
+\renewenvironment{figure}[1][2] {
+    \expandafter\origfigure\expandafter[H]
+} {
+    \endorigfigure
+}

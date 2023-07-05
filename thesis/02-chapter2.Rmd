@@ -6,10 +6,9 @@ devtools::install_github("yutannihilation/ggsflabel")
 if (!require("pacman")) install.packages("pacman")
 pkgs =
   c("here",
+    "flextable",
     "tidyverse",
     "ggsflabel",
-    "gt",
-    "gtsummary",
     "countrycode",
     "cowplot",
     "kable",
@@ -18,12 +17,14 @@ pkgs =
     "lubridate"
   )
 pacman::p_load(pkgs, character.only = T)
+
+
 ```
 
-## Preface
+## Contributions
 
 
-As detailed in the previous chapter, rodent-associated zoonoses produce significant global public health burdens, particularly in regions with resource constrained healthcare systems such as West Africa. Assessment of the risk of rodent-associated zoonoses outbreaks is typically limited to country-level risk maps (i.e., the WHO Lassa fever endemic region map), however, increasing research and public health effort is directed at producing higher spatial resolution risk maps for important disease such as Lassa fever, ... []. A better understanding of the spatial distribution of risk can aid the targetting of public health interventions. Current datasources used to generate these spatial risk models are taxanomically biased for both rodents and their pathogens and geographically biased []. The work wihtin this chapter was performed to quantify this bias across the region and to supplement currently available datasets. This research has been published in *PLOS Neglected Tropical Diseases* (Appendix A.1) [] and an associated data paper has been submitted to the journal X to facilitate incorporation into GBIF. Currently the associated data is available online in a Zenodo repository and a web based application () has been developed to support exploration and visualisation of this dataset [].
+I conceived of the study with Richard Kock, Deborah Watson-Jones and Kate E. Jones. I designed the search strategy, study protocol and data extraction tool. I conducted the search and compared returned records against the inclusion and exclusion criteria, extracting data from included studies. Lauren A. Attfield performed double-checking against inclusion and exclusion criteria and reviewed data extraction for accuracy. I performed statistical analysis, interpreted the model outputs and wrote the initial draft of the chapter. All co-authors contributed to and approved the final version of the chapter. 
 
 
 ## Abstract
@@ -60,7 +61,7 @@ To identify relevant literature, we conducted a search in Ovid MEDLINE, Web of S
 We included studies for further analysis if they met all of the following inclusion criteria; i) reported findings from trapping studies where the target was a small mammal, ii) described the type of trap used or the length of trapping activity or the location of the trapping activity, iii) included trapping activity from at least one West African country, iv) recorded the genus or species of trapped individuals, and v) were published in a peer-reviewed journal or as a pre-print on a digital platform or as a report by a credible organisation. We excluded studies if they met any of the following exclusion criteria: i) reported data that were duplicated from a previously included study, ii) no full text available, iii) not available in English. One author screened titles, abstracts and full texts against the inclusion and exclusion criteria. At each stage; title screening, abstract screening and full text review, a random subset (10%) was reviewed by a second author.
 
 
-We extracted data from eligible studies using a standardised tool that was piloted on 5 studies (**S1 Table**). Data was abstracted into a Google Sheets document, which was archived on completion of data extraction [@simons_diddrog11scoping_review_2022]. We identified the aims of included studies, for example, whether it was conducted as a survey of small mammal species or specifically to assess the risk of zoonotic disease spillover. we extracted data on study methodology, such as, the number of trap nights, the type of traps used and whether the study attempted to estimate abundance. For studies not reporting number of trap nights we used imputation based on the number of trapped individuals, stratified by the habitat type from which they were obtained. This was performed by multiplying the total number of trapped individuals within that study site by the median trap success for study sites with the same reported habitat type. Stratification was used as trap success varied importantly between traps placed in or around buildings (13%, IQR 6-24%) compared with other habitats (3%, IQR 1-9%).
+We extracted data from eligible studies using a standardised tool that was piloted on 5 studies. Data was abstracted into a Google Sheets document, which was archived on completion of data extraction [@simons_diddrog11scoping_review_2022]. We identified the aims of included studies, for example, whether it was conducted as a survey of small mammal species or specifically to assess the risk of zoonotic disease spillover. we extracted data on study methodology, such as, the number of trap nights, the type of traps used and whether the study attempted to estimate abundance. For studies not reporting number of trap nights we used imputation based on the number of trapped individuals, stratified by the habitat type from which they were obtained. This was performed by multiplying the total number of trapped individuals within that study site by the median trap success for study sites with the same reported habitat type. Stratification was used as trap success varied importantly between traps placed in or around buildings (13%, IQR 6-24%) compared with other habitats (3%, IQR 1-9%).
 
 
 We also recorded how species were identified within a study and species identification was assumed to be accurate. The number of individuals of these species or genera was extracted with taxonomic names mapped to GBIF taxonomy [@gbif_the_global_biodiversity_information_facility_global_2021]. We expanded species detection and non-detection records by explicitly specifying non-detection at a trap site if a species was recorded as detected at other trapping locations within the same study.
@@ -75,7 +76,7 @@ For included studies with available data we extracted information on all microor
 ### Description of included studies  
 
 
-Out of 4,692 relevant citations, we identified 127 rodent trapping studies (**S2 Table**). Of these, 55 (43%) were conducted to investigate rodent-borne zoonoses, with the remaining 77 (57%) conducted for ecological purposes (i.e., population dynamics, distribution) in rodents, including those known to be hosts of zoonotic pathogens. The earliest trapping studies were conducted in 1964, with a trend of increasing numbers of studies being performed annually since 2000. The median year of first trapping activity was 2007, with the median length of trapping activity being 1 year (IQR 0-2 years) (**S1 Fig.**). Studies were conducted in 14 West African countries, with no studies reported from The Gambia or Togo, at 1,611 trap sites (Figure \@ref(fig:location-trapping-sites) A.). 
+Out of 4,692 relevant citations, we identified 127 rodent trapping studies. Of these, 55 (43%) were conducted to investigate rodent-borne zoonoses, with the remaining 77 (57%) conducted for ecological purposes (i.e., population dynamics, distribution) in rodents, including those known to be hosts of zoonotic pathogens. The earliest trapping studies were conducted in 1964, with a trend of increasing numbers of studies being performed annually since 2000. The median year of first trapping activity was 2007, with the median length of trapping activity being 1 year (IQR 0-2 years). Studies were conducted in 14 West African countries, with no studies reported from The Gambia or Togo, at 1,611 trap sites (Figure \@ref(fig:location-trapping-sites) A.). 
 
 
 Included studies explicitly reported on 601,184 trap nights, a further 341,445 trap nights were imputed from studies with no recording of trapping effort based on trap success, leading to an estimate of 942,629 trap nights (Figure \@ref(fig:location-trapping-sites) B.). A minority of studies trapped at a single study site (30, 24%), with 46 (36%) trapping at between two and five sites, the remaining 51 studies (40%) trapped at between six and 93 study sites.
@@ -84,42 +85,50 @@ Included studies explicitly reported on 601,184 trap nights, a further 341,445 t
 In total 76,275 small mammals were trapped with 65,628 (90%) identified to species level and 7,439 (10%) identified to genus, with the remaining classified to higher taxonomic level. The majority of the 132 identified species were Rodentia (102, 78%), of which Muridae (73, 72%) were the most common family. Soricomorpha were the second most identified order of small mammals (28, 21%). 57 studies tested for 32 microorganisms, defined to species or genus level that are known or potential pathogens. Most studies tested for a single microorganism (48, 84%). The most frequently assayed microorganisms were *Lassa mammarenavirus* or Arenaviridae (21, 37%), *Borrelia sp.* (9, 16%), *Bartonella sp.* (4, 7%) and *Toxoplasma gondii* (4, 7%). Most studies used Polymerase Chain Reaction (PCR) to detect microorganisms (37, 65%), with fewer studies using serology-based tests (11, 19%) or histological or direct visualisation assays (11, 21%). From 32,920 individual rodent samples we produced 351 host-pathogen pairs. With *Rattus rattus*, *Mus musculus*, *Mastomys erythroleucus*, *Mastomys natalensis* and *Arvicanthis niloticus* being assayed for at least 18 microorganisms.
 
 
-```{r location-trapping-sites, out.width = "100%", fig.cap = "**Rodent trapping sites across West Africa.** A) The location of trapping sites in West Africa. No sites were recorded from Togo or The Gambia. Heterogeneity is observed in the coverage of each country by trap night (colour) and location of sites. For example, Senegal, Mali and Sierra Leone have generally good coverage compared to Guinea and Burkina Faso. B) Histogram of trap nights performed at each study site, a median of 248 trap nights (IQR 116-500) was performed at each site. A labelled map of the study region is attached in S5 Fig. Basemap shapefile obtained from GADM 4.0.4 (GADM, 2022)"}
+```{r location-trapping-sites, out.width = "100%", fig.scap = '(ref:short-7)', fig.cap = "Rodent trapping sites across West Africa. A) The location of trapping sites in West Africa. No sites were recorded from Togo or The Gambia. Heterogeneity is observed in the coverage of each country by trap night (colour) and location of sites. For example, Senegal, Mali and Sierra Leone have generally good coverage compared to Guinea and Burkina Faso. B) Histogram of trap nights performed at each study site, a median of 248 trap nights (IQR 116-500) was performed at each site. Basemap shapefile obtained from GADM 4.0.4 (GADM, 2022)"}
 
 knitr::include_graphics(path = here("thesis", "chapter_2_files", "Figure_1_updated.png"))
 
 ```
 
+(ref:short-7) Locations of rodent trapping sites in West Africa and the number of trap nights sampled
 
 ### What is the extent of spatial bias in the rodent trapping data?  
 
 
-
-To investigate the extent of spatial bias in the rodent trapping data, we calculated trap-night (TN) density within each West African level-2 administrative region. The `sf` package in the R statistical language (R version 4.1.2) was used to manipulate geographic data, administrative boundaries were obtained from GADM 4.0.4 [@pebesma_simple_2018; @r_core_team_r_2020; @database_of_global_administrative_areas_gadm_2022]. Trap-night density ($\text{TN}_\text{density}$) was calculated by dividing the number of trap nights by the area of a level-2 administrative area ($\text{R}_\text{area}$). For studies not reporting trap nights imputation was used as previously described. Human population density was obtained for the closest year (2005) to the median year of trapping (2007) from Socioeconomic Data and Applications Center (SEDAC) gridded population of the world v4 at ~ 1km resolution ($\text{P}_\text{density}$) [@socioeconomic_data_and_applications_center_gridded_2021]. Median population density was then calculated for each level-2 administrative region. Land cover classification was obtained from the Copernicus climate change service at ~300m resolution [@european_space_agency_climate_change_initiative_land_2022]. The proportion of cropland, shrubland, tree cover (${\psi}_\text{tree}$) and urban land cover (${\psi}_\text{urban}$) within a level-2 administrative region in 2005 was calculated.
-
-
-We investigated the association between relative trapping effort, measured as TN density, and the proportion of urban, cropland, tree cover and human population density using Generalised Additive Models (GAM) incorporating a spatial interaction term (longitude and latitude, *X* and *Y*) [@pedersen_hierarchical_2019]. Spatial aggregation of relative trapping effort was modelled using an exponential dispersion distribution (Tweedie) [@kendal_spatial_2002]. The models were constructed in the `mgcv` package [@wood_generalized_2017]. Selection of the most parsimonious model was based on Deviance explained and the Akaike Information Criterion (AIC) for each model (Equations 1-5 below). Relative trapping effort was then predicted across West Africa using these covariates. We performed two sensitivity analyses, first, by removing sites with imputed trapping effort, second, by associating trap locations to ~1km pixels rather than level-2 administrative areas. 
+To investigate the extent of spatial bias in the rodent trapping data, we calculated trap-night (TN) density within each West African level-2 administrative region. The `sf` package in the R statistical language (R version 4.1.2) was used to manipulate geographic data, administrative boundaries were obtained from GADM 4.0.4 [@pebesma_simple_2018; @r_core_team_r_2021; @database_of_global_administrative_areas_gadm_2022]. Trap-night density ($\text{TN}_\text{density}$) was calculated by dividing the number of trap nights by the area of a level-2 administrative area ($\text{R}_\text{area}$). For studies not reporting trap nights imputation was used as previously described. Human population density was obtained for the closest year (2005) to the median year of trapping (2007) from Socioeconomic Data and Applications Center (SEDAC) gridded population of the world v4 at ~ 1km resolution ($\text{P}_\text{density}$) [@socioeconomic_data_and_applications_center_gridded_2021]. Median population density was then calculated for each level-2 administrative region. Land cover classification was obtained from the Copernicus climate change service at ~300m resolution [@european_space_agency_climate_change_initiative_land_2022]. The proportion of cropland, shrubland, tree cover (${\psi}_\text{tree}$) and urban land cover (${\psi}_\text{urban}$) within a level-2 administrative region in 2005 was calculated.
 
 
-$$
-\text{TN}_\text{density} \sim \text{Tweedie}(X * Y) \tag{1}
-$$
+We investigated the association between relative trapping effort, measured as TN density, and the proportion of urban, cropland, tree cover and human population density using Generalised Additive Models (GAM) incorporating a spatial interaction term (longitude and latitude, *X* and *Y*) [@pedersen_hierarchical_2019]. Spatial aggregation of relative trapping effort was modelled using an exponential dispersion distribution (Tweedie) [@kendal_spatial_2002]. The models were constructed in the `mgcv` package [@wood_generalized_2017]. Selection of the most parsimonious model was based on Deviance explained and the Akaike Information Criterion (AIC) for each model (Equations \@ref(eq:2-1)-\@ref(eq:2-5) below). Relative trapping effort was then predicted across West Africa using these covariates. We performed two sensitivity analyses, first, by removing sites with imputed trapping effort, second, by associating trap locations to ~1km pixels rather than level-2 administrative areas. 
 
-$$
-\text{TN}_\text{density} \sim \text{Tweedie}(\text{P}_\text{density} + (X * Y)) \tag{2}
-$$
+\begin{equation}
+\text{TN}_\text{density} \sim \text{Tweedie}(X * Y)
+(\#eq:2-1)
+\end{equation}
 
-$$
-\text{TN}_\text{density} \sim \text{Tweedie}(\text{P}_\text{density} + \text{R}_\text{area} + (X * Y)) \tag{3}
-$$
 
-$$
-\text{TN}_\text{density} \sim \text{Tweedie}(\text{P}_\text{density} + {\psi}_\text{tree} + {\psi}_\text{urban} + (X * Y)) \tag{4}
-$$
+\begin{equation}
+\text{TN}_\text{density} \sim \text{Tweedie}(\text{P}_\text{density} + (X * Y))
+(\#eq:2-2)
+\end{equation}
 
-$$
-\text{TN}_\text{density} \sim \text{Tweedie}(\text{P}_\text{density} + \text{R}_\text{area} + {\psi}_\text{urban} + (X * Y)) \tag{5}
-$$
+
+\begin{equation}
+\text{TN}_\text{density} \sim \text{Tweedie}(\text{P}_\text{density} + \text{R}_\text{area} + (X * Y))
+(\#eq:2-3)
+\end{equation}
+
+
+\begin{equation}
+\text{TN}_\text{density} \sim \text{Tweedie}(\text{P}_\text{density} + {\psi}_\text{tree} + {\psi}_\text{urban} + (X * Y))
+(\#eq:2-4)
+\end{equation}
+
+
+\begin{equation}
+\text{TN}_\text{density} \sim \text{Tweedie}(\text{P}_\text{density} + \text{R}_\text{area} + {\psi}_\text{urban} + (X * Y))
+(\#eq:2-5)
+\end{equation}
 
 
 ### What is the difference in rodent host distributions between curated datasets and rodent trapping studies?  
@@ -137,7 +146,7 @@ For each of the seven species, we first calculated the area of the IUCN expected
 To examine the usefulness of rodent trapping studies as an additional source of data we compared identified host-pathogen associations from trapping studies investigating zoonoses with a consolidated zoonoses dataset (CLOVER) [@gibb_mammal_2021; @gibb_viralemergenceclover_2021]. CLOVER is a synthesis of four host-pathogen datasets (GMPD2, EID2, HP3 and [@shaw_phylogenetic_2020]) and was released in 2021, it contains more than 25,000 host-pathogen associations for Bacteria, Viruses, Helminth, Protozoa and Fungi. We compared the host-pathogen networks across the two datasets, where the CLOVER data was subset for host species present in the rodent trapping data.
 
 
-For host-pathogen pairs with assay results consistent with acute or prior infection, we calculated the proportion positive and identify those absent from CLOVER. We expand the analysis to host-pathogen pairs with pathogens identified to genus level in **S4 Fig**.
+For host-pathogen pairs with assay results consistent with acute or prior infection, we calculated the proportion positive and identify those absent from CLOVER.
 
 
 ### What is the spatial extent of pathogen testing within host ranges?  
@@ -155,109 +164,282 @@ Data and code to reproduce all analyses are available in an archived Zenodo repo
 ### What is the extent of spatial bias in the rodent trapping data?  
 
 
-We found non-random, spatial clustering of rodent trapping locations across the study region, suggestive of underlying bias in the sampling or rodents across West Africa. Trap sites were situated in 256 of 1,450 (17.6%) level-2 administrative regions in 14 West African nations. The regions with the highest TN density included the capitals and large cities of Niger (Niamey), Nigeria (Ibadan), Ghana (Accra), Senegal (Dakar), Ghana (Accra) and Benin (Cotonou). Outside of these cities, regions in, Northern Senegal, Southern Guinea, Edo and Ogun States in Nigeria and Eastern Sierra Leone had the greatest TN density (Figure \@ref(fig:location-trapping-sites) A)).
+We found non-random, spatial clustering of rodent trapping locations across the study region, suggestive of underlying bias in the sampling or rodents across West Africa. Trap sites were situated in 256 of 1,450 (17.6%) level-2 administrative regions in 14 West African nations. The regions with the highest TN density included the capitals and large cities of Niger (Niamey), Nigeria (Ibadan), Ghana (Accra), Senegal (Dakar), Ghana (Accra) and Benin (Cotonou). Outside of these cities, regions in, Northern Senegal, Southern Guinea, Edo and Ogun States in Nigeria and Eastern Sierra Leone had the greatest TN density (Figure \@ref(fig:location-trapping-sites) A).
 
 
-The most parsimonious GAM model (adjusted R2 = 0.3, Deviance explained = 48.7%) reported significant non-linear associations between relative trapping effort bias and human population densities (Effective Degrees of Freedom (EDF) = 7.13, *p* < 0.001), proportion of urban landscape (EDF = 1.92, *p* < 0.002) and region area (EDF = 3.63, *p* < 0.001), alongside significant spatial associations (EDF = 27.3, *p* < 0.001) (Supplementary table 3.1). Greatest trapping effort bias peaked at population densities between 5,000-7,500 individuals/km^2^, proportion of urban landscape >10% and region areas < 1,000km2. Increased trapping effort was found in North West Senegal, North and East Sierra Leone, Central Guinea and coastal regions of Nigeria, Benin and Ghana; in contrast South East Nigeria, Northern Nigeria and Burkina Faso had an observed bias towards a reduced trapping effort (Figure \@ref(fig:trapping-bias)). In sensitivity analysis, excluding sites with imputed trap nights, Mauritania, Northern Senegal and Sierra Leone remained as regions trapped at higher rates, with Nigeria being trapped at lower than expected rates (**S3A Fig**). In pixel-based sensitivity analysis spatial coverage was reduced with similar patterns of bias observed to the primary analysis (**S3B Fig**).
+The most parsimonious GAM model (adjusted R^2^ = 0.3, Deviance explained = 48.7%) reported significant non-linear associations between relative trapping effort bias and human population densities (Effective Degrees of Freedom (EDF) = 7.13, *p* < 0.001), proportion of urban landscape (EDF = 1.92, *p* < 0.002) and region area (EDF = 3.63, *p* < 0.001), alongside significant spatial associations (EDF = 27.3, *p* < 0.001). Greatest trapping effort bias peaked at population densities between 5,000-7,500 individuals/km^2^, proportion of urban landscape >10% and region areas < 1,000km^2^. Increased trapping effort was found in North West Senegal, North and East Sierra Leone, Central Guinea and coastal regions of Nigeria, Benin and Ghana; in contrast South East Nigeria, Northern Nigeria and Burkina Faso had an observed bias towards a reduced trapping effort (Figure \@ref(fig:trapping-bias)). In sensitivity analysis, excluding sites with imputed trap nights, Mauritania, Northern Senegal and Sierra Leone remained as regions trapped at higher rates, with Nigeria being trapped at lower than expected rates. In pixel-based sensitivity analysis spatial coverage was reduced with similar patterns of bias observed to the primary analysis.
 
 
-```{r trapping-bias, out.width = "100%", fig.cap = "**Relative trapping effort bias across West Africa.** Modelled relative trapping effort bias adjusted for human population density, proportion urban land cover and area of the administrative region. Brown regions represent areas with a bias towards increased trapping effort (e.g., North West Senegal), Green regions represent areas with a bias towards reduced trapping effort (e.g., Northern Nigeria). Basemap shapefile obtained from GADM 4.0.4 (GADM, 2022)"}
+```{r trapping-bias, out.width = "100%", fig.scap = '(ref:short-8)', fig.cap = "Relative rodent trapping effort bias across West Africa. Modelled relative trapping effort bias adjusted for human population density, proportion urban land cover and area of the administrative region. Brown regions represent areas with a bias towards increased trapping effort (e.g., North West Senegal), Green regions represent areas with a bias towards reduced trapping effort (e.g., Northern Nigeria). Basemap shapefile obtained from GADM 4.0.4 (GADM, 2022)"}
 
 knitr::include_graphics(path = here("thesis", "chapter_2_files", "Figure_2_updated.png"))
 
 ```
 
+(ref:short-8) Relative rodent trapping effort bias across West Africa.
 
 ### What is the difference in rodent host distributions between curated datasets and rodent trapping studies?  
 
 
-We found that for six of the seven most frequently detected rodent species (*M. natalensis*, *R. rattus*, *M. erythroleucus*, *M. musculus*, *A. niloticus* and *P. daltoni*), trapping studies provided more distinct locations of detection and non-detection than were available from GBIF. For the endemic rodent species (*M. natalensis*, *M. erythroleucus*, *A. niloticus*, *P. daltoni* and *C. gambianus*) IUCN ranges had good concordance to both trapping studies and GBIF, however, individuals of *A. niloticus* and *P. daltoni* were detected outside of IUCN ranges. In contrast, the non-native species *R. rattus* and *M. musculus* were detected across much greater ranges than were expected from IUCN distributions. Comparisons for *M. natalensis*, *R. rattus* and *M. musculus* are shown in Figure \@ref(fig:rodent-locations), the remaining species are shown in **S4 Fig**.
+We found that for six of the seven most frequently detected rodent species (*M. natalensis*, *R. rattus*, *M. erythroleucus*, *M. musculus*, *A. niloticus* and *P. daltoni*), trapping studies provided more distinct locations of detection and non-detection than were available from GBIF. For the endemic rodent species (*M. natalensis*, *M. erythroleucus*, *A. niloticus*, *P. daltoni* and *C. gambianus*) IUCN ranges had good concordance to both trapping studies and GBIF, however, individuals of *A. niloticus* and *P. daltoni* were detected outside of IUCN ranges. In contrast, the non-native species *R. rattus* and *M. musculus* were detected across much greater ranges than were expected from IUCN distributions. Comparisons for *M. natalensis*, *R. rattus* and *M. musculus* are shown in Figure \@ref(fig:rodent-locations).
 
 
-```{r rodent-locations, out.width = "80%", fig.cap = "**Locations of detection and non-detection sites for rodent species in West Africa.** Each row corresponds to a single rodent species. L) Presence recorded in GBIF (black points) overlaid on IUCN species range (red-shaded area). R) Detection (purple) and non-detection (orange) from rodent trapping studies overlaid on IUCN species ranges. *M. musculus* has no IUCN West African range. Basemap shapefile obtained from GADM 4.0.4 (GADM, 2022)"}
+```{r rodent-locations, out.width = "80%", fig.scap = '(ref:short-9)', fig.cap = '(ref:long-rodents)'}
 
 knitr::include_graphics(path = here("thesis", "chapter_2_files", "Figure_3_updated.png"))
 
 ```
 
+(ref:short-9) Locations of detection and non-detection sites for rodent species in West Africa.
+
+(ref:long-rodents) Locations of detection and non-detection sites for rodent species in West Africa. Each row corresponds to a single rodent species. L) Presence recorded in GBIF (black points) overlaid on IUCN species range (red-shaded area). R) Detection (purple) and non-detection (orange) from rodent trapping studies overlaid on IUCN species ranges. *M. musculus* has no IUCN West African range. Basemap shapefile obtained from GADM 4.0.4 (GADM, 2022)
 
 Comparison of the proportion of a species IUCN range in which detections and non-detections occurred showed that sampling locations of these seven species within GBIF covered between 0.09-0.26% of expected ranges (Table \@ref(tab:comparison-range)), compared to 0.03-0.24% for rodent trapping data. Detections occurred outside IUCN ranges for all species in both the GBIF and rodent trapping data, most noticeably for *A. niloticus* and *R. rattus*.Combining GBIF and rodent trapping data increased the sampled area by a mean of 1.6 times compared to the GBIF area alone, demonstrating limited overlap between the locations providing information to either dataset. Non-detection of a species occurred across species ranges (mean = 0.11%, SD = 0.03%), suggestive of spatial heterogeneity of presence within IUCN ranges.
 
+\newpage
 
 ```{r comparison-range}
+#| tab.id: comparison-range
+#| tab.cap: Comparison of IUCN, GBIF and rodent trapping ranges for 7 rodent species.
 
-read_rds(here("thesis", "chapter_2_files", "table_1_pixel.rds")) %>%
-  kable(col.names = c("Species", "Range*", "Area inside range* (% of IUCN)",
-                      "Area outside range*", "Detection area inside range*", "Area outside range* (% of IUCN)",
-                      "Non-detection area inside range* (% of IUCN)", "Detection area inside range* (% of IUCN)"),
-        format.args = list(big.mark = ",", scientific = FALSE),
-        caption = "Comparison of IUCN, GBIF and rodent trapping ranges for the 7 rodent species trapped at the most sites.",
-        format = "latex") %>%
-  add_header_above(c(" " = 1, "IUCN" = 1, "GBIF" = 2, "Trapping studies" = 3, "Combined" = 1)) %>%
-  add_footnote(c("Mus musculus does not have an IUCN range in West Africa",
-                 "* Area is reported in 1,000"),
-               escape = FALSE) %>%
-  column_spec(1, italic = TRUE) %>%
-  kable_styling(latex_options = "scale_down") %>%
-  kableExtra::landscape()
+ft_1 <- read_rds(here("thesis", "chapter_2_files", "table_1_pixel.rds")) %>%
+  flextable()
+
+ft_1 %>%
+  flextable::compose(part = "header", j = "species", value = as_paragraph("Species")) %>%
+  flextable::italic(part = "body", j = "species") %>%
+  flextable::compose(part = "header", j = "range_area", value = as_paragraph("Range")) %>%
+  flextable::compose(part = "header", j = "gbif_detection_range", value = as_paragraph("Area inside range")) %>%
+  flextable::compose(part = "header", j = "gbif_outside_range", value = as_paragraph("Area outside range")) %>%
+  flextable::compose(part = "header", j = "detection_range", value = as_paragraph("Area inside range")) %>%
+  flextable::compose(part = "header", j = "trapping_outside_range", value = as_paragraph("Area outside range")) %>%
+  flextable::compose(part = "header", j = "non_detection_range", value = as_paragraph("Non-detection area inside range")) %>%
+  flextable::compose(part = "header", j = "combined_range", value = as_paragraph("Detection area inside range")) %>%
+  add_header_row(values = c(" ", "IUCN", "GBIF", "Trapping studies", "Combined"), colwidths = c(1, 1, 2, 3, 1)) %>%
+  flextable::footnote(i = 2, j = 2:8, value = as_paragraph(" area is reported in 1,000km", as_sup("2")), ref_symbols = "a", part = "header") %>%
+  flextable::footnote(i = 2, j = c(3, 5, 7, 8), value = as_paragraph(" (%) refer to percentage of IUCN range"), ref_symbols = "b", part = "header") %>%
+  add_footer_lines(value = as_paragraph("n.b. ", as_i("Mus musculus"), " does not have an IUCN range in West Africa")) %>%
+  flextable::align(part = "header", align = "center") %>%
+  flextable::align(j = 2:8, align = "center") %>%
+  fontsize(size = 8) %>%
+  fontsize(i = 1:2, size = 10, part = "header") %>%
+  fontsize(size = 8, part = "footer")
+  
 
 ```
-
+\FloatBarrier
 
 ### Are rodent trapping derived host-pathogen associations present in a consolidated zoonoses dataset?  
 
 
-We found potentially important differences between the host-pathogen networks produced from included rodent trapping studies and the consolidated CLOVER dataset. When limited to taxonomic classification of both pathogen and host to species level we identified 25 host-pathogen pairs among 14 rodent and 6 pathogen species (Figure \@ref(fig:h-p-acute) and Fig \@ref(fig:h-p-prior)). We identified negative associations (non-detection through specific assays) for 45 host-pathogen pairs among 35 rodent and 7 pathogen species. CLOVER contained 10 (40%) of our identified host-pathogen associations, the remaining 15 (60%) were not found to be present in CLOVER, additionally CLOVER recorded positive associations for 4 (9%) of the negative associations produced from the rodent trapping data.
+We found potentially important differences between the host-pathogen networks produced from included rodent trapping studies and the consolidated CLOVER dataset. When limited to taxonomic classification of both pathogen and host to species level we identified 25 host-pathogen pairs among 14 rodent and 6 pathogen species (Figure \@ref(fig:h-p-acute) and Figure \@ref(fig:h-p-prior)). We identified negative associations (non-detection through specific assays) for 45 host-pathogen pairs among 35 rodent and 7 pathogen species. CLOVER contained 10 (40%) of our identified host-pathogen associations, the remaining 15 (60%) were not found to be present in CLOVER, additionally CLOVER recorded positive associations for 4 (9%) of the negative associations produced from the rodent trapping data.
 
 
-```{r h-p-acute, out.width = "100%", fig.cap = "**Host-Pathogen associations detected through acute infection.** Identified species level host-pathogen associations through detection of acute infection (i.e. PCR, culture). Percentages and colour relate to the proportion of all assays that were positive, the number of individuals tested for the pathogen is labelled N. Associations with a black border are present in the CLOVER dataset."}
+```{r h-p-acute, out.width = "100%", fig.scap = '(ref:short-10)', fig.cap = "Host-Pathogen associations detected through acute infection. Identified species level host-pathogen associations through detection of acute infection (i.e. PCR, culture). Percentages and colour relate to the proportion of all assays that were positive, the number of individuals tested for the pathogen is labelled N. Associations with a black border are present in the CLOVER dataset."}
 
 knitr::include_graphics(path = here("thesis", "chapter_2_files", "Figure_4_updated.png"))
 
 ```
 
+(ref:short-10) Host-Pathogen associations detected through acute infection.
 
-```{r h-p-prior, out.width = "100%", fig.cap = "**Host-Pathogen associations detected through evidence of prior infection.** Identified species level host-pathogen associations through serological assays (i.e. ELISA). Percentages and colour relate to the proportion of all assays that were positive, the number of individuals tested for the pathogen is labelled N. Associations with a black border are present in the CLOVER dataset."}
+```{r h-p-prior, out.width = "100%", fig.scap = '(ref:short-11)', fig.cap = "Host-Pathogen associations detected through evidence of prior infection. Identified species level host-pathogen associations through serological assays (i.e. ELISA). Percentages and colour relate to the proportion of all assays that were positive, the number of individuals tested for the pathogen is labelled N. Associations with a black border are present in the CLOVER dataset."}
 
 knitr::include_graphics(path = here("thesis", "chapter_2_files", "Figure_5_updated.png"))
 
 ```
 
+(ref:short-11) Host-Pathogen associations detected through evidence of prior infection.
 
 CLOVER included an additional 492 host-pathogen associations we do not observe in rodent trapping studies. The majority of these 392 (80%) pairs are from species with global distributions (*M. musculus*, *R. rattus* and *R. norvegicus*), or from those with wide ranging distributions in sub-Saharan Africa (38, 8%) (i.e., *A. niloticus*, *M. natalensis* and *Atelerix albiventris*).
 
 
-For pathogens not identified to species level (i.e. family or higher taxa only), we identified 148 host-pathogen pairs among 32 rodent species and 25 pathogen families (Supplementary Fig 4.), with CLOVER containing 66 (45%) of these associations.
+For pathogens not identified to species level (i.e., family or higher taxa only), we identified 148 host-pathogen pairs among 32 rodent species and 25 pathogen families, with CLOVER containing 66 (45%) of these associations.
 
 
 Rodent trapping studies identified additional rodent host species for six pathogens; *Lassa mammarenavirus* (5), *Toxoplasma gondii* (4), Usutu virus (2), *Coxiella burnetii* (2), *Escherichia coli* and *Klebsiella pneumoniae* (both 1), that were not present in this consolidated host-pathogen association dataset.
 
+
 ### What is the spatial extent of pathogen testing within a host’s range?  
 
 
-
-The five most widely sampled pathogen species/families in included studies were Arenaviridae, Borreliaceae, *Lassa mammarenavirus*, Leptospiraceae and *Toxoplasma gondii* (Table \@ref(tab:micro-sampling-range)). Assays to identify Arenaviridae infection were performed in 44 rodent species with evidence of viral infection in 15 species. *Lassa mammarenavirus* was specifically tested for in 43 species with 10 showing evidence of viral infection. The most commonly infected species for both Arenaviridae, generally, and *Lassa mammarenavirus* specifically, were *M. natalensis* and *M. erythroleucus*. These species were assayed across between 10-20% of their trapped area, equating to ~0.02% of their IUCN range (Table \@ref(tab:micro-sampling-range)).
+The five most widely sampled pathogen species/families in included studies were Arenaviridae, Borreliaceae, *Lassa mammarenavirus*, Leptospiraceae and *Toxoplasma gondii* (Table \@ref(tab:arenaviridae-sampling-range) - Table \@ref(tab:toxo-sampling-range)). Assays to identify Arenaviridae infection were performed in 44 rodent species with evidence of viral infection in 15 species. *Lassa mammarenavirus* was specifically tested for in 43 species with 10 showing evidence of viral infection. The most commonly infected species for both Arenaviridae, generally, and *Lassa mammarenavirus* specifically, were *M. natalensis* and *M. erythroleucus*. These species were assayed across between 10-20% of their trapped area, equating to ~0.02% of their IUCN range.
 
 
 Infection with species of Borreliaceae was assessed in 42 species, with evidence of infection in 17 rodent species. The greatest rates of infection were among *A. niloticus* (16%), *Mastomys huberti* (11%) and *M. erythroleucus* (9%). Testing was more widespread than for Arenviruses with coverage between 15-34% of their trapped area, however, this remains a small area in relation to their IUCN ranges (<0.05%). Leptospiraceae and *Toxoplasma gondii* was assessed in 8 species, with evidence of infection in 5 and 6 rodent species respectively. The spatial coverage of testing for these pathogens was more limited within IUCN host species ranges (~0.01%). 
 
-```{r micro-sampling-range}
+\newpage
 
-read_rds(here("thesis", "chapter_2_files", "table_2_pixel.rds")) %>%
-  mutate(pathogen_name = "",
-         species_name = str_to_sentence(species_name)) %>%
-  kable(col.names = c("Pathogen", "Species", "Tested",
-                      "Positive", "Pathogen testing area*", "Pathogen testing area within trapped area (%)",
-                      "Pathogen testing area within IUCN range (%)"),
-        caption = "Comparison of pathogen sampling ranges for the 5 most widely sampled pathogens and the 5 most sampled rodent host species.",
-        format.args = list(big.mark = ",", scientific = FALSE, digits = 2),
-        format = "latex") %>%
-  pack_rows(index = c("Arenaviridae sp." = 5, "Borrelia sp." = 5, "Lassa mammarenavirus" = 5, "Leptospira sp." = 5, "Toxoplasma gondii" = 5)) %>%
-  add_footnote(c("Mus musculus does not have an IUCN range in West Africa",
-                 "* Area is reported in 1,000"),
-               escape = FALSE) %>%
-  column_spec(2, italic = TRUE) %>%
-  kable_styling(latex_options = "scale_down")
+```{r arenaviridae-sampling-range}
+#| tab.id: arenaviridae-sampling-range
+#| tab.cap: Arenaviridae sp. sampling among small-mammal host species.
+
+path_sampling <- read_rds(here("thesis", "chapter_2_files", "table_2_pixel.rds")) %>%
+  mutate(species_name = str_to_sentence(species_name),
+         positive = paste0(positive, " (", round(positive/tested, 2) * 100, "%)"),
+         area_tested = round(area_tested, 2),
+         perc_trapped = paste0(perc_trapped, "%"),
+         perc_iucn = case_when(perc_iucn < 0.01 ~ paste0("<0.01%"),
+                               is.na(perc_iucn) ~ "*",
+                               TRUE ~ paste0(perc_iucn, "%"))) %>%
+  ungroup()
+
+
+arena_sampling <- path_sampling %>%
+  filter(pathogen_name == "Arenaviridae sp.") %>%
+  select(-pathogen_name) %>%
+  flextable()
+
+arena_sampling %>%
+  set_header_labels(values = list(species_name = "Species",
+                                  tested = "Tested",
+                                  positive = "Positive",
+                                  area_tested = "Pathogen testing area",
+                                  perc_trapped = "% area within trapped",
+                                  perc_iucn = "% area within IUCN")) %>%
+  flextable::italic(j = "species_name", italic = TRUE, part = "body") %>%
+  flextable::align(part = "all", align = "center") %>%
+  flextable::footnote(i = 1, j = 4, value = as_paragraph(" area is reported in 1,000km", as_sup("2")), ref_symbols = "a", part = "header") %>%
+  flextable::align(part = "header", align = "center") %>%
+  flextable::align(j = 1:6, align = "right") %>%
+  fontsize(size = 5) %>%
+  fontsize(i = 1, size = 6, part = "header") %>%
+  fontsize(size = 5, part = "footer") %>%
+  flextable::padding(padding.top = 0, padding.bottom = 0, part = "all") %>%
+  flextable::height(height = 0.78, part = "body") %>%
+  flextable::height(height = 0.9, part = "header") %>%
+  flextable::width(width = c(1.1, 0.6, 0.6, 0.6, 0.6, 0.6))
+
+```
+
+
+```{r borrelia-sampling-range}
+#| tab.id: borrelia-sampling-range
+#| tab.cap: Borrelia sp. sampling among small-mammal host species.
+
+borrelia_sampling <- path_sampling %>%
+  filter(pathogen_name == "Borrelia sp.") %>%
+  select(-pathogen_name) %>%
+  flextable()
+
+
+borrelia_sampling %>%
+  set_header_labels(values = list(species_name = "Species",
+                                  tested = "Tested",
+                                  positive = "Positive",
+                                  area_tested = "Pathogen testing area",
+                                  perc_trapped = "% area within trapped",
+                                  perc_iucn = "% area within IUCN")) %>%
+  flextable::italic(j = "species_name", italic = TRUE, part = "body") %>%
+  flextable::align(part = "all", align = "center") %>%
+  flextable::footnote(i = 1, j = 4, value = as_paragraph(" area is reported in 1,000km", as_sup("2")), ref_symbols = "a", part = "header") %>%
+  flextable::align(part = "header", align = "center") %>%
+  flextable::align(j = 1:6, align = "right") %>%
+  fontsize(size = 5) %>%
+  fontsize(i = 1, size = 6, part = "header") %>%
+  fontsize(size = 5, part = "footer") %>%
+  flextable::padding(padding.top = 0, padding.bottom = 0, part = "all") %>%
+  flextable::height(height = 0.78, part = "body") %>%
+  flextable::height(height = 0.9, part = "header") %>%
+  flextable::width(width = c(1.1, 0.6, 0.6, 0.6, 0.6, 0.6))
+
+```
+\newpage
+
+```{r lassa-sampling-range}
+#| tab.id: lassa-sampling-range
+#| tab.cap: Lassa mammarenavirus sampling among small-mammal host species.
+
+lassa_sampling <- path_sampling %>%
+  filter(pathogen_name == "Lassa mammarenavirus") %>%
+  select(-pathogen_name) %>%
+  flextable()
+
+
+lassa_sampling %>%
+  set_header_labels(values = list(species_name = "Species",
+                                  tested = "Tested",
+                                  positive = "Positive",
+                                  area_tested = "Pathogen testing area",
+                                  perc_trapped = "% area within trapped",
+                                  perc_iucn = "% area within IUCN")) %>%
+  flextable::italic(j = "species_name", italic = TRUE, part = "body") %>%
+  flextable::align(part = "all", align = "center") %>%
+  flextable::footnote(i = 1, j = 4, value = as_paragraph(" area is reported in 1,000km", as_sup("2")), ref_symbols = "a", part = "header") %>%
+  flextable::align(part = "header", align = "center") %>%
+  flextable::align(j = 1:6, align = "right") %>%
+  fontsize(size = 5) %>%
+  fontsize(i = 1, size = 6, part = "header") %>%
+  fontsize(size = 5, part = "footer") %>%
+  flextable::padding(padding.top = 0, padding.bottom = 0, part = "all") %>%
+  flextable::height(height = 0.78, part = "body") %>%
+  flextable::height(height = 0.9, part = "header") %>%
+  flextable::width(width = c(1.1, 0.6, 0.6, 0.6, 0.6, 0.6))
+
+```
+
+```{r lepto-sampling-range}
+#| tab.id: lepto-sampling-range
+#| tab.cap: Leptospira sp. sampling among small-mammal host species.
+
+lepto_sampling <- path_sampling %>%
+  filter(pathogen_name == "Leptospira sp.") %>%
+  select(-pathogen_name) %>%
+  flextable()
+
+
+lepto_sampling %>%
+  set_header_labels(values = list(species_name = "Species",
+                                  tested = "Tested",
+                                  positive = "Positive",
+                                  area_tested = "Pathogen testing area",
+                                  perc_trapped = "% area within trapped",
+                                  perc_iucn = "% area within IUCN")) %>%
+  flextable::italic(j = "species_name", italic = TRUE, part = "body") %>%
+  flextable::align(part = "all", align = "center") %>%
+  flextable::footnote(i = 1, j = 4, value = as_paragraph(" area is reported in 1,000km", as_sup("2")), ref_symbols = "a", part = "header") %>%
+  flextable::align(part = "header", align = "center") %>%
+  flextable::align(j = 1:6, align = "right") %>%
+  fontsize(size = 5) %>%
+  fontsize(i = 1, size = 6, part = "header") %>%
+  fontsize(size = 5, part = "footer") %>%
+  flextable::padding(padding.top = 0, padding.bottom = 0, part = "all") %>%
+  flextable::height(height = 0.78, part = "body") %>%
+  flextable::height(height = 0.9, part = "header") %>%
+  flextable::width(width = c(1.1, 0.6, 0.6, 0.6, 0.6, 0.6))
+
+```
+
+\newpage
+
+```{r toxo-sampling-range}
+#| tab.id: toxo-sampling-range
+#| tab.cap: Toxoplasma gondii sampling among small-mammal host species.
+
+toxo_sampling <- path_sampling %>%
+  filter(pathogen_name == "Toxoplasma gondii") %>%
+  select(-pathogen_name) %>%
+  flextable()
+
+toxo_sampling %>%
+  set_header_labels(values = list(species_name = "Species",
+                                  tested = "Tested",
+                                  positive = "Positive",
+                                  area_tested = "Pathogen testing area",
+                                  perc_trapped = "% area within trapped",
+                                  perc_iucn = "% area within IUCN")) %>%
+  flextable::italic(j = "species_name", italic = TRUE, part = "body") %>%
+  flextable::align(part = "all", align = "center") %>%
+  flextable::footnote(i = 1, j = 4, value = as_paragraph(" area is reported in 1,000km", as_sup("2")), ref_symbols = "a", part = "header") %>%
+  flextable::align(part = "header", align = "center") %>%
+  flextable::align(j = 1:6, align = "right") %>%
+  fontsize(size = 5) %>%
+  fontsize(i = 1, size = 6, part = "header") %>%
+  fontsize(size = 5, part = "footer") %>%
+  flextable::padding(padding.top = 0, padding.bottom = 0, part = "all") %>%
+  flextable::height(height = 0.78, part = "body") %>%
+  flextable::height(height = 0.9, part = "header") %>%
+  flextable::width(width = c(1.1, 0.6, 0.6, 0.6, 0.6, 0.6))
 
 ```
 

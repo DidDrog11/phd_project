@@ -1,1 +1,31 @@
-Placeholder \par
+-   AIC - Akaike Information Criterion
+-   CI - Confidence Interval
+-   CMR - Capture-mark-recapture
+-   EDF - Effective Degrees of Freedom
+-   ELISA - Enzyme-linked Immunosorbent Assay
+-   ERGM - Exponential-family Random Graph Model
+-   GADM - Database of Global Administrative Areas
+-   GAM - Generalised Additive Model
+-   GBIF - Global Biodiversity Information Facility
+-   GPS - Global Positioning System
+-   HRP - Horseradish peroxidase
+-   IQR - Interquartile Range
+-   IUCN - The International Union for Conservation of Nature
+-   km - Kilometers
+-   LASV - Lassa mammarenavirus
+-   NCDC - Nigeria Center for Disease Control
+-   OD - Optical Density
+-   OR - Odds Ratio
+-   OSF - Open Science Framework
+-   PCR - Polymerase Chain Reaction
+-   PHAROS - Pathogen Harmonised Surveillance
+-   RNA - Ribonucleic Acide
+-   SD - Standard Deviation
+-   SEDAC - Socioeconomic Data and Applications Center
+-   TMB - 3,3’,5,5’-Tetramethylbenzidine
+-   TN - Trap night
+-   TS - Trap success
+-   UN - United Nations
+-   UK - United Kingdom
+-   USA - United States of America
+-   WHO - World Health Organisation
