@@ -6,6 +6,7 @@ delete_merged_file: true
 rmd_files: ["index.Rmd", 
             "01-introduction.Rmd",
             "02-chapter2.Rmd",
+            "08-methodschapter.Rmd",
             "03-chapter3.Rmd",
             "04-chapter4.Rmd", 
             "05-discussion.Rmd", 
