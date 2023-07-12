@@ -1,7 +1,7 @@
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-GB">
 <info>
-<title>Cite Them Right 11th edition - Harvard</title>
-<id>http://www.zotero.org/styles/harvard-cite-them-right</id>
+<title>Cite Them Right 11th edition - Harvard Modified</title>
+<id>http://www.zotero.org/styles/harvard-cite-them-right-modified</id>
 <link href="http://www.zotero.org/styles/harvard-cite-them-right" rel="self"/>
 <link href="http://www.zotero.org/styles/harvard-cite-them-right-10th-edition" rel="template"/>
 <link href="http://www.citethemrightonline.com/" rel="documentation"/>
@@ -283,7 +283,7 @@
 </group>
 </layout>
 </citation>
-<bibliography and="text" et-al-min="4" et-al-use-first="1">
+<bibliography and="text" et-al-min="99" et-al-use-first="1" hanging-indent = "true">
 <sort>
 <key macro="author"/>
 <key macro="year-date"/>

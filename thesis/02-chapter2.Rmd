@@ -21,10 +21,12 @@ pacman::p_load(pkgs, character.only = T)
 
 ```
 
-## Contributions
+## Preface {-}
 
 
 I conceived of the study with Richard Kock, Deborah Watson-Jones and Kate E. Jones. I designed the search strategy, study protocol and data extraction tool. I conducted the search and compared returned records against the inclusion and exclusion criteria, extracting data from included studies. Lauren A. Attfield performed double-checking against inclusion and exclusion criteria and reviewed data extraction for accuracy. I performed statistical analysis, interpreted the model outputs and wrote the initial draft of the chapter. All co-authors contributed to and approved the final version of the chapter. 
+
+This chapter has been published as a peer-reviewed article in a modified format in *PLoS NTD*, the typeset version of this manuscript is available as Appendix \@ref(plos-ntd-article) [@simons_rodent_2023].
 
 
 ## Abstract

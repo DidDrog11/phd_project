@@ -1,10 +1,10 @@
 ---
-bibliography: ["references/references.bib"]
-csl: "harvard.csl"
 lof: true
 lot: true
 space_between_paragraphs: true
 always_allow_html: true
+csl: harvard.csl
+bibliography: ["references/references.bib"]
 ---
 
 ```{r knitr-options, include = FALSE}
@@ -24,6 +24,7 @@ if (!require(pacman))
   install.packages("pacman", repos = "http://cran.rstudio.com")
 pkgs =
   c("ggspatial",
+    "ggsflabel",
     "googledrive",
     "here",
     "mapdata",
@@ -48,13 +49,6 @@ pacman::p_load(pkgs, character.only = T)
 ## Thesis outputs {-}
 
 ```{r output, child = "00-thesis-output.Rmd"}
-```
-
-\newpage
-
-## Additional outputs {-}
-
-```{r output, child = "00-additional-output.Rmd"}
 ```
 
 \newpage

@@ -4,7 +4,7 @@
 
 # Appendix A
 
-## Published article in *PLoS NTD*
+## Published article in *PLoS NTD* {#plos-ntd-article}
 
 \includepdf[pages=-, pagecommand={}, templatesize={\textwidth}{\textheight  - 25pt}, trim=0 0 0 20pt,]{appendices_files/A1.pdf}
 
@@ -147,6 +147,8 @@ knitr::include_graphics(here("thesis", "appendices_files", "C2-3.png"))
 
 \FloatBarrier
 \newpage
+# Appendix D
+
 ## Constructed networks from rodent trapping data {#rodent-networks}
 
 ### Forest networks
