@@ -128,16 +128,32 @@ Overall 684 small mammals were trapped from 43,266 trap-nights. Seventeen specie
 
 ### Prevalence of *Lassa mammarenavirus* antibodies within small mammal communities
 
-At time of writing serology results are available for 404 individuals (59%) (**expecting the remaining soon**). Antibodies to LASV were identified in 20 rodents (20/684, 3.3%) from 6 species, including *M. natalensis* (6/20, 30%), 5 *C. olivieri* (5/20, 25%), 3 *Lophuromys sikapusi* (3/20, 15%) and 3 *Mus setulosus* (3/20, 15%) (Table \@ref(tab:table-4-1)). The highest proportion of positivity was observed in *Malacomys edwardsi* (1/11, 9%), *Mus setulosus* (3/38, 7.9%) and *M. natalensis* (6/102, 5.9%).
+At time of writing serology results are available for 404 individuals (59%) (**expecting the remaining soon**). Antibodies to LASV were identified in 20 rodents (20/684, 3.3%) from 6 species, including *M. natalensis* (6/20, 30%), 5 *C. olivieri* (5/20, 25%), 3 *Lophuromys sikapusi* (3/20, 15%) and 3 *Mus setulosus* (3/20, 15%) (Table \@ref(tab:table-4-1)). The highest proportion of positivity was observed in *Mastomys erythroleucus* (1/4, 25%), *Malacomys edwardsi* (1/11, 9.1%) and *Mus setulosus* (3/38, 7%).
 
 ```{r table-4-1}
 
-table_4_1_df <- read_rds(here("thesis", "chapter_4_files", "Table_1.rds"))
+table_4_1_df <- read_rds(here("thesis", "chapter_4_files", "Table_1.rds")) %>%
+  mutate(across(.cols = where(is.character), .fns = ~ str_replace_all(., "%", "\\\\%")))
 
-kbl(table_4_1_df,
-      caption = "The number of individuals detected and antibodies to Lassa mammarenavirus among those individuals by species.") %>%
-  column_spec(column = 1, italic = TRUE) %>%
-  kable_styling(latex_options = "scale_down")
+names(table_4_1_df) <- c("Species",
+                     "N\\textsuperscript{1}",
+                     "LASV Antibody detected (\\%)",
+                     "Percentage of all positive individuals")
+
+kableExtra::kbl(table_4_1_df,
+                booktabs = TRUE,
+                align = "lccc",
+                format = "latex",
+                escape = FALSE,
+                caption = "The number of individuals detected and antibodies to Lassa mammarenavirus among those individuals by species.",
+                label = "table-4-1") %>%
+  kableExtra::column_spec(column = 1, italic = TRUE) %>%
+  kableExtra::footnote(general = "The consensus result of antibody testing is reported for samples producing equivocal results.",
+                       number = c("Number of rodents tested (N)"),
+                       escape = FALSE) %>%
+  kableExtra::kable_styling(latex_options = "striped",
+                            full_width = TRUE,
+                            font_size = 9)
 
 ```
 
@@ -217,7 +233,7 @@ The results of our descriptive network analysis suggest that contact within smal
 
 Homophily in contacts of *M. natalensis* (i.e., intra-specific contacts) may be important for viral transmission if other species are not as effective hosts for LASV replication and transmission [@luis_species_2018]. For example, if an infected individual *M. natalensis* resides in an agricultural setting it will have higher odds of transmitting LASV to a contact capable of maintaining a chain of transmission (i.e., another individual of *M. natalensis*), compared to an individual that was located in a village that would have higher odds of contacting a non-*M. natalensis* individual. This may result in different pathogen dynamics by land use type. This is an important avenue for future research as such differences could impact the effectiveness of rodent control interventions to reduce zoonosis risk [@garry_lassa_2023].
 
-Local pathogen extinction may be more likely in agricultural settings following viral introduction. High connectivity within the networks in these settings could lead to a greater force-of-infection where a single infected individual leads to an increased number of secondary infections [@keeling_networks_2005]. If this transmission were to occur at a faster rate than population births (i.e., replenishment of susceptible individuals), population level immunity would be rapidly reached, leading to local pathogen extinction [@messinger_consequences_2009]. The same may not be the case in village settings where an infected rodent will have fewer contacts, thus LASV transmission may be at a rate below the rate of replenishment of susceptible individuals [@peel_effect_2014]. In this scenario, the pathogen would be maintained in the population. This may be complicated further by migration of individuals between agricultural and village settings based on resource availability as has been reported elsewhere in the Lassa fever endemic region [@mari_saez_rodent_2018]. The risk of Lassa fever outbreaks in human communities is therefore likely governed by dynamic contacts among susceptible and infectious rodents in the local environment.
+Local pathogen extinction may be more likely in agricultural settings following viral introduction. High connectivity within the networks in these settings could lead to a greater force-of-infection where a single infected individual leads to an increased number of secondary infections [@keeling_networks_2005]. If this transmission were to occur at a faster rate than population births (i.e., replenishment of susceptible individuals), population level immunity would be rapidly reached, leading to local pathogen extinction [@messinger_consequences_2009; @guzzetta_population_2017]. The same may not be the case in village settings where an infected rodent will have fewer contacts, thus LASV transmission may be at a rate below the rate of replenishment of susceptible individuals [@peel_effect_2014]. In this scenario, the pathogen would be maintained in the population. This may be complicated further by migration of individuals between agricultural and village settings based on resource availability as has been reported elsewhere in the Lassa fever endemic region [@mari_saez_rodent_2018]. The risk of Lassa fever outbreaks in human communities is therefore likely governed by dynamic contacts among susceptible and infectious rodents in the local environment.
 
 The number and proportion of seropositive rodents and shrews detected in the current study, while low (3.3%), was similar (2.8%) to that reported by another study that sampled small-mammal populations in Eastern Sierra Leone [@bangura_lassa_2021]. Comparison of these studies is limited by different sampling design, for example, the current study sampled rodents in forest environments and locations more distant from areas of human habitation. The proportion of all seropositive individuals that were *M. natalensis* (30%) was lower in our study than in the study conducted in the neighbouring district (75%) although the proportion of all *M. natalensis* that were antibody positive was more similar (5.3% compared to 8%). We similarly identified antibodies in other rodent species including, *L. sikapusi* and *R. rattus*. Antibodies to LASV were identified in three further rodent and shrew species, *C. olivieri*, *M. setulosus* and *Mastomys erythroleucus* that were not reported from the Bangura study [@bangura_lassa_2021]. Antibodies to LASV have not previously been reported in *M. setulosus*, although they have been detected in other pygmy mice species (e.g., *Mus musculoides*) [@bangura_lassa_2021]. Our results support previous studies' findings that evidence of prior acute infection is present in multiple species simultaneously within small-mammal communities in the Lassa fever endemic region [@demby_lassa_2001; @agbonlahor_prevalence_2017; @bangura_lassa_2021].
 

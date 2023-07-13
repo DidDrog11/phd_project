@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.12)  12 JUL 2023 18:23
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.12)  13 JUL 2023 12:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -598,122 +598,48 @@ Package inputenc Warning: inputenc package ignored with utf8 based engines.
 \WF@box=\box77
 \WF@everypar=\toks40
 Package: wrapfig 2003/01/31  v 3.6
-) (c:/Users/ucbtds4/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count341
-\mult@box=\box78
-\multicol@leftmargin=\dimen275
-\c@unbalance=\count342
-\c@collectmore=\count343
-\doublecol@number=\count344
-\multicoltolerance=\count345
-\multicolpretolerance=\count346
-\full@width=\dimen276
-\page@free=\dimen277
-\premulticols=\dimen278
-\postmulticols=\dimen279
-\multicolsep=\skip77
-\multicolbaselineskip=\skip78
-\partial@page=\box79
-\last@line=\box80
-\mc@boxedresult=\box81
-\maxbalancingoverflow=\dimen280
-\mult@rightbox=\box82
-\mult@grightbox=\box83
-\mult@firstbox=\box84
-\mult@gfirstbox=\box85
-\@tempa=\box86
-\@tempa=\box87
-\@tempa=\box88
-\@tempa=\box89
-\@tempa=\box90
-\@tempa=\box91
-\@tempa=\box92
-\@tempa=\box93
-\@tempa=\box94
-\@tempa=\box95
-\@tempa=\box96
-\@tempa=\box97
-\@tempa=\box98
-\@tempa=\box99
-\@tempa=\box100
-\@tempa=\box101
-\@tempa=\box102
-\@tempa=\box103
-\@tempa=\box104
-\@tempa=\box105
-\@tempa=\box106
-\@tempa=\box107
-\@tempa=\box108
-\@tempa=\box109
-\@tempa=\box110
-\@tempa=\box111
-\@tempa=\box112
-\@tempa=\box113
-\@tempa=\box114
-\@tempa=\box115
-\@tempa=\box116
-\@tempa=\box117
-\@tempa=\box118
-\@tempa=\box119
-\@tempa=\box120
-\@tempa=\box121
-\c@minrows=\count347
-\c@columnbadness=\count348
-\c@finalcolumnbadness=\count349
-\last@try=\dimen281
-\multicolovershoot=\dimen282
-\multicolundershoot=\dimen283
-\mult@nat@firstbox=\box122
-\colbreak@box=\box123
-\mc@col@check@num=\count350
-) (c:/Users/ucbtds4/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/hhline.sty
-Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
-)
-\Oldarrayrulewidth=\skip79
-\Oldtabcolsep=\skip80
-(c:/Users/ucbtds4/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bookmark/bookmark.sty
+) (c:/Users/ucbtds4/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 (c:/Users/ucbtds4/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
-\BKM@id=\count351
+\BKM@id=\count341
 )) (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 167.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 155.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 167.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 155.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 167.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 155.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 167.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 155.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 167.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 155.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 167.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 155.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 167.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 155.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -739,7 +665,7 @@ Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 167.
+(Font)              scaled to size 10.0pt on input line 155.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -771,15 +697,15 @@ Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 167.
+(Font)              scaled to size 10.0pt on input line 155.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 167.
+(Font)              `operators' in the math version `normal' on input line 155.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 167.
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 155.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 167.
+(Font)              `operators' in the math version `bold' on input line 155.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 167.
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 155.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -858,13 +784,13 @@ Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
 (fontspec)             \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 167.
+(Font)              `symbols' in the math version `normal' on input line 155.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 167.
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 155.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 167.
+(Font)              `symbols' in the math version `bold' on input line 155.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 167.
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 155.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -925,21 +851,21 @@ Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
 (fontspec)             =6.0pt\relax \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 167.
+(Font)              `largesymbols' in the math version `normal' on input line 155.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 167.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 155.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 167.
+(Font)              `largesymbols' in the math version `bold' on input line 155.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 167.
-LaTeX Info: Redefining \microtypecontext on input line 167.
-Package microtype Info: Applying patch `item' on input line 167.
-Package microtype Info: Applying patch `toc' on input line 167.
-Package microtype Info: Applying patch `eqnum' on input line 167.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 155.
+LaTeX Info: Redefining \microtypecontext on input line 155.
+Package microtype Info: Applying patch `item' on input line 155.
+Package microtype Info: Applying patch `toc' on input line 155.
+Package microtype Info: Applying patch `eqnum' on input line 155.
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 167.
+Package microtype Warning: Unable to apply patch `footnote' on input line 155.
 
-Package microtype Info: Applying patch `verbatim' on input line 167.
+Package microtype Info: Applying patch `verbatim' on input line 155.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -982,7 +908,7 @@ File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Mode
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 167.
+Package hyperref Info: Link coloring OFF on input line 155.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: threeparttable package is loaded.
@@ -1063,19 +989,19 @@ File: chapter_2_files/Figure_3_updated.png Graphic file (type bmp)
 <chapter_2_files/Figure_3_updated.png>
 [50] [51] [52]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 756.
+(Font)              scaled to size 9.0pt on input line 744.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 756.
+(Font)              scaled to size 6.0pt on input line 744.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.00082pt on input line 756.
+(Font)              scaled to size 9.00082pt on input line 744.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00055pt on input line 756.
+(Font)              scaled to size 6.00055pt on input line 744.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 756.
+(Font)              scaled to size 8.99904pt on input line 744.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 756.
+(Font)              scaled to size 5.99936pt on input line 744.
 
-Overfull \hbox (1.29045pt too wide) in paragraph at lines 756--775
+Overfull \hbox (1.29045pt too wide) in paragraph at lines 744--763
  [][] 
  []
 
@@ -1084,889 +1010,64 @@ File: chapter_2_files/Figure_4_updated.png Graphic file (type bmp)
 [53]
 File: chapter_2_files/Figure_5_updated.png Graphic file (type bmp)
 <chapter_2_files/Figure_5_updated.png>
-[54] [55] [56]
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial/B scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial/B scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial/I scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial/I scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial/BI scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial/BI scale = 0.8311517618498812.
-
-
-Package fontspec Info: Font family 'Arial(0)' created for font 'Arial' with
-(fontspec)             options [Scale=MatchLowercase,Ligatures=TeX,Scale=1].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"Arial/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"Arial/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"Arial/B/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"Arial/B/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"Arial/I/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->s*[1]"Arial/I/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"Arial/BI/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->s*[1]"Arial/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-
-LaTeX Font Info:    Font shape `TU/Arial(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 838.
-
-Package fontspec Info: Arial scale = 0.9999950957553764.
-
-
-Package fontspec Info: Arial scale = 0.9999950957553764.
-
-
-Package fontspec Info: Arial scale = 0.9999950957553764.
-
-
-Package fontspec Info: Arial/B scale = 0.9999950957553764.
-
-
-Package fontspec Info: Arial/B scale = 0.9999950957553764.
-
-
-Package fontspec Info: Arial/I scale = 0.9999950957553764.
-
-
-Package fontspec Info: Arial/I scale = 0.9999950957553764.
-
-
-Package fontspec Info: Arial/BI scale = 0.9999950957553764.
-
-
-Package fontspec Info: Arial/BI scale = 0.9999950957553764.
-
-
-Package fontspec Info: Font family 'Arial(1)' created for font 'Arial' with
-(fontspec)             options [Scale=MatchLowercase].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.9999950957553764]"Arial/OT:script=latn;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[0.9999950957553764]"Arial/OT:script=latn;language=dflt;+smcp;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.9999950957553764]"Arial/B/OT:script=latn;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[0.9999950957553764]"Arial/B/OT:script=latn;language=dflt;+smcp;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[0.9999950957553764]"Arial/I/OT:script=latn;language=dflt;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->s*[0.9999950957553764]"Arial/I/OT:script=latn;language=dflt;+smcp;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[0.9999950957553764]"Arial/BI/OT:script=latn;language=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->s*[0.9999950957553764]"Arial/BI/OT:script=latn;language=dflt;+smcp;"
-
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/Arial(1)/m/n on input line 838.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  TU/lmr/m/it --> TU/Arial(1)/m/it on input line 838.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  TU/lmr/bx/n --> TU/Arial(1)/b/n on input line 838.
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-LaTeX Font Info:    Font shape `TU/Arial(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 850.
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-LaTeX Font Info:    Font shape `TU/Arial(0)/m/it' will be
-(Font)              scaled to size 5.0pt on input line 856.
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-[57]
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-[58]
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311517618498812.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-
-Package fontspec Info: Arial scale = 0.8311509466163689.
-
-[59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78]
+[54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76]
 File: chapter_3_files/Figure_1_combined.png Graphic file (type bmp)
 <chapter_3_files/Figure_1_combined.png>
-[79]
+[77]
 Overfull \vbox (6.76346pt too high) has occurred while \output is active []
 
-[80]
+[78]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 1446.
+(Font)              scaled to size 10.0pt on input line 1091.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/b/n' will be
-(Font)              scaled to size 7.0pt on input line 1446.
+(Font)              scaled to size 7.0pt on input line 1091.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/b/n' will be
-(Font)              scaled to size 5.0pt on input line 1446.
+(Font)              scaled to size 5.0pt on input line 1091.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/b/n' will be
-(Font)              scaled to size 10.00092pt on input line 1446.
+(Font)              scaled to size 10.00092pt on input line 1091.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/b/n' will be
-(Font)              scaled to size 7.00064pt on input line 1446.
+(Font)              scaled to size 7.00064pt on input line 1091.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/b/n' will be
-(Font)              scaled to size 5.00046pt on input line 1446.
+(Font)              scaled to size 5.00046pt on input line 1091.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/b/n' will be
-(Font)              scaled to size 9.99893pt on input line 1446.
+(Font)              scaled to size 9.99893pt on input line 1091.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/b/n' will be
-(Font)              scaled to size 6.99925pt on input line 1446.
+(Font)              scaled to size 6.99925pt on input line 1091.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/b/n' will be
-(Font)              scaled to size 4.99947pt on input line 1446.
-LaTeX Font Info:    Font shape `TU/Arial(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 1449.
-LaTeX Font Info:    Font shape `TU/Arial(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 1449.
-LaTeX Font Info:    Font shape `TU/Arial(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 1449.
-[81]
-Overfull \hbox (10.10101pt too wide) detected at line 1491
+(Font)              scaled to size 4.99947pt on input line 1091.
+[79]
+Overfull \hbox (10.10101pt too wide) detected at line 1136
 [][][][] [] [] [] [] [] [][][][] [] [][][][]
  []
 
-[82] [83]
+[80] [81] [82]
 File: chapter_3_files/Figure_2.png Graphic file (type bmp)
 <chapter_3_files/Figure_2.png>
-[84] [85] [86]
+[83] [84]
 File: chapter_3_files/Figure_4.png Graphic file (type bmp)
 <chapter_3_files/Figure_4.png>
-[87] [88]
+[85]
 File: chapter_3_files/Figure_5.png Graphic file (type bmp)
 <chapter_3_files/Figure_5.png>
-[89]
+[86]
 Overfull \vbox (16.98586pt too high) has occurred while \output is active []
 
-[90] [91] [92] [93] [94] [95] [96] [97] [98] [99]
+[87] [88] [89] [90] [91] [92] [93] [94] [95] [96]
 File: chapter_4_files/Figure_1.png Graphic file (type bmp)
 <chapter_4_files/Figure_1.png>
-[100] [101] [102] [103] [104] [105] [106] [107]
+[97] [98] [99] [100] [101] [102] [103] [104]
 File: chapter_4_files/Figure_2.png Graphic file (type bmp)
 <chapter_4_files/Figure_2.png>
-[108] [109]
+[105] [106]
 File: chapter_4_files/Figure_3.png Graphic file (type bmp)
 <chapter_4_files/Figure_3.png>
-[110] [111]
+[107] [108]
 File: chapter_4_files/Figure_4.png Graphic file (type bmp)
 <chapter_4_files/Figure_4.png>
-[112]
+[109]
 Overfull \vbox (22.1324pt too high) has occurred while \output is active []
 
-[113] [114] [115] [116] [117] [118] [119] [120] [121] [122]
+[110] [111] [112] [113] [114] [115] [116] [117] [118] [119]
 File: discussion_files/fichet_calvet_2009.png Graphic file (type bmp)
 <discussion_files/fichet_calvet_2009.png>
 File: discussion_files/mylne_2015.png Graphic file (type bmp)
@@ -1976,593 +1077,598 @@ File: discussion_files/redding_2016.png Graphic file (type bmp)
 File: discussion_files/basinski_2021.png Graphic file (type bmp)
 <discussion_files/basinski_2021.png>
 
-Overfull \hbox (6.63359pt too wide) in paragraph at lines 2011--2012
+Overfull \hbox (6.63359pt too wide) in paragraph at lines 1629--1630
  [][][][]  
  []
 
 
-Overfull \hbox (6.64392pt too wide) in paragraph at lines 2011--2012
+Overfull \hbox (6.64392pt too wide) in paragraph at lines 1629--1630
  [][][][] 
  []
 
-[123] [124] [125] [126] [127] [128] [129] [130] [131]
-Overfull \hbox (45.39435pt too wide) in paragraph at lines 2181--2183
+[120] [121] [122] [123]
+Underfull \hbox (badness 1694) in paragraph at lines 1673--1675
+\TU/lmr/m/n/10 versity and abundance in taï national park, côte d’ivoire’, \TU/lmr/m/it/10 Nature Conservation Research\TU/lmr/m/n/10 , 3.
+ []
+
+[124] [125] [126] [127] [128]
+Overfull \hbox (45.39435pt too wide) in paragraph at lines 1799--1801
 \TU/lmr/m/n/10 mammals’, \TU/lmr/m/it/10 Journal of mammalogy\TU/lmr/m/n/10 , 82(4), pp. 960–973. doi:[]10.1644/1545-1542(2001)082<0960:ATOTGS>2.0.CO;2[]. 
  []
 
-[132]
+[129]
 Missing character: There is no ℡ (U+2121) in font [lmroman10-regular]:mapping=tex-text;!
 
-Underfull \hbox (badness 1708) in paragraph at lines 2217--2219
+Underfull \hbox (badness 1708) in paragraph at lines 1835--1837
 []\TU/lmr/m/n/10 Ceballos, G. and Ehrlich, P.R. (2006) ‘Global mammal distributions, biodiversity hotspots, and
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 2217--2219
+Underfull \hbox (badness 1953) in paragraph at lines 1835--1837
 \TU/lmr/m/n/10 conservation’, \TU/lmr/m/it/10 Proceedings of the National Academy of Sciences\TU/lmr/m/n/10 , 103(51), pp. 19374–19379.
  []
 
-[133] [134] [135] [136] [137] [138]
-Underfull \hbox (badness 1515) in paragraph at lines 2388--2390
+[130] [131] [132] [133] [134] [135]
+Underfull \hbox (badness 1515) in paragraph at lines 2006--2008
 []\TU/lmr/m/n/10 Garine-Wichatitsky, M. de, Lwande, O.W., Fountain-Jones, N.M., VanderWaal, K. and Obanda,
  []
 
 
-Overfull \hbox (7.471pt too wide) in paragraph at lines 2415--2417
+Overfull \hbox (7.471pt too wide) in paragraph at lines 2033--2035
 \TU/lmr/m/n/10 fever in west africa’, \TU/lmr/m/it/10 Pathogens and Global Health\TU/lmr/m/n/10 , 111(6), pp. 276–288. doi:[]10.1080/20477724.2017.1369643[]. 
  []
 
-[139] [140] [141] [142]
+[136] [137] [138] [139]
 Missing character: There is no ∆ (U+2206) in font [lmroman10-italic]:mapping=tex-text;!
-[143] [144] [145]
-Underfull \hbox (badness 2050) in paragraph at lines 2634--2636
+[140] [141] [142]
+Underfull \hbox (badness 2050) in paragraph at lines 2255--2257
 \TU/lmr/m/n/10 pathogen in a fluctuating population’, \TU/lmr/m/it/10 Journal of Biological Dynamics\TU/lmr/m/n/10 , 3(2), pp. 224–234.
  []
 
-[146] [147] [148] [149] [150] [151]
-Underfull \hbox (badness 1043) in paragraph at lines 2820--2822
+[143] [144] [145] [146] [147] [148]
+Underfull \hbox (badness 1043) in paragraph at lines 2441--2443
 []\TU/lmr/m/n/10 Murray, K.A. and Daszak, P. (2013) ‘Human ecology in pathogenic landscapes: Two hypotheses
  []
 
-[152] [153] [154]
-Underfull \hbox (badness 10000) in paragraph at lines 2931--2933
+[149] [150] [151]
+Underfull \hbox (badness 10000) in paragraph at lines 2552--2554
 [][][] [][] [][][][][][][][][][][][][] [][] [][][][][][][][] [] [][][] [][] [][][] [][] [][][][][][][][][][][][] [] [][][] [][] [][][][][][][][][][][][] [] [][][][][][][] [][] [][][] [] [][][][][][] [][] [][][][][] [][] [][][] [][]
  []
 
-[155]
-Overfull \hbox (4.81099pt too wide) in paragraph at lines 2937--2939
+[152]
+Overfull \hbox (4.81099pt too wide) in paragraph at lines 2558--2560
 \TU/lmr/m/n/10 biodiversity-buffers-disease paradigm’, \TU/lmr/m/it/10 Parasitology\TU/lmr/m/n/10 , 139(7), pp. 847–863. doi:[]10.1017/S0031182012000200[]. 
  []
 
-[156] [157] [158] [159]
-Underfull \hbox (badness 1496) in paragraph at lines 3108--3110
+[153] [154] [155] [156] [157]
+Underfull \hbox (badness 1496) in paragraph at lines 2729--2731
 []\TU/lmr/m/n/10 Watanabe, S. (2010) ‘Asymptotic equivalence of bayes cross validation and widely applicable in-
  []
 
-[160] [161]
-Underfull \hbox (badness 1057) in paragraph at lines 3171--3173
+[158]
+Underfull \hbox (badness 1057) in paragraph at lines 2792--2794
 \TU/lmr/m/n/10 of human coronaviruses’, \TU/lmr/m/it/10 International Journal of Biological Sciences\TU/lmr/m/n/10 , 16(10), pp. 1686–1697.
  []
 
-[162] [163]
+[159] [160]
 File: appendices_files/A1.pdf Graphic file (type pdf)
 <use appendices_files/A1.pdf>
 File: appendices_files/A1.pdf Graphic file (type pdf)
 <use appendices_files/A1.pdf>
+[161]
+File: appendices_files/A1.pdf Graphic file (type pdf)
+<use appendices_files/A1.pdf, page 1>
+File: appendices_files/A1.pdf Graphic file (type pdf)
+<use appendices_files/A1.pdf, page 1>
+File: appendices_files/A1.pdf Graphic file (type pdf)
+<use appendices_files/A1.pdf, page 1>
+[162]
+File: appendices_files/A1.pdf Graphic file (type pdf)
+<use appendices_files/A1.pdf, page 2>
+File: appendices_files/A1.pdf Graphic file (type pdf)
+<use appendices_files/A1.pdf, page 2>
+File: appendices_files/A1.pdf Graphic file (type pdf)
+<use appendices_files/A1.pdf, page 2>
+[163]
+File: appendices_files/A1.pdf Graphic file (type pdf)
+<use appendices_files/A1.pdf, page 3>
+File: appendices_files/A1.pdf Graphic file (type pdf)
+<use appendices_files/A1.pdf, page 3>
+File: appendices_files/A1.pdf Graphic file (type pdf)
+<use appendices_files/A1.pdf, page 3>
 [164]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 1>
+<use appendices_files/A1.pdf, page 4>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 1>
+<use appendices_files/A1.pdf, page 4>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 1>
+<use appendices_files/A1.pdf, page 4>
 [165]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 2>
+<use appendices_files/A1.pdf, page 5>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 2>
+<use appendices_files/A1.pdf, page 5>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 2>
+<use appendices_files/A1.pdf, page 5>
 [166]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 3>
+<use appendices_files/A1.pdf, page 6>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 3>
+<use appendices_files/A1.pdf, page 6>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 3>
+<use appendices_files/A1.pdf, page 6>
 [167]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 4>
+<use appendices_files/A1.pdf, page 7>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 4>
+<use appendices_files/A1.pdf, page 7>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 4>
+<use appendices_files/A1.pdf, page 7>
 [168]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 5>
+<use appendices_files/A1.pdf, page 8>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 5>
+<use appendices_files/A1.pdf, page 8>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 5>
+<use appendices_files/A1.pdf, page 8>
 [169]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 6>
+<use appendices_files/A1.pdf, page 9>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 6>
+<use appendices_files/A1.pdf, page 9>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 6>
+<use appendices_files/A1.pdf, page 9>
 [170]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 7>
+<use appendices_files/A1.pdf, page 10>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 7>
+<use appendices_files/A1.pdf, page 10>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 7>
+<use appendices_files/A1.pdf, page 10>
 [171]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 8>
+<use appendices_files/A1.pdf, page 11>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 8>
+<use appendices_files/A1.pdf, page 11>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 8>
+<use appendices_files/A1.pdf, page 11>
 [172]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 9>
+<use appendices_files/A1.pdf, page 12>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 9>
+<use appendices_files/A1.pdf, page 12>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 9>
+<use appendices_files/A1.pdf, page 12>
 [173]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 10>
+<use appendices_files/A1.pdf, page 13>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 10>
+<use appendices_files/A1.pdf, page 13>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 10>
+<use appendices_files/A1.pdf, page 13>
 [174]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 11>
+<use appendices_files/A1.pdf, page 14>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 11>
+<use appendices_files/A1.pdf, page 14>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 11>
+<use appendices_files/A1.pdf, page 14>
 [175]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 12>
+<use appendices_files/A1.pdf, page 15>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 12>
+<use appendices_files/A1.pdf, page 15>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 12>
+<use appendices_files/A1.pdf, page 15>
 [176]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 13>
+<use appendices_files/A1.pdf, page 16>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 13>
+<use appendices_files/A1.pdf, page 16>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 13>
+<use appendices_files/A1.pdf, page 16>
 [177]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 14>
+<use appendices_files/A1.pdf, page 17>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 14>
+<use appendices_files/A1.pdf, page 17>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 14>
+<use appendices_files/A1.pdf, page 17>
 [178]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 15>
+<use appendices_files/A1.pdf, page 18>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 15>
+<use appendices_files/A1.pdf, page 18>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 15>
+<use appendices_files/A1.pdf, page 18>
 [179]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 16>
+<use appendices_files/A1.pdf, page 19>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 16>
+<use appendices_files/A1.pdf, page 19>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 16>
+<use appendices_files/A1.pdf, page 19>
 [180]
-File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 17>
-File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 17>
-File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 17>
+File: appendices_files/A2.pdf Graphic file (type pdf)
+<use appendices_files/A2.pdf>
+File: appendices_files/A2.pdf Graphic file (type pdf)
+<use appendices_files/A2.pdf>
 [181]
-File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 18>
-File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 18>
-File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 18>
+File: appendices_files/A2.pdf Graphic file (type pdf)
+<use appendices_files/A2.pdf, page 1>
+File: appendices_files/A2.pdf Graphic file (type pdf)
+<use appendices_files/A2.pdf, page 1>
+File: appendices_files/A2.pdf Graphic file (type pdf)
+<use appendices_files/A2.pdf, page 1>
 [182]
-File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 19>
-File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 19>
-File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 19>
+File: appendices_files/A2.pdf Graphic file (type pdf)
+<use appendices_files/A2.pdf, page 2>
+File: appendices_files/A2.pdf Graphic file (type pdf)
+<use appendices_files/A2.pdf, page 2>
+File: appendices_files/A2.pdf Graphic file (type pdf)
+<use appendices_files/A2.pdf, page 2>
 [183]
 File: appendices_files/A2.pdf Graphic file (type pdf)
-<use appendices_files/A2.pdf>
+<use appendices_files/A2.pdf, page 3>
 File: appendices_files/A2.pdf Graphic file (type pdf)
-<use appendices_files/A2.pdf>
+<use appendices_files/A2.pdf, page 3>
+File: appendices_files/A2.pdf Graphic file (type pdf)
+<use appendices_files/A2.pdf, page 3>
 [184]
-File: appendices_files/A2.pdf Graphic file (type pdf)
-<use appendices_files/A2.pdf, page 1>
-File: appendices_files/A2.pdf Graphic file (type pdf)
-<use appendices_files/A2.pdf, page 1>
-File: appendices_files/A2.pdf Graphic file (type pdf)
-<use appendices_files/A2.pdf, page 1>
+File: appendices_files/B1.pdf Graphic file (type pdf)
+<use appendices_files/B1.pdf>
+File: appendices_files/B1.pdf Graphic file (type pdf)
+<use appendices_files/B1.pdf>
 [185]
-File: appendices_files/A2.pdf Graphic file (type pdf)
-<use appendices_files/A2.pdf, page 2>
-File: appendices_files/A2.pdf Graphic file (type pdf)
-<use appendices_files/A2.pdf, page 2>
-File: appendices_files/A2.pdf Graphic file (type pdf)
-<use appendices_files/A2.pdf, page 2>
+File: appendices_files/B1.pdf Graphic file (type pdf)
+<use appendices_files/B1.pdf, page 1>
+File: appendices_files/B1.pdf Graphic file (type pdf)
+<use appendices_files/B1.pdf, page 1>
+File: appendices_files/B1.pdf Graphic file (type pdf)
+<use appendices_files/B1.pdf, page 1>
 [186]
-File: appendices_files/A2.pdf Graphic file (type pdf)
-<use appendices_files/A2.pdf, page 3>
-File: appendices_files/A2.pdf Graphic file (type pdf)
-<use appendices_files/A2.pdf, page 3>
-File: appendices_files/A2.pdf Graphic file (type pdf)
-<use appendices_files/A2.pdf, page 3>
+File: appendices_files/B1.pdf Graphic file (type pdf)
+<use appendices_files/B1.pdf, page 2>
+File: appendices_files/B1.pdf Graphic file (type pdf)
+<use appendices_files/B1.pdf, page 2>
+File: appendices_files/B1.pdf Graphic file (type pdf)
+<use appendices_files/B1.pdf, page 2>
 [187]
 File: appendices_files/B1.pdf Graphic file (type pdf)
-<use appendices_files/B1.pdf>
+<use appendices_files/B1.pdf, page 3>
 File: appendices_files/B1.pdf Graphic file (type pdf)
-<use appendices_files/B1.pdf>
+<use appendices_files/B1.pdf, page 3>
+File: appendices_files/B1.pdf Graphic file (type pdf)
+<use appendices_files/B1.pdf, page 3>
 [188]
-File: appendices_files/B1.pdf Graphic file (type pdf)
-<use appendices_files/B1.pdf, page 1>
-File: appendices_files/B1.pdf Graphic file (type pdf)
-<use appendices_files/B1.pdf, page 1>
-File: appendices_files/B1.pdf Graphic file (type pdf)
-<use appendices_files/B1.pdf, page 1>
-[189]
-File: appendices_files/B1.pdf Graphic file (type pdf)
-<use appendices_files/B1.pdf, page 2>
-File: appendices_files/B1.pdf Graphic file (type pdf)
-<use appendices_files/B1.pdf, page 2>
-File: appendices_files/B1.pdf Graphic file (type pdf)
-<use appendices_files/B1.pdf, page 2>
-[190]
-File: appendices_files/B1.pdf Graphic file (type pdf)
-<use appendices_files/B1.pdf, page 3>
-File: appendices_files/B1.pdf Graphic file (type pdf)
-<use appendices_files/B1.pdf, page 3>
-File: appendices_files/B1.pdf Graphic file (type pdf)
-<use appendices_files/B1.pdf, page 3>
-[191]
 File: appendices_files/B2-1.png Graphic file (type bmp)
 <appendices_files/B2-1.png>
 File: appendices_files/B2-2.png Graphic file (type bmp)
 <appendices_files/B2-2.png>
 File: appendices_files/B2-3.png Graphic file (type bmp)
 <appendices_files/B2-3.png>
-[192]
+[189]
 File: appendices_files/B2-4.png Graphic file (type bmp)
 <appendices_files/B2-4.png>
+[190]
+File: appendices_files/B3.pdf Graphic file (type pdf)
+<use appendices_files/B3.pdf>
+File: appendices_files/B3.pdf Graphic file (type pdf)
+<use appendices_files/B3.pdf>
+[191]
+File: appendices_files/B3.pdf Graphic file (type pdf)
+<use appendices_files/B3.pdf, page 1>
+File: appendices_files/B3.pdf Graphic file (type pdf)
+<use appendices_files/B3.pdf, page 1>
+File: appendices_files/B3.pdf Graphic file (type pdf)
+<use appendices_files/B3.pdf, page 1>
+[192]
+File: appendices_files/B3.pdf Graphic file (type pdf)
+<use appendices_files/B3.pdf, page 2>
+File: appendices_files/B3.pdf Graphic file (type pdf)
+<use appendices_files/B3.pdf, page 2>
+File: appendices_files/B3.pdf Graphic file (type pdf)
+<use appendices_files/B3.pdf, page 2>
 [193]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf>
+<use appendices_files/B3.pdf, page 3>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf>
+<use appendices_files/B3.pdf, page 3>
+File: appendices_files/B3.pdf Graphic file (type pdf)
+<use appendices_files/B3.pdf, page 3>
 [194]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 1>
+<use appendices_files/B3.pdf, page 4>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 1>
+<use appendices_files/B3.pdf, page 4>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 1>
+<use appendices_files/B3.pdf, page 4>
 [195]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 2>
+<use appendices_files/B3.pdf, page 5>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 2>
+<use appendices_files/B3.pdf, page 5>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 2>
+<use appendices_files/B3.pdf, page 5>
 [196]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 3>
+<use appendices_files/B3.pdf, page 6>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 3>
+<use appendices_files/B3.pdf, page 6>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 3>
+<use appendices_files/B3.pdf, page 6>
 [197]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 4>
+<use appendices_files/B3.pdf, page 7>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 4>
+<use appendices_files/B3.pdf, page 7>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 4>
+<use appendices_files/B3.pdf, page 7>
 [198]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 5>
+<use appendices_files/B3.pdf, page 8>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 5>
+<use appendices_files/B3.pdf, page 8>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 5>
+<use appendices_files/B3.pdf, page 8>
 [199]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 6>
+<use appendices_files/B3.pdf, page 9>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 6>
+<use appendices_files/B3.pdf, page 9>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 6>
+<use appendices_files/B3.pdf, page 9>
 [200]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 7>
+<use appendices_files/B3.pdf, page 10>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 7>
+<use appendices_files/B3.pdf, page 10>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 7>
+<use appendices_files/B3.pdf, page 10>
 [201]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 8>
+<use appendices_files/B3.pdf, page 11>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 8>
+<use appendices_files/B3.pdf, page 11>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 8>
+<use appendices_files/B3.pdf, page 11>
 [202]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 9>
+<use appendices_files/B3.pdf, page 12>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 9>
+<use appendices_files/B3.pdf, page 12>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 9>
+<use appendices_files/B3.pdf, page 12>
 [203]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 10>
+<use appendices_files/B3.pdf, page 13>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 10>
+<use appendices_files/B3.pdf, page 13>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 10>
+<use appendices_files/B3.pdf, page 13>
 [204]
-File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 11>
-File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 11>
-File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 11>
-[205]
-File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 12>
-File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 12>
-File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 12>
-[206]
-File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 13>
-File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 13>
-File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 13>
-[207]
 File: appendices_files/B4.png Graphic file (type bmp)
 <appendices_files/B4.png>
 File: appendices_files/B5.pdf Graphic file (type pdf)
 <use appendices_files/B5.pdf>
 File: appendices_files/B5.pdf Graphic file (type pdf)
 <use appendices_files/B5.pdf>
+[205]
+File: appendices_files/B5.pdf Graphic file (type pdf)
+<use appendices_files/B5.pdf, page 1>
+File: appendices_files/B5.pdf Graphic file (type pdf)
+<use appendices_files/B5.pdf, page 1>
+File: appendices_files/B5.pdf Graphic file (type pdf)
+<use appendices_files/B5.pdf, page 1>
+[206]
+File: appendices_files/B5.pdf Graphic file (type pdf)
+<use appendices_files/B5.pdf, page 2>
+File: appendices_files/B5.pdf Graphic file (type pdf)
+<use appendices_files/B5.pdf, page 2>
+File: appendices_files/B5.pdf Graphic file (type pdf)
+<use appendices_files/B5.pdf, page 2>
+[207]
+File: appendices_files/B5.pdf Graphic file (type pdf)
+<use appendices_files/B5.pdf, page 3>
+File: appendices_files/B5.pdf Graphic file (type pdf)
+<use appendices_files/B5.pdf, page 3>
+File: appendices_files/B5.pdf Graphic file (type pdf)
+<use appendices_files/B5.pdf, page 3>
 [208]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 1>
+<use appendices_files/B5.pdf, page 4>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 1>
+<use appendices_files/B5.pdf, page 4>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 1>
+<use appendices_files/B5.pdf, page 4>
 [209]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 2>
+<use appendices_files/B5.pdf, page 5>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 2>
+<use appendices_files/B5.pdf, page 5>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 2>
+<use appendices_files/B5.pdf, page 5>
 [210]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 3>
+<use appendices_files/B5.pdf, page 6>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 3>
+<use appendices_files/B5.pdf, page 6>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 3>
+<use appendices_files/B5.pdf, page 6>
 [211]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 4>
+<use appendices_files/B5.pdf, page 7>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 4>
+<use appendices_files/B5.pdf, page 7>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 4>
+<use appendices_files/B5.pdf, page 7>
 [212]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 5>
+<use appendices_files/B5.pdf, page 8>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 5>
+<use appendices_files/B5.pdf, page 8>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 5>
+<use appendices_files/B5.pdf, page 8>
 [213]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 6>
+<use appendices_files/B5.pdf, page 9>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 6>
+<use appendices_files/B5.pdf, page 9>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 6>
+<use appendices_files/B5.pdf, page 9>
 [214]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 7>
+<use appendices_files/B5.pdf, page 10>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 7>
+<use appendices_files/B5.pdf, page 10>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 7>
+<use appendices_files/B5.pdf, page 10>
 [215]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 8>
+<use appendices_files/B5.pdf, page 11>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 8>
+<use appendices_files/B5.pdf, page 11>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 8>
+<use appendices_files/B5.pdf, page 11>
 [216]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 9>
+<use appendices_files/B5.pdf, page 12>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 9>
+<use appendices_files/B5.pdf, page 12>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 9>
+<use appendices_files/B5.pdf, page 12>
 [217]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 10>
+<use appendices_files/B5.pdf, page 13>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 10>
+<use appendices_files/B5.pdf, page 13>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 10>
+<use appendices_files/B5.pdf, page 13>
 [218]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 11>
+<use appendices_files/B5.pdf, page 14>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 11>
+<use appendices_files/B5.pdf, page 14>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 11>
+<use appendices_files/B5.pdf, page 14>
 [219]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 12>
+<use appendices_files/B5.pdf, page 15>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 12>
+<use appendices_files/B5.pdf, page 15>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 12>
+<use appendices_files/B5.pdf, page 15>
 [220]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 13>
+<use appendices_files/B5.pdf, page 16>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 13>
+<use appendices_files/B5.pdf, page 16>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 13>
+<use appendices_files/B5.pdf, page 16>
 [221]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 14>
+<use appendices_files/B5.pdf, page 17>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 14>
+<use appendices_files/B5.pdf, page 17>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 14>
+<use appendices_files/B5.pdf, page 17>
 [222]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 15>
+<use appendices_files/B5.pdf, page 18>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 15>
+<use appendices_files/B5.pdf, page 18>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 15>
+<use appendices_files/B5.pdf, page 18>
 [223]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 16>
+<use appendices_files/B5.pdf, page 19>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 16>
+<use appendices_files/B5.pdf, page 19>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 16>
+<use appendices_files/B5.pdf, page 19>
 [224]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 17>
+<use appendices_files/B5.pdf, page 20>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 17>
+<use appendices_files/B5.pdf, page 20>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 17>
+<use appendices_files/B5.pdf, page 20>
 [225]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 18>
+<use appendices_files/B5.pdf, page 21>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 18>
+<use appendices_files/B5.pdf, page 21>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 18>
+<use appendices_files/B5.pdf, page 21>
 [226]
-File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 19>
-File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 19>
-File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 19>
-[227]
-File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 20>
-File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 20>
-File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 20>
-[228]
-File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 21>
-File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 21>
-File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 21>
-[229]
 File: appendices_files/B6.png Graphic file (type bmp)
 <appendices_files/B6.png>
 File: appendices_files/C1.png Graphic file (type bmp)
 <appendices_files/C1.png>
-[230]
+[227]
 File: appendices_files/C2-1.png Graphic file (type bmp)
 <appendices_files/C2-1.png>
-[231]
+[228]
 File: appendices_files/C2-2.png Graphic file (type bmp)
 <appendices_files/C2-2.png>
-[232]
+[229]
 File: appendices_files/C2-3.png Graphic file (type bmp)
 <appendices_files/C2-3.png>
-[233] [234]
+[230] [231]
 File: appendices_files/C3-1.pdf Graphic file (type pdf)
 <use appendices_files/C3-1.pdf>
 File: appendices_files/C3-1.pdf Graphic file (type pdf)
 <use appendices_files/C3-1.pdf>
+[232]
+File: appendices_files/C3-1.pdf Graphic file (type pdf)
+<use appendices_files/C3-1.pdf, page 1>
+File: appendices_files/C3-1.pdf Graphic file (type pdf)
+<use appendices_files/C3-1.pdf, page 1>
+File: appendices_files/C3-1.pdf Graphic file (type pdf)
+<use appendices_files/C3-1.pdf, page 1>
+[233]
+File: appendices_files/C3-2.pdf Graphic file (type pdf)
+<use appendices_files/C3-2.pdf>
+File: appendices_files/C3-2.pdf Graphic file (type pdf)
+<use appendices_files/C3-2.pdf>
+[234]
+File: appendices_files/C3-2.pdf Graphic file (type pdf)
+<use appendices_files/C3-2.pdf, page 1>
+File: appendices_files/C3-2.pdf Graphic file (type pdf)
+<use appendices_files/C3-2.pdf, page 1>
+File: appendices_files/C3-2.pdf Graphic file (type pdf)
+<use appendices_files/C3-2.pdf, page 1>
 [235]
-File: appendices_files/C3-1.pdf Graphic file (type pdf)
-<use appendices_files/C3-1.pdf, page 1>
-File: appendices_files/C3-1.pdf Graphic file (type pdf)
-<use appendices_files/C3-1.pdf, page 1>
-File: appendices_files/C3-1.pdf Graphic file (type pdf)
-<use appendices_files/C3-1.pdf, page 1>
+File: appendices_files/C3-3.pdf Graphic file (type pdf)
+<use appendices_files/C3-3.pdf>
+File: appendices_files/C3-3.pdf Graphic file (type pdf)
+<use appendices_files/C3-3.pdf>
 [236]
-File: appendices_files/C3-2.pdf Graphic file (type pdf)
-<use appendices_files/C3-2.pdf>
-File: appendices_files/C3-2.pdf Graphic file (type pdf)
-<use appendices_files/C3-2.pdf>
+File: appendices_files/C3-3.pdf Graphic file (type pdf)
+<use appendices_files/C3-3.pdf, page 1>
+File: appendices_files/C3-3.pdf Graphic file (type pdf)
+<use appendices_files/C3-3.pdf, page 1>
+File: appendices_files/C3-3.pdf Graphic file (type pdf)
+<use appendices_files/C3-3.pdf, page 1>
 [237]
-File: appendices_files/C3-2.pdf Graphic file (type pdf)
-<use appendices_files/C3-2.pdf, page 1>
-File: appendices_files/C3-2.pdf Graphic file (type pdf)
-<use appendices_files/C3-2.pdf, page 1>
-File: appendices_files/C3-2.pdf Graphic file (type pdf)
-<use appendices_files/C3-2.pdf, page 1>
-[238]
-File: appendices_files/C3-3.pdf Graphic file (type pdf)
-<use appendices_files/C3-3.pdf>
-File: appendices_files/C3-3.pdf Graphic file (type pdf)
-<use appendices_files/C3-3.pdf>
-[239]
-File: appendices_files/C3-3.pdf Graphic file (type pdf)
-<use appendices_files/C3-3.pdf, page 1>
-File: appendices_files/C3-3.pdf Graphic file (type pdf)
-<use appendices_files/C3-3.pdf, page 1>
-File: appendices_files/C3-3.pdf Graphic file (type pdf)
-<use appendices_files/C3-3.pdf, page 1>
-[240]
 File: appendices_files/C4-1.png Graphic file (type bmp)
 <appendices_files/C4-1.png>
-[241]
+[238]
 File: appendices_files/C4-2.png Graphic file (type bmp)
 <appendices_files/C4-2.png>
-[242] (./thesis.aux)
+[239] (./thesis.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 24080 strings out of 477868
- 458546 string characters out of 5820671
- 1931869 words of memory out of 5000000
- 44526 multiletter control sequences out of 15000+600000
- 565327 words of font info for 119 fonts, out of 8000000 for 9000
+ 23852 strings out of 477868
+ 452958 string characters out of 5820671
+ 1943869 words of memory out of 5000000
+ 44326 multiletter control sequences out of 15000+600000
+ 565191 words of font info for 102 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 90i,17n,128p,2663b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,19n,120p,2663b,569s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thesis.pdf (243 pages).
+Output written on thesis.pdf (240 pages).

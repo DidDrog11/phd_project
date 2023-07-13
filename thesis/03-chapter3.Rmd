@@ -175,20 +175,36 @@ During the study period 684 individuals were detected from 43,266 trap-nights ac
 
 table_1a <- readRDS(here("thesis", "chapter_3_files", "table_1a.rds")) %>%
   select(-village) %>%
-  rename("Landuse" = landuse,
-         `N (1)` = N,
-         `TN (2)` = TN,
-         `Richness (3)` = species_richness,
-         `Diversity (4)` = shannon_diversity)
+  mutate(across(.cols = where(is.character), .fns = ~ str_replace_all(., "%", "\\\\%")))
+
+table_1a$TN[c(1, 2, 11, 18)] <- gsub("^(.{2})(.*)$", "\\1,\\2", table_1a$TN[c(1, 2, 11, 18)])
+table_1a$TN[-c(1, 2, 11, 18)] <- gsub("^(.{1})(.*)$", "\\1,\\2", table_1a$TN[-c(1, 2, 11, 18)])
+
+names(table_1a) <- c("Landuse",
+                     "N\\textsuperscript{1}",
+                     "TN\\textsuperscript{2}",
+                     "Richness\\textsuperscript{3}",
+                     "Diversity\\textsuperscript{4}")
 
 kableExtra::kbl(table_1a,
-    caption = "Description of trapped rodents by village and landuse type.") %>%
-  kableExtra::pack_rows(index = c("All villages" = 3, "Baiama" = 4, "Lalehun" = 4, "Lambayama" = 3, "Seilama" = 4)) %>%
+                booktabs =  TRUE,
+                linesep = "",
+                align = "lcccc",
+                caption = "Description of trapped rodents by village and landuse type.",
+                format = "latex",
+                escape = FALSE,
+                label = "table-3-1") %>%
+  kableExtra::pack_rows(index = c("All villages" = 3, "Baiama" = 4, "Lalehun" = 4, "Lambayama" = 3, "Seilama" = 4),
+                        bold = TRUE) %>%
   kableExtra::footnote(number = c("Number of rodents detected (N)",
-                      "Number of trap-nights (TN) and trap success expressed as a percentage of TN (%)",
-                      "Species richness within land use type, i.e., number of species",
-                      "Shannon diversity within land use type")) %>%
-  kableExtra::kable_styling(latex_options = "scale_down")
+                                  "Number of trap-nights (TN) and trap success expressed as a percentage of TN (\\\\%)",
+                                  "Species richness within land use type, i.e., number of species",
+                                  "Shannon diversity within land use type"),
+                       escape = FALSE) %>%
+  kableExtra::kable_styling(latex_options = "striped",
+                full_width = TRUE,
+                font_size = 9)
+  
 
 ```
 
@@ -272,7 +288,7 @@ There are several limitations to the current study. Rodent sampling was limited 
 
 ### Implications for understanding the risk of Lassa fever spillover
 
-The lower levels of occurrence of *M. natalensis* in agricultural and forest land use is consistent with increasing evidence of LASV prevalence heterogeneity across the endemic region [@marien_households_2020]. In some village communities within the endemic region no evidence of current LASV transmission has been observed within the rodent populations, despite prior human cases or serological evidence of outbreaks, suggesting important temporal and spatial variation in pathogen prevalence [@bangura_lassa_2021; @mccormick_prospective_1987; @leski_sequence_2015]. As discussed above it may be that transmission among the rodent community is short lived with rapid local extinction of LASV [@goyens_density_2013]. This phenomena may implicate non-*M. natalensis* species as being important for transferring the pathogen between communities of *M. natalensis* resident in villages separated by forest, leading to pathogen re-introduction. Several species found to occur in forest settings have been found to have antibodies against LASV, namely *Praomys rostratus*, *M. setulosus*, *Malacomys edwardsi* and *L. striatus* [@monath_lassa_1974; @demby_lassa_2001; @fichet-calvet_lassa_2014; @olayemi_new_2016; @simons_rodent_2023]. To understand the temporal and spatial variability in LASV prevalence rodent sampling across the wider land use gradient are required.
+The lower levels of occurrence of *M. natalensis* in agricultural and forest land use is consistent with increasing evidence of LASV prevalence heterogeneity across the endemic region [@marien_households_2020]. In some village communities within the endemic region no evidence of current LASV transmission has been observed within the rodent populations, despite prior human cases or serological evidence of outbreaks, suggesting important temporal and spatial variation in pathogen prevalence [@bangura_lassa_2021; @mccormick_prospective_1987; @leski_sequence_2015]. As discussed above it may be that transmission among the rodent community is short lived with rapid local extinction of LASV [@goyens_density_2013]. This phenomena may implicate non-*M. natalensis* species as being important for transferring the pathogen between communities of *M. natalensis* resident in villages separated by forest, leading to pathogen re-introduction [@guzzetta_population_2017]. Several species found to occur in forest settings have been found to have antibodies against LASV, namely *Praomys rostratus*, *M. setulosus*, *Malacomys edwardsi* and *L. striatus* [@monath_lassa_1974; @demby_lassa_2001; @fichet-calvet_lassa_2014; @olayemi_new_2016; @simons_rodent_2023]. To understand the temporal and spatial variability in LASV prevalence rodent sampling across the wider land use gradient are required.
 
 Finally, current disease models of Lassa fever risk do not account for the involvement of multiple rodent species or biotic interactions between species [@basinski_bridging_2021; @mylne_mapping_2015; @olugasa_rubber_2014; @redding_environmental-mechanistic_2016; @fichet-calvet_risk_2009; @klitting_predicting_2022]. Our finding of interactions between *M. natalensis* and primarily *M. musculus* may indicate that Lassa fever risk could be reduced in settings where *M. musculus* is present. Further research exploring the competence of *M. musculus* as a host of LASV are required, as evidence of prior infection, through serological assays has been reported [@demby_lassa_2001]. If *M. musculus* is not a competent host of LASV this may go some way to explain why Lassa fever is more typically reported from rural locations in the endemic region rather than cities, where this invasive species may have displaced more competent viral hosts. Further work systematically sampling across the urban-rural gradient will be required to test this hypothesis which will have implications for estimates of future Lassa fever risk. West Africa continues to undergo large population growth and rapid urbanisation, the expansion of *M. musculus* may therefore moderate the risk of increasing numbers of Lassa fever outbreaks.
 
