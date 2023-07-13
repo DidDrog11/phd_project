@@ -201,31 +201,54 @@ Comparison of the proportion of a species IUCN range in which detections and non
 \newpage
 
 ```{r comparison-range}
-#| tab.id: comparison-range
-#| tab.cap: Comparison of IUCN, GBIF and rodent trapping ranges for 7 rodent species.
 
 ft_1 <- read_rds(here("thesis", "chapter_2_files", "table_1_pixel.rds")) %>%
-  flextable()
+  mutate(species = case_when(species == "Mus musculus" ~ paste0("Mus musculus", footnote_marker_alphabet(1, "latex")),
+                             TRUE ~ species),
+         across(.cols = where(is.character), .fns = ~ str_replace_all(., "%", "\\\\%")))
 
-ft_1 %>%
-  flextable::compose(part = "header", j = "species", value = as_paragraph("Species")) %>%
-  flextable::italic(part = "body", j = "species") %>%
-  flextable::compose(part = "header", j = "range_area", value = as_paragraph("Range")) %>%
-  flextable::compose(part = "header", j = "gbif_detection_range", value = as_paragraph("Area inside range")) %>%
-  flextable::compose(part = "header", j = "gbif_outside_range", value = as_paragraph("Area outside range")) %>%
-  flextable::compose(part = "header", j = "detection_range", value = as_paragraph("Area inside range")) %>%
-  flextable::compose(part = "header", j = "trapping_outside_range", value = as_paragraph("Area outside range")) %>%
-  flextable::compose(part = "header", j = "non_detection_range", value = as_paragraph("Non-detection area inside range")) %>%
-  flextable::compose(part = "header", j = "combined_range", value = as_paragraph("Detection area inside range")) %>%
-  add_header_row(values = c(" ", "IUCN", "GBIF", "Trapping studies", "Combined"), colwidths = c(1, 1, 2, 3, 1)) %>%
-  flextable::footnote(i = 2, j = 2:8, value = as_paragraph(" area is reported in 1,000km", as_sup("2")), ref_symbols = "a", part = "header") %>%
-  flextable::footnote(i = 2, j = c(3, 5, 7, 8), value = as_paragraph(" (%) refer to percentage of IUCN range"), ref_symbols = "b", part = "header") %>%
-  add_footer_lines(value = as_paragraph("n.b. ", as_i("Mus musculus"), " does not have an IUCN range in West Africa")) %>%
-  flextable::align(part = "header", align = "center") %>%
-  flextable::align(j = 2:8, align = "center") %>%
-  fontsize(size = 8) %>%
-  fontsize(i = 1:2, size = 10, part = "header") %>%
-  fontsize(size = 8, part = "footer")
+kableExtra::kbl(ft_1,
+                booktabs = TRUE,
+                linesep = "",
+                align = "lccccccc",
+                caption = "Comparison of IUCN, GBIF and rodent trapping ranges for 7 rodent species.",
+                label = "comparison-range",
+                col.names = c("Species", "Range", "Area inside range", "Area outside range",
+                              "Area inside range", "Area outside range", "Non-detection area inside range",
+                              "Detection area"),
+                format.args = list(big.mark = ","),
+                format = "latex",
+                escape = FALSE) %>%
+  kableExtra::add_header_above(c(" ", "IUCN" = 1, "GBIF" = 2, "Trapping studies" = 3, "Combined" = 1)) %>%
+  kableExtra::column_spec(1, italic = TRUE) %>%
+  kableExtra::kable_styling(latex_options = "striped",
+                full_width = TRUE,
+                font_size = 9) %>%
+  kableExtra::footnote(general = c("Areas are reported in 1,000's km\\\\textsuperscript{2}",
+                       "\\\\% refers to percentage of a species IUCN range"),
+           alphabet = "Mus musculus does not have an IUCN range in West Africa",
+           escape = FALSE)
+
+# ft_1 %>%
+#   as_flextable() %>%
+#   flextable::compose(part = "header", j = "species", value = as_paragraph("Species")) %>%
+#   flextable::italic(part = "body", j = "species") %>%
+#   flextable::compose(part = "header", j = "range_area", value = as_paragraph("Range")) %>%
+#   flextable::compose(part = "header", j = "gbif_detection_range", value = as_paragraph("Area inside range")) %>%
+#   flextable::compose(part = "header", j = "gbif_outside_range", value = as_paragraph("Area outside range")) %>%
+#   flextable::compose(part = "header", j = "detection_range", value = as_paragraph("Area inside range")) %>%
+#   flextable::compose(part = "header", j = "trapping_outside_range", value = as_paragraph("Area outside range")) %>%
+#   flextable::compose(part = "header", j = "non_detection_range", value = as_paragraph("Non-detection area inside range")) %>%
+#   flextable::compose(part = "header", j = "combined_range", value = as_paragraph("Detection area inside range")) %>%
+#   add_header_row(values = c(" ", "IUCN", "GBIF", "Trapping studies", "Combined"), colwidths = c(1, 1, 2, 3, 1)) %>%
+#   flextable::footnote(i = 2, j = 2:8, value = as_paragraph(" area is reported in 1,000km", as_sup("2")), ref_symbols = "a", part = "header") %>%
+#   flextable::footnote(i = 2, j = c(3, 5, 7, 8), value = as_paragraph(" (%) refer to percentage of IUCN range"), ref_symbols = "b", part = "header") %>%
+#   add_footer_lines(value = as_paragraph("n.b. ", as_i("Mus musculus"), " does not have an IUCN range in West Africa")) %>%
+#   flextable::align(part = "header", align = "center") %>%
+#   flextable::align(j = 2:8, align = "center") %>%
+#   fontsize(size = 8) %>%
+#   fontsize(i = 1:2, size = 10, part = "header") %>%
+#   fontsize(size = 8, part = "footer")
   
 
 ```
