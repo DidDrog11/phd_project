@@ -3,6 +3,7 @@ lof: true
 lot: true
 space_between_paragraphs: true
 always_allow_html: true
+link-citations: true
 csl: harvard.csl
 bibliography: ["references/references.bib"]
 ---

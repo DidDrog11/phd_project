@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.12)  13 JUL 2023 12:18
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.12)  17 JUL 2023 12:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1067,7 +1067,7 @@ File: chapter_4_files/Figure_4.png Graphic file (type bmp)
 [109]
 Overfull \vbox (22.1324pt too high) has occurred while \output is active []
 
-[110] [111] [112] [113] [114] [115] [116] [117] [118] [119]
+[110] [111] [112] [113] [114] [115] [116] [117] [118] [119] [120]
 File: discussion_files/fichet_calvet_2009.png Graphic file (type bmp)
 <discussion_files/fichet_calvet_2009.png>
 File: discussion_files/mylne_2015.png Graphic file (type bmp)
@@ -1086,17 +1086,17 @@ Overfull \hbox (6.64392pt too wide) in paragraph at lines 1629--1630
  [][][][] 
  []
 
-[120] [121] [122] [123]
+[121] [122] [123] [124]
 Underfull \hbox (badness 1694) in paragraph at lines 1673--1675
 \TU/lmr/m/n/10 versity and abundance in taï national park, côte d’ivoire’, \TU/lmr/m/it/10 Nature Conservation Research\TU/lmr/m/n/10 , 3.
  []
 
-[124] [125] [126] [127] [128]
+[125] [126] [127] [128] [129]
 Overfull \hbox (45.39435pt too wide) in paragraph at lines 1799--1801
 \TU/lmr/m/n/10 mammals’, \TU/lmr/m/it/10 Journal of mammalogy\TU/lmr/m/n/10 , 82(4), pp. 960–973. doi:[]10.1644/1545-1542(2001)082<0960:ATOTGS>2.0.CO;2[]. 
  []
 
-[129]
+[130]
 Missing character: There is no ℡ (U+2121) in font [lmroman10-regular]:mapping=tex-text;!
 
 Underfull \hbox (badness 1708) in paragraph at lines 1835--1837
@@ -1108,7 +1108,7 @@ Underfull \hbox (badness 1953) in paragraph at lines 1835--1837
 \TU/lmr/m/n/10 conservation’, \TU/lmr/m/it/10 Proceedings of the National Academy of Sciences\TU/lmr/m/n/10 , 103(51), pp. 19374–19379.
  []
 
-[130] [131] [132] [133] [134] [135]
+[131] [132] [133] [134] [135] [136]
 Underfull \hbox (badness 1515) in paragraph at lines 2006--2008
 []\TU/lmr/m/n/10 Garine-Wichatitsky, M. de, Lwande, O.W., Fountain-Jones, N.M., VanderWaal, K. and Obanda,
  []
@@ -1118,545 +1118,545 @@ Overfull \hbox (7.471pt too wide) in paragraph at lines 2033--2035
 \TU/lmr/m/n/10 fever in west africa’, \TU/lmr/m/it/10 Pathogens and Global Health\TU/lmr/m/n/10 , 111(6), pp. 276–288. doi:[]10.1080/20477724.2017.1369643[]. 
  []
 
-[136] [137] [138] [139]
+[137] [138] [139] [140]
 Missing character: There is no ∆ (U+2206) in font [lmroman10-italic]:mapping=tex-text;!
-[140] [141] [142]
-Underfull \hbox (badness 2050) in paragraph at lines 2255--2257
+[141] [142] [143]
+Underfull \hbox (badness 2050) in paragraph at lines 2258--2260
 \TU/lmr/m/n/10 pathogen in a fluctuating population’, \TU/lmr/m/it/10 Journal of Biological Dynamics\TU/lmr/m/n/10 , 3(2), pp. 224–234.
  []
 
-[143] [144] [145] [146] [147] [148]
-Underfull \hbox (badness 1043) in paragraph at lines 2441--2443
+[144] [145] [146] [147] [148] [149]
+Underfull \hbox (badness 1043) in paragraph at lines 2444--2446
 []\TU/lmr/m/n/10 Murray, K.A. and Daszak, P. (2013) ‘Human ecology in pathogenic landscapes: Two hypotheses
  []
 
-[149] [150] [151]
-Underfull \hbox (badness 10000) in paragraph at lines 2552--2554
+[150] [151] [152] [153]
+Underfull \hbox (badness 10000) in paragraph at lines 2555--2557
 [][][] [][] [][][][][][][][][][][][][] [][] [][][][][][][][] [] [][][] [][] [][][] [][] [][][][][][][][][][][][] [] [][][] [][] [][][][][][][][][][][][] [] [][][][][][][] [][] [][][] [] [][][][][][] [][] [][][][][] [][] [][][] [][]
  []
 
-[152]
-Overfull \hbox (4.81099pt too wide) in paragraph at lines 2558--2560
+
+Overfull \hbox (4.81099pt too wide) in paragraph at lines 2561--2563
 \TU/lmr/m/n/10 biodiversity-buffers-disease paradigm’, \TU/lmr/m/it/10 Parasitology\TU/lmr/m/n/10 , 139(7), pp. 847–863. doi:[]10.1017/S0031182012000200[]. 
  []
 
-[153] [154] [155] [156] [157]
-Underfull \hbox (badness 1496) in paragraph at lines 2729--2731
+[154] [155] [156] [157] [158]
+Underfull \hbox (badness 1496) in paragraph at lines 2732--2734
 []\TU/lmr/m/n/10 Watanabe, S. (2010) ‘Asymptotic equivalence of bayes cross validation and widely applicable in-
  []
 
-[158]
-Underfull \hbox (badness 1057) in paragraph at lines 2792--2794
+[159]
+Underfull \hbox (badness 1057) in paragraph at lines 2795--2797
 \TU/lmr/m/n/10 of human coronaviruses’, \TU/lmr/m/it/10 International Journal of Biological Sciences\TU/lmr/m/n/10 , 16(10), pp. 1686–1697.
  []
 
-[159] [160]
+[160] [161]
 File: appendices_files/A1.pdf Graphic file (type pdf)
 <use appendices_files/A1.pdf>
 File: appendices_files/A1.pdf Graphic file (type pdf)
 <use appendices_files/A1.pdf>
-[161]
-File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 1>
-File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 1>
-File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 1>
 [162]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 2>
+<use appendices_files/A1.pdf, page 1>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 2>
+<use appendices_files/A1.pdf, page 1>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 2>
+<use appendices_files/A1.pdf, page 1>
 [163]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 3>
+<use appendices_files/A1.pdf, page 2>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 3>
+<use appendices_files/A1.pdf, page 2>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 3>
+<use appendices_files/A1.pdf, page 2>
 [164]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 4>
+<use appendices_files/A1.pdf, page 3>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 4>
+<use appendices_files/A1.pdf, page 3>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 4>
+<use appendices_files/A1.pdf, page 3>
 [165]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 5>
+<use appendices_files/A1.pdf, page 4>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 5>
+<use appendices_files/A1.pdf, page 4>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 5>
+<use appendices_files/A1.pdf, page 4>
 [166]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 6>
+<use appendices_files/A1.pdf, page 5>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 6>
+<use appendices_files/A1.pdf, page 5>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 6>
+<use appendices_files/A1.pdf, page 5>
 [167]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 7>
+<use appendices_files/A1.pdf, page 6>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 7>
+<use appendices_files/A1.pdf, page 6>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 7>
+<use appendices_files/A1.pdf, page 6>
 [168]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 8>
+<use appendices_files/A1.pdf, page 7>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 8>
+<use appendices_files/A1.pdf, page 7>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 8>
+<use appendices_files/A1.pdf, page 7>
 [169]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 9>
+<use appendices_files/A1.pdf, page 8>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 9>
+<use appendices_files/A1.pdf, page 8>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 9>
+<use appendices_files/A1.pdf, page 8>
 [170]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 10>
+<use appendices_files/A1.pdf, page 9>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 10>
+<use appendices_files/A1.pdf, page 9>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 10>
+<use appendices_files/A1.pdf, page 9>
 [171]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 11>
+<use appendices_files/A1.pdf, page 10>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 11>
+<use appendices_files/A1.pdf, page 10>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 11>
+<use appendices_files/A1.pdf, page 10>
 [172]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 12>
+<use appendices_files/A1.pdf, page 11>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 12>
+<use appendices_files/A1.pdf, page 11>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 12>
+<use appendices_files/A1.pdf, page 11>
 [173]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 13>
+<use appendices_files/A1.pdf, page 12>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 13>
+<use appendices_files/A1.pdf, page 12>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 13>
+<use appendices_files/A1.pdf, page 12>
 [174]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 14>
+<use appendices_files/A1.pdf, page 13>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 14>
+<use appendices_files/A1.pdf, page 13>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 14>
+<use appendices_files/A1.pdf, page 13>
 [175]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 15>
+<use appendices_files/A1.pdf, page 14>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 15>
+<use appendices_files/A1.pdf, page 14>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 15>
+<use appendices_files/A1.pdf, page 14>
 [176]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 16>
+<use appendices_files/A1.pdf, page 15>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 16>
+<use appendices_files/A1.pdf, page 15>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 16>
+<use appendices_files/A1.pdf, page 15>
 [177]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 17>
+<use appendices_files/A1.pdf, page 16>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 17>
+<use appendices_files/A1.pdf, page 16>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 17>
+<use appendices_files/A1.pdf, page 16>
 [178]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 18>
+<use appendices_files/A1.pdf, page 17>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 18>
+<use appendices_files/A1.pdf, page 17>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 18>
+<use appendices_files/A1.pdf, page 17>
 [179]
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 19>
+<use appendices_files/A1.pdf, page 18>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 19>
+<use appendices_files/A1.pdf, page 18>
 File: appendices_files/A1.pdf Graphic file (type pdf)
-<use appendices_files/A1.pdf, page 19>
+<use appendices_files/A1.pdf, page 18>
 [180]
-File: appendices_files/A2.pdf Graphic file (type pdf)
-<use appendices_files/A2.pdf>
-File: appendices_files/A2.pdf Graphic file (type pdf)
-<use appendices_files/A2.pdf>
+File: appendices_files/A1.pdf Graphic file (type pdf)
+<use appendices_files/A1.pdf, page 19>
+File: appendices_files/A1.pdf Graphic file (type pdf)
+<use appendices_files/A1.pdf, page 19>
+File: appendices_files/A1.pdf Graphic file (type pdf)
+<use appendices_files/A1.pdf, page 19>
 [181]
 File: appendices_files/A2.pdf Graphic file (type pdf)
-<use appendices_files/A2.pdf, page 1>
+<use appendices_files/A2.pdf>
 File: appendices_files/A2.pdf Graphic file (type pdf)
-<use appendices_files/A2.pdf, page 1>
-File: appendices_files/A2.pdf Graphic file (type pdf)
-<use appendices_files/A2.pdf, page 1>
+<use appendices_files/A2.pdf>
 [182]
 File: appendices_files/A2.pdf Graphic file (type pdf)
-<use appendices_files/A2.pdf, page 2>
+<use appendices_files/A2.pdf, page 1>
 File: appendices_files/A2.pdf Graphic file (type pdf)
-<use appendices_files/A2.pdf, page 2>
+<use appendices_files/A2.pdf, page 1>
 File: appendices_files/A2.pdf Graphic file (type pdf)
-<use appendices_files/A2.pdf, page 2>
+<use appendices_files/A2.pdf, page 1>
 [183]
 File: appendices_files/A2.pdf Graphic file (type pdf)
-<use appendices_files/A2.pdf, page 3>
+<use appendices_files/A2.pdf, page 2>
 File: appendices_files/A2.pdf Graphic file (type pdf)
-<use appendices_files/A2.pdf, page 3>
+<use appendices_files/A2.pdf, page 2>
 File: appendices_files/A2.pdf Graphic file (type pdf)
-<use appendices_files/A2.pdf, page 3>
+<use appendices_files/A2.pdf, page 2>
 [184]
-File: appendices_files/B1.pdf Graphic file (type pdf)
-<use appendices_files/B1.pdf>
-File: appendices_files/B1.pdf Graphic file (type pdf)
-<use appendices_files/B1.pdf>
+File: appendices_files/A2.pdf Graphic file (type pdf)
+<use appendices_files/A2.pdf, page 3>
+File: appendices_files/A2.pdf Graphic file (type pdf)
+<use appendices_files/A2.pdf, page 3>
+File: appendices_files/A2.pdf Graphic file (type pdf)
+<use appendices_files/A2.pdf, page 3>
 [185]
 File: appendices_files/B1.pdf Graphic file (type pdf)
-<use appendices_files/B1.pdf, page 1>
+<use appendices_files/B1.pdf>
 File: appendices_files/B1.pdf Graphic file (type pdf)
-<use appendices_files/B1.pdf, page 1>
-File: appendices_files/B1.pdf Graphic file (type pdf)
-<use appendices_files/B1.pdf, page 1>
+<use appendices_files/B1.pdf>
 [186]
 File: appendices_files/B1.pdf Graphic file (type pdf)
-<use appendices_files/B1.pdf, page 2>
+<use appendices_files/B1.pdf, page 1>
 File: appendices_files/B1.pdf Graphic file (type pdf)
-<use appendices_files/B1.pdf, page 2>
+<use appendices_files/B1.pdf, page 1>
 File: appendices_files/B1.pdf Graphic file (type pdf)
-<use appendices_files/B1.pdf, page 2>
+<use appendices_files/B1.pdf, page 1>
 [187]
 File: appendices_files/B1.pdf Graphic file (type pdf)
-<use appendices_files/B1.pdf, page 3>
+<use appendices_files/B1.pdf, page 2>
 File: appendices_files/B1.pdf Graphic file (type pdf)
-<use appendices_files/B1.pdf, page 3>
+<use appendices_files/B1.pdf, page 2>
 File: appendices_files/B1.pdf Graphic file (type pdf)
-<use appendices_files/B1.pdf, page 3>
+<use appendices_files/B1.pdf, page 2>
 [188]
+File: appendices_files/B1.pdf Graphic file (type pdf)
+<use appendices_files/B1.pdf, page 3>
+File: appendices_files/B1.pdf Graphic file (type pdf)
+<use appendices_files/B1.pdf, page 3>
+File: appendices_files/B1.pdf Graphic file (type pdf)
+<use appendices_files/B1.pdf, page 3>
+[189]
 File: appendices_files/B2-1.png Graphic file (type bmp)
 <appendices_files/B2-1.png>
 File: appendices_files/B2-2.png Graphic file (type bmp)
 <appendices_files/B2-2.png>
 File: appendices_files/B2-3.png Graphic file (type bmp)
 <appendices_files/B2-3.png>
-[189]
+[190]
 File: appendices_files/B2-4.png Graphic file (type bmp)
 <appendices_files/B2-4.png>
-[190]
-File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf>
-File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf>
 [191]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 1>
+<use appendices_files/B3.pdf>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 1>
-File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 1>
+<use appendices_files/B3.pdf>
 [192]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 2>
+<use appendices_files/B3.pdf, page 1>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 2>
+<use appendices_files/B3.pdf, page 1>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 2>
+<use appendices_files/B3.pdf, page 1>
 [193]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 3>
+<use appendices_files/B3.pdf, page 2>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 3>
+<use appendices_files/B3.pdf, page 2>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 3>
+<use appendices_files/B3.pdf, page 2>
 [194]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 4>
+<use appendices_files/B3.pdf, page 3>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 4>
+<use appendices_files/B3.pdf, page 3>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 4>
+<use appendices_files/B3.pdf, page 3>
 [195]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 5>
+<use appendices_files/B3.pdf, page 4>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 5>
+<use appendices_files/B3.pdf, page 4>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 5>
+<use appendices_files/B3.pdf, page 4>
 [196]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 6>
+<use appendices_files/B3.pdf, page 5>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 6>
+<use appendices_files/B3.pdf, page 5>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 6>
+<use appendices_files/B3.pdf, page 5>
 [197]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 7>
+<use appendices_files/B3.pdf, page 6>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 7>
+<use appendices_files/B3.pdf, page 6>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 7>
+<use appendices_files/B3.pdf, page 6>
 [198]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 8>
+<use appendices_files/B3.pdf, page 7>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 8>
+<use appendices_files/B3.pdf, page 7>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 8>
+<use appendices_files/B3.pdf, page 7>
 [199]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 9>
+<use appendices_files/B3.pdf, page 8>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 9>
+<use appendices_files/B3.pdf, page 8>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 9>
+<use appendices_files/B3.pdf, page 8>
 [200]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 10>
+<use appendices_files/B3.pdf, page 9>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 10>
+<use appendices_files/B3.pdf, page 9>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 10>
+<use appendices_files/B3.pdf, page 9>
 [201]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 11>
+<use appendices_files/B3.pdf, page 10>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 11>
+<use appendices_files/B3.pdf, page 10>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 11>
+<use appendices_files/B3.pdf, page 10>
 [202]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 12>
+<use appendices_files/B3.pdf, page 11>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 12>
+<use appendices_files/B3.pdf, page 11>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 12>
+<use appendices_files/B3.pdf, page 11>
 [203]
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 13>
+<use appendices_files/B3.pdf, page 12>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 13>
+<use appendices_files/B3.pdf, page 12>
 File: appendices_files/B3.pdf Graphic file (type pdf)
-<use appendices_files/B3.pdf, page 13>
+<use appendices_files/B3.pdf, page 12>
 [204]
+File: appendices_files/B3.pdf Graphic file (type pdf)
+<use appendices_files/B3.pdf, page 13>
+File: appendices_files/B3.pdf Graphic file (type pdf)
+<use appendices_files/B3.pdf, page 13>
+File: appendices_files/B3.pdf Graphic file (type pdf)
+<use appendices_files/B3.pdf, page 13>
+[205]
 File: appendices_files/B4.png Graphic file (type bmp)
 <appendices_files/B4.png>
 File: appendices_files/B5.pdf Graphic file (type pdf)
 <use appendices_files/B5.pdf>
 File: appendices_files/B5.pdf Graphic file (type pdf)
 <use appendices_files/B5.pdf>
-[205]
-File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 1>
-File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 1>
-File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 1>
 [206]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 2>
+<use appendices_files/B5.pdf, page 1>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 2>
+<use appendices_files/B5.pdf, page 1>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 2>
+<use appendices_files/B5.pdf, page 1>
 [207]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 3>
+<use appendices_files/B5.pdf, page 2>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 3>
+<use appendices_files/B5.pdf, page 2>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 3>
+<use appendices_files/B5.pdf, page 2>
 [208]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 4>
+<use appendices_files/B5.pdf, page 3>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 4>
+<use appendices_files/B5.pdf, page 3>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 4>
+<use appendices_files/B5.pdf, page 3>
 [209]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 5>
+<use appendices_files/B5.pdf, page 4>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 5>
+<use appendices_files/B5.pdf, page 4>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 5>
+<use appendices_files/B5.pdf, page 4>
 [210]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 6>
+<use appendices_files/B5.pdf, page 5>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 6>
+<use appendices_files/B5.pdf, page 5>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 6>
+<use appendices_files/B5.pdf, page 5>
 [211]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 7>
+<use appendices_files/B5.pdf, page 6>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 7>
+<use appendices_files/B5.pdf, page 6>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 7>
+<use appendices_files/B5.pdf, page 6>
 [212]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 8>
+<use appendices_files/B5.pdf, page 7>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 8>
+<use appendices_files/B5.pdf, page 7>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 8>
+<use appendices_files/B5.pdf, page 7>
 [213]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 9>
+<use appendices_files/B5.pdf, page 8>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 9>
+<use appendices_files/B5.pdf, page 8>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 9>
+<use appendices_files/B5.pdf, page 8>
 [214]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 10>
+<use appendices_files/B5.pdf, page 9>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 10>
+<use appendices_files/B5.pdf, page 9>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 10>
+<use appendices_files/B5.pdf, page 9>
 [215]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 11>
+<use appendices_files/B5.pdf, page 10>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 11>
+<use appendices_files/B5.pdf, page 10>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 11>
+<use appendices_files/B5.pdf, page 10>
 [216]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 12>
+<use appendices_files/B5.pdf, page 11>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 12>
+<use appendices_files/B5.pdf, page 11>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 12>
+<use appendices_files/B5.pdf, page 11>
 [217]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 13>
+<use appendices_files/B5.pdf, page 12>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 13>
+<use appendices_files/B5.pdf, page 12>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 13>
+<use appendices_files/B5.pdf, page 12>
 [218]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 14>
+<use appendices_files/B5.pdf, page 13>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 14>
+<use appendices_files/B5.pdf, page 13>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 14>
+<use appendices_files/B5.pdf, page 13>
 [219]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 15>
+<use appendices_files/B5.pdf, page 14>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 15>
+<use appendices_files/B5.pdf, page 14>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 15>
+<use appendices_files/B5.pdf, page 14>
 [220]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 16>
+<use appendices_files/B5.pdf, page 15>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 16>
+<use appendices_files/B5.pdf, page 15>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 16>
+<use appendices_files/B5.pdf, page 15>
 [221]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 17>
+<use appendices_files/B5.pdf, page 16>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 17>
+<use appendices_files/B5.pdf, page 16>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 17>
+<use appendices_files/B5.pdf, page 16>
 [222]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 18>
+<use appendices_files/B5.pdf, page 17>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 18>
+<use appendices_files/B5.pdf, page 17>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 18>
+<use appendices_files/B5.pdf, page 17>
 [223]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 19>
+<use appendices_files/B5.pdf, page 18>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 19>
+<use appendices_files/B5.pdf, page 18>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 19>
+<use appendices_files/B5.pdf, page 18>
 [224]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 20>
+<use appendices_files/B5.pdf, page 19>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 20>
+<use appendices_files/B5.pdf, page 19>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 20>
+<use appendices_files/B5.pdf, page 19>
 [225]
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 21>
+<use appendices_files/B5.pdf, page 20>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 21>
+<use appendices_files/B5.pdf, page 20>
 File: appendices_files/B5.pdf Graphic file (type pdf)
-<use appendices_files/B5.pdf, page 21>
+<use appendices_files/B5.pdf, page 20>
 [226]
+File: appendices_files/B5.pdf Graphic file (type pdf)
+<use appendices_files/B5.pdf, page 21>
+File: appendices_files/B5.pdf Graphic file (type pdf)
+<use appendices_files/B5.pdf, page 21>
+File: appendices_files/B5.pdf Graphic file (type pdf)
+<use appendices_files/B5.pdf, page 21>
+[227]
 File: appendices_files/B6.png Graphic file (type bmp)
 <appendices_files/B6.png>
 File: appendices_files/C1.png Graphic file (type bmp)
 <appendices_files/C1.png>
-[227]
+[228]
 File: appendices_files/C2-1.png Graphic file (type bmp)
 <appendices_files/C2-1.png>
-[228]
+[229]
 File: appendices_files/C2-2.png Graphic file (type bmp)
 <appendices_files/C2-2.png>
-[229]
+[230]
 File: appendices_files/C2-3.png Graphic file (type bmp)
 <appendices_files/C2-3.png>
-[230] [231]
+[231] [232]
 File: appendices_files/C3-1.pdf Graphic file (type pdf)
 <use appendices_files/C3-1.pdf>
 File: appendices_files/C3-1.pdf Graphic file (type pdf)
 <use appendices_files/C3-1.pdf>
-[232]
-File: appendices_files/C3-1.pdf Graphic file (type pdf)
-<use appendices_files/C3-1.pdf, page 1>
-File: appendices_files/C3-1.pdf Graphic file (type pdf)
-<use appendices_files/C3-1.pdf, page 1>
-File: appendices_files/C3-1.pdf Graphic file (type pdf)
-<use appendices_files/C3-1.pdf, page 1>
 [233]
-File: appendices_files/C3-2.pdf Graphic file (type pdf)
-<use appendices_files/C3-2.pdf>
-File: appendices_files/C3-2.pdf Graphic file (type pdf)
-<use appendices_files/C3-2.pdf>
+File: appendices_files/C3-1.pdf Graphic file (type pdf)
+<use appendices_files/C3-1.pdf, page 1>
+File: appendices_files/C3-1.pdf Graphic file (type pdf)
+<use appendices_files/C3-1.pdf, page 1>
+File: appendices_files/C3-1.pdf Graphic file (type pdf)
+<use appendices_files/C3-1.pdf, page 1>
 [234]
 File: appendices_files/C3-2.pdf Graphic file (type pdf)
-<use appendices_files/C3-2.pdf, page 1>
+<use appendices_files/C3-2.pdf>
 File: appendices_files/C3-2.pdf Graphic file (type pdf)
-<use appendices_files/C3-2.pdf, page 1>
-File: appendices_files/C3-2.pdf Graphic file (type pdf)
-<use appendices_files/C3-2.pdf, page 1>
+<use appendices_files/C3-2.pdf>
 [235]
-File: appendices_files/C3-3.pdf Graphic file (type pdf)
-<use appendices_files/C3-3.pdf>
-File: appendices_files/C3-3.pdf Graphic file (type pdf)
-<use appendices_files/C3-3.pdf>
+File: appendices_files/C3-2.pdf Graphic file (type pdf)
+<use appendices_files/C3-2.pdf, page 1>
+File: appendices_files/C3-2.pdf Graphic file (type pdf)
+<use appendices_files/C3-2.pdf, page 1>
+File: appendices_files/C3-2.pdf Graphic file (type pdf)
+<use appendices_files/C3-2.pdf, page 1>
 [236]
 File: appendices_files/C3-3.pdf Graphic file (type pdf)
-<use appendices_files/C3-3.pdf, page 1>
+<use appendices_files/C3-3.pdf>
 File: appendices_files/C3-3.pdf Graphic file (type pdf)
-<use appendices_files/C3-3.pdf, page 1>
-File: appendices_files/C3-3.pdf Graphic file (type pdf)
-<use appendices_files/C3-3.pdf, page 1>
+<use appendices_files/C3-3.pdf>
 [237]
+File: appendices_files/C3-3.pdf Graphic file (type pdf)
+<use appendices_files/C3-3.pdf, page 1>
+File: appendices_files/C3-3.pdf Graphic file (type pdf)
+<use appendices_files/C3-3.pdf, page 1>
+File: appendices_files/C3-3.pdf Graphic file (type pdf)
+<use appendices_files/C3-3.pdf, page 1>
+[238]
 File: appendices_files/C4-1.png Graphic file (type bmp)
 <appendices_files/C4-1.png>
-[238]
+[239]
 File: appendices_files/C4-2.png Graphic file (type bmp)
 <appendices_files/C4-2.png>
-[239] (./thesis.aux)
+[240] (./thesis.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
@@ -1664,11 +1664,11 @@ L3 programming layer <2023-06-30>
  ) 
 Here is how much of TeX's memory you used:
  23852 strings out of 477868
- 452958 string characters out of 5820671
+ 452968 string characters out of 5820671
  1943869 words of memory out of 5000000
  44326 multiletter control sequences out of 15000+600000
  565191 words of font info for 102 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 90i,19n,120p,2663b,569s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,19n,120p,3215b,569s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thesis.pdf (240 pages).
+Output written on thesis.pdf (241 pages).
