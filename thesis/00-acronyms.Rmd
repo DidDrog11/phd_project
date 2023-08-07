@@ -1,6 +1,7 @@
 -   AIC - Akaike Information Criterion
 -   CI - Confidence Interval
 -   CMR - Capture-mark-recapture
+-   CFR - Case fatality rate
 -   EDF - Effective Degrees of Freedom
 -   ELISA - Enzyme-linked Immunosorbent Assay
 -   ERGM - Exponential-family Random Graph Model

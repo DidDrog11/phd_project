@@ -2,15 +2,15 @@ This thesis has produced: peer reviewed papers; preprints; invited talks at acad
 
 **Peer reviewed papers**
 
-* **Simons D**, Attfield LA, Jones KE, Watson-Jones D, Kock R. (2023). Rodent trapping studies as an overlooked information source for understanding endemic and novel zoonotic spillover. PLoS Negl Trop Dis 17(1): e0010772. https://doi.org/10.1371/journal.pntd.0010772
+* **Simons D**, Attfield LA, Jones KE, Watson-Jones D, Kock R. (2023). Rodent trapping studies as an overlooked information source for understanding endemic and novel zoonotic spillover. PLoS Neglected Tropical Diseases 17(1): e0010772. https://doi.org/10.1371/journal.pntd.0010772
 
 * **Simons D**. (2023). Lassa fever cases suffer from severe underreporting based on reported fatalities, International Health, ihac076, https://doi.org/10.1093/inthealth/ihac076
 
 * Arruda LB, Free HB, **Simons D**, Ansumana R, Elton L, Haider N, ... & Kock R. (2023). Current sampling and sequencing biases of Lassa mammarenavirus limit inference from phylogeography and molecular epidemiology in Lassa fever endemic regions. medRxiv, 2023-06. https://doi.org/10.1101/2023.06.20.23291686
 
-* Arruda LB, Haider N, Olayemi A, **Simons D**, Ehichioya D, Yinka-Ogunleye A, ... & Kock R. (2021). The niche of One Health approaches in Lassa fever surveillance and control. Annals of clinical microbiology and antimicrobials, 20(1), 29. https://doi.org/10.1186/s12941-021-00431-0
+* Arruda LB, Haider N, Olayemi A, **Simons D**, Ehichioya D, Yinka-Ogunleye A, ... & Kock R. (2021). The niche of One Health approaches in Lassa fever surveillance and control. Annals of Clinical Microbiology and Antimicrobials, 20(1), 29. https://doi.org/10.1186/s12941-021-00431-0
 
-**In preparation (preprints)**
+**In preparation**
 
 * **Simons D**, Gibb R, Bangura U, Sondufu D, Lamin J, Koninga J, Jimmy M, Dawson M, Lahai J, Ansumana R, Kock R, Watson-Jones D, Jones KE. Land use gradients drive spatial variation in Lassa fever host communities in the Eastern Province of Sierra Leone.
 
@@ -18,15 +18,15 @@ This thesis has produced: peer reviewed papers; preprints; invited talks at acad
 
 **Invited talks and presentations**
 
-Chapter \@ref(chapter2) has been presented at the Ecology and Evolution of Infectious Diseases Conference 2021.
+The methodology used and interim results generated from chapter \@ref(chapter2) has been presented at the Ecology and Evolution of Infectious Diseases Conference 2021.
 
-Chapter \@ref(chapter3) has been presented at the Planetary Health Alliance conference 2022, the Ecology and Evolution of Infectious Diseases Conference 2022 and the Hospital for Tropical Diseases Grand Round.
+The methodology used and interim results produced from chapter \@ref(chapter3) has been presented at the Planetary Health Alliance conference 2022, the Ecology and Evolution of Infectious Diseases Conference 2022 and the Hospital for Tropical Diseases Grand Round.
 
-Chapter \@ref(chapter4) has been presented at the Ecology and Evolution of Infectious Diseases Conference 2023, the Rodent-borne zoonoses workshop hosted by the Center for Infectious Disease Dynamics, Pennsylvania State University (2023) and the Development of transmissible vaccines workshop hosted by the University of Idaho.
+The methodology used and results of chapter \@ref(chapter4) has been presented at the Ecology and Evolution of Infectious Diseases Conference 2023, the Rodent-borne zoonoses workshop hosted by the Center for Infectious Disease Dynamics, Pennsylvania State University (2023) and the Development of transmissible vaccines workshop hosted by the University of Idaho.
 
-The work contained in this thesis will also be presented at the Ecology Society of America annual meeting (2023) and the American Society of Tropical Medicine and Hygiene annual meeting (2023).
+A summary of the work contained in this thesis will also be presented at the Ecology Society of America annual meeting (2023) and the American Society of Tropical Medicine and Hygiene annual meeting (2023).
 
 **Software**
 
-* **Exploring Rodent Trapping Studies in West Africa**: Developed to showcase the data consolidated in the Chapter \@ref(chapter2) and the associated publication "Rodent trapping studies as an overlooked information source for understanding endemic and novel zoonotic spillover article". Link: https://diddrog11.shinyapps.io/scoping_review_app/
+* **Exploring Rodent Trapping Studies in West Africa**: Developed to showcase the data consolidated in Chapter \@ref(chapter2) and the associated publication "Rodent trapping studies as an overlooked information source for understanding endemic and novel zoonotic spillover article". Link: https://diddrog11.shinyapps.io/scoping_review_app/
 
