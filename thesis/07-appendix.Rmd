@@ -173,6 +173,7 @@ knitr::include_graphics(here("thesis", "appendices_files", "C2-3.png"))
 
 ### Forest contact matrix
 
+\blandscape
 
 ```{r proportion-forest, fig.scap = "Proportion of contacts in forest land use", fig.cap = "The proportion of contacts between small mammal species in forest land use. Darker colours indicate increasing proportions of observed contacts to a species from named a species. Percentages in the cells correspond to the proportion of contacts to a species from a named species."}
 
@@ -181,7 +182,6 @@ knitr::include_graphics(here("thesis", "appendices_files", "C4-1.png"))
 ```
 
 \FloatBarrier
-\newpage
 
 ### Village contact matrix
 
@@ -193,3 +193,6 @@ knitr::include_graphics(here("thesis", "appendices_files", "C4-2.png"))
 ```
 
 \FloatBarrier
+
+
+\elandscape

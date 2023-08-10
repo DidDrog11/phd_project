@@ -12,7 +12,7 @@
 -   HRP - Horseradish peroxidase
 -   IQR - Interquartile Range
 -   IUCN - The International Union for Conservation of Nature
--   km - Kilometers
+-   km - Kilometres
 -   LASV - Lassa mammarenavirus
 -   NCDC - Nigeria Center for Disease Control
 -   OD - Optical Density
@@ -20,7 +20,7 @@
 -   OSF - Open Science Framework
 -   PCR - Polymerase Chain Reaction
 -   PHAROS - Pathogen Harmonised Surveillance
--   RNA - Ribonucleic Acide
+-   RNA - Ribonucleic Acid
 -   SD - Standard Deviation
 -   SEDAC - Socioeconomic Data and Applications Center
 -   TMB - 3,3’,5,5’-Tetramethylbenzidine
