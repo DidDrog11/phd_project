@@ -4,19 +4,28 @@
 ## Preface {-}
 
 
-Unbiased estimates of small-mammal species presence and absence are required to model the association of species occupancy with land use type  [@peterson_ecological_2011; @stolar_accounting_2015]. Available rodent trapping data from the Eastern Province of Sierra Leone was not amenable to these analyses, as rodent sampling has generally been conducted as opportunistic surveillance to measure LASV prevalence or for cataloguing rodent species as part of environmental impact assessments for resource extraction or construction [@fraser_lassa_1974; @monath_lassa_1974; @keenlyside_case-control_1983; @barnett_ecology_2000; @bonner_poor_2007; @decher_small_2010]. Therefore, I designed and implemented a longitudinal rodent trapping study to investigate whether rodent species richness and diversity vary along a land use gradient (results reported in Chapter \@ref(chapter3)) and whether rodent species involved in LASV transmission have increased contact rates to other individual rodents (of the same or different species) capable of pathogen maintenance (results reported in Chapter \@ref(chapter4)). 
+Unbiased estimates of small-mammal species presence and absence are required to model the association of species occupancy with land use type  [@peterson_ecological_2011; @stolar_accounting_2015]. Available rodent trapping data in West Africa was not amenable to these analyses, as rodent sampling has generally been conducted as opportunistic surveillance to measure LASV prevalence or for cataloguing rodent species as part of environmental impact assessments for resource extraction or construction [@fraser_lassa_1974; @monath_lassa_1974; @keenlyside_case-control_1983; @barnett_ecology_2000; @bonner_poor_2007; @decher_small_2010]. Therefore, I designed and implemented a longitudinal rodent trapping study to investigate whether rodent species richness and diversity vary along a land use gradient (results reported in Chapter \@ref(chapter3)) and whether rodent species involved in LASV transmission have increased contact rates to other individual rodents (of the same or different species) capable of pathogen maintenance (results reported in Chapter \@ref(chapter4)). 
 
 
-This methodology chapter draws on current best-practice in small-mammal sampling in West Africa in addition to reporting novel methodological developments. Specifically, this chapter provides 1) information about how local support and knowledge were leveraged to inform the design of the study protocol and 2) technical details on the sampling strategy, data collection tools, biological sample processing, data cleaning and management steps. It is envisioned that documenting and providing evidence for decisions taken in designing this study will aid in the harmonisation and reproducibility of rodent trapping studies across the region.
+Here, in this methodology chapter I draw on current best-practice to describe the design and implementation of small-mammal sampling in Sierra Leone, West Africa in addition to reporting novel methodological developments. Specifically, in this chapter I provide information about how local support and knowledge were leveraged to inform the design of the study protocol and the technical details on the sampling strategy, data collection tools, biological sample processing, and the data cleaning and management steps. I envisage that by documenting and providing evidence for decisions taken in designing this study, that it will aid in the harmonisation and reproducibility of rodent trapping studies across the region.
+
+
+I designed the sampling methodology with support from Kate E. Jones, Deborah Watson-Jones and Richard Kock. I received input on the developed sampling protocol from Elisabeth Fichet-Calvet and Lina Moses. All aspects of the study conducted in Sierra Leone were supported by Rashid Ansumana. I designated the locations of the rodent trapping grids, compiled the taxonomic keys and trained the local fieldwork collaborators on the study processes. The local fieldwork team, including Dianah Sondufu, Joyce Lamin, Michael Dawson, Momoh Jimmy and James Koninga conducted repeat sampling at previously designated locations under my direct and indirect supervision. Umaru Bangura trained me on the molecular identification of rodent and shrew species in addition to the serological assay for antibodies to LASV and provided remote support to this work conducted in Sierra Leone. I trained Joseph Lahai in Sierra Leone on DNA extraction from rodent and shrew samples and he prepared samples for sequencing under my direct and indirect supervision. I trained Joyce Lamin in Sierra Leone on the use of the serological ELISA assay and she analysed samples under my direct and indirect supervision.
+
+
+## Country selection
+
+
+Lassa fever is endemic in Sierra Leone and has historically contributed a substantial health burden in the country [@shaffer_space-time_2021]. Sierra Leone is suffering from the enduring effects of civil war and the West African Ebola epidemic with a Human Development Index of 0.477 ranking it 181st out of 195 countries and territories [@undp_uncertain_2022]. This low development index is associated with poor access to healthcare for the human population and therefore ongoing vulnerability to outbreaks of zoonoses such as Lassa fever [@trani_access_2011]. Within the country the Eastern Province suffers from the highest rates of poverty, which combined with being the highest risk region for Lassa fever indicates the need for a better understanding of the factors leading to LASV outbreaks which may allow public health interventions to reduce the additional burden this disease places on the local population [@fagernas_determinants_2003].
 
 
 ## Leveraging local support and knowledge
 
 
-For any rodent trapping study in village communities, it is vital to ensure that local communities support the study. This is particularly important for longitudinal studies with repeat visits. I was aware that study activities could be associated with stigma to the local human communities and rodent species (i.e., sampling wildlife for viral pathogens may generate the idea that a village is a hotspot of disease); it was therefore important that study villages considered this prior to providing permission for us to begin sampling. To optimise the continuing support received from the local communities, the study protocol was described in detail to the local village chieftain and the village committee. Concerns about the risk to the local community from our activities and the impact we may have on their activities were addressed and we committed to employing community members (e.g., to assist with brush clearance and transporting traps to sampling sites) during our sampling activities. An exit interview was scheduled where we shared our findings on the composition of small-mammal communities across a land use gradient and the prevalence of antibodies to LASV among sampled rodents with the villages (conducted in February 2023). During these interviews, we explored the positive and negative impact of our sampling activities. All villages reported no adverse effects of our trapping activity and were keen to continue in the study, if additional funding were to be acquired.
+For any rodent trapping study in village communities, it is vital to ensure that there is local community support [@donga_rodents_2022]. This is particularly important for longitudinal studies with repeat visits. I was aware that study activities could be associated with stigma to the local human communities and rodent species (i.e., sampling wildlife for viral pathogens may generate the idea that a village is a hotspot of disease); it was therefore important that study villages considered this prior to providing permission to begin sampling [@national_research_council_sustaining_2009]. To optimise the continuing support received from the local communities, the study protocol was described in detail to the local village chieftain and the village committee. Concerns about the risk to the local community from our activities and the impact we may have on their activities were addressed and I committed to employing community members (e.g., to assist with brush clearance and transporting traps to sampling sites) during our sampling activities. An exit interview was scheduled where I shared our findings on the composition of small-mammal communities across a land use gradient and the prevalence of antibodies to LASV among sampled rodents with the villages (conducted in February 2023). During these interviews, I explored the positive and negative impact of our sampling activities. All villages reported no adverse effects of our trapping activity and were keen to continue in the study, if additional funding were to be acquired.
 
 
-In addition, data on local LASV outbreaks are sparse. Therefore, the local communities have vital knowledge of lived experience of potential LASV outbreaks that may not be captured by the scientific literature or public health agencies. Given the sparsity of data in the Eastern Province of Sierra Leone, drawing on the knowledge of local leaders helped to guide the design of the study protocol.
+In addition, data on local LASV outbreaks are sparse. Therefore, the local communities have vital knowledge of lived experience of potential LASV outbreaks that may not be captured by the scientific literature or public health agencies [@guenin_participatory_2022]. Given the sparsity of data in the Eastern Province of Sierra Leone, drawing on the knowledge of local leaders helped to guide the design of the study protocol.
 
 
 ## Study design
@@ -28,7 +37,7 @@ This was a longitudinal rodent trapping study with repeated measurements nested 
 ### Study duration
 
 
-The study was designed to be conducted over 3 years (the duration of the PhD funding). This study duration was expected to yield a sufficient sample size for the planned analyses (not time-varying), based on previous research in the same country. Delays to the start of the project due to COVID-19 travel restrictions resulted in a shortened timeline of two-and-a-half years (October 2020-April 2023). 
+The study was designed to be conducted over 3 years. This study duration was expected to yield a sufficient sample size for the planned analyses (not time-varying), based on previous research in the same country [@mccormick_prospective_1987; @barnett_ecology_2000; @bonner_poor_2007]. This duration was expected to capture fluctuations in small-mammal abundance and occupancy due to secular trends that may be driven by unmeasured factors. Extending the study period over this time scale, compared to cross-sectional sampling would allow for a more representative estimate of the effect of land use on occupancy and LASV prevalence. Delays to the start of the project due to COVID-19 travel restrictions resulted in a shortened timeline of two-and-a-half years (October 2020-April 2023). 
 
 
 ### Sampling frequency
@@ -52,7 +61,44 @@ Next, we considered the sampling strategy required for obtaining unbiased estima
 ### Village selection
 
 
-Lassa fever is endemic in the Eastern Province of Sierra Leone, with the area surrounding Kenema considered to have the greatest incidence of human infection [@kelly_housing_2013]. However, data on the village locations of incident infections are largely undocumented [@shaffer_space-time_2021]. To better understand the local epidemiology of Lassa fever, I met with the provincial Paramount Chief and regional elders, in addition to the chief medical officer at a local hospital (Panguma District Hospital), which covers a large rural catchment area. These meetings aimed to identify villages that had previously experienced Lassa fever outbreaks (not necessarily documented by public health authorities) in addition to locations where no outbreaks had been experienced. The selection of villages with that had and had not experienced outbreaks was considered important to ensure that we were not conditioning the sampling based on expected Lassa fever incidence. This led to the inclusion of two villages where Lassa fever had not previously been experienced (Seilama and Baiama) and two villages where it had been experienced since 2015 (Lalehun and Lambayama).
+Lassa fever is endemic in the Eastern Province of Sierra Leone, with the area surrounding Kenema considered to have the greatest incidence of human infection [@kelly_housing_2013]. However, data on the village locations of incident infections are largely undocumented [@shaffer_space-time_2021]. To better understand the local epidemiology of Lassa fever, I met with the provincial Paramount Chief and regional elders, in addition to the chief medical officer at a local hospital (Panguma District Hospital), which covers a large rural catchment area. These meetings aimed to identify villages that had previously experienced Lassa fever outbreaks (not necessarily documented by public health authorities) in addition to locations where no outbreaks had been experienced. The selection of villages with that had and had not experienced outbreaks was considered important to ensure that we were not conditioning the sampling based on expected Lassa fever incidence. This led to the inclusion of two villages where Lassa fever had not previously been experienced (Seilama and Baiama) and two villages where it had been experienced since 2015 (Lalehun and Lambayama). The location of the villages selected within the Eastern Province of Sierra Leone are shown in Figure \@ref(map-sierra-leone).
+
+
+```{r map-sierra-leone, fig.scap = "Map of Sierra Leone showing the Eastern Province and location of study village sites", fig.cap = "Map of Sierra Leone. The Eastern Province of Sierra Leone is shown within Sierra Leone with a red border. Village study sites (Baiama, Lalehun, Lambayama and Seilama) are indicated by black points and associated labels. Other relevant locations are indicated by black diamonds. The laboratory used for analysis of biological samples is based at Mercy Hospital, Bo. The Lassa fever ward, Kenema houses the diagnostic capacity for Lassa fever in humans. Shapefiles obtained from GADM  4.0.4 (GADM, 2022)."}
+
+# packages
+library(geodata)
+library(ggsflabel)
+library(sf)
+library(here)
+library(tidyverse)
+
+SLE <- gadm("SLE", level = 1, path = here("thesis", "methodschapter_files")) %>%
+  st_as_sf()
+
+poi <- tibble(name = c("Kenema", "Baiama", "Lalehun", "Lambayama", "Seilama", "Bo", "Panguma", "Freetown"),
+              cat = c("poi", "Baiama", "Lalehun", "Lambayama", "Seilama", "poi", "poi", "poi"),
+              lat = c(7.876161956810467, 7.837529372181356, 8.197392257077409, 7.850593096948891, 8.12230048178563, 7.95707, 8.18571, 8.46870),
+              lon = c(-11.190811585001954, -11.268407665149846, -11.08032958100431, -11.196939025872055, -11.1935976318381, -11.74108, -11.13484, -13.23747)) %>%
+  st_as_sf(coords = c("lon", "lat"), crs = "EPSG:4326")
+
+ggplot() +
+  geom_sf(data = SLE %>%
+            filter(NAME_1 != "Eastern")) +
+  geom_sf(data = SLE %>%
+            filter(NAME_1 == "Eastern"),
+          colour = "darkred", lwd = 0.8) +
+  geom_sf(data = poi %>%
+            filter(cat == "poi"), shape = 18) +
+  geom_sf(data = poi %>%
+            filter(cat != "poi")) +
+  geom_sf_label_repel(data = poi, aes(label = name)) +
+  labs(x = element_blank(),
+       y = element_blank()) +
+  theme_minimal()
+
+```
+
 
 
 ### Trapping grids within different land use types
@@ -67,10 +113,18 @@ The selection of exact trap grid locations within the villages was guided by sev
 ### Structure of trap grids and trap locations
 
 
-Once the trap grid sites had been selected, the structure of the grids placed within these locations must be chosen. Trap lines, trap grids, trap webs, and sporadic placement of traps have all been previously used in published rodent trapping studies. In the present study, it was important that the local habitats for each individual trap did not substantially vary within a single land use type. This meant that trap lines (which often span multiple land use types due to their length) were not considered appropriate. In addition, as we aimed to infer contacts between individually trapped rodents based on the proximity of the locations at which they were detected, it was key that trapping effort was evenly distributed across the entire area of the trap grid. This meant that trap webs were not considered appropriate. We therefore opted for a cartesian trap grid structure.
+Once the trap grid sites had been selected, the structure of the grids placed within these locations must be chosen. Trap lines, trap grids, trap webs, and sporadic placement of traps have all been previously used in published rodent trapping studies. In the present study, it was important that the local habitats for each individual trap did not substantially vary within a single land use type. This meant that trap lines (which often span multiple land use types due to their length) were not considered appropriate. In addition, as we aimed to infer contacts between individually trapped rodents based on the proximity of the locations at which they were detected, it was key that trapping effort was evenly distributed across the entire area of the trap grid. This meant that trap webs were not considered appropriate. We therefore opted for a cartesian trap grid structure as shown in Figure \@ref(trap-grid).
 
 
 To allow comparison between sampling at grid sites during repeated visits, the GPS coordinates of the outer boundaries of the trapping grid were recorded with a Garmin GPSMAP 66i. 
+
+
+```{r trap-grid, fig.scap = "Schematic of trap grids", fig.cap = "Trap grid schematic. Traps were arranged in grid structures with traps placed in 7 by 7 grids, 7 meters apart."}
+
+knitr::include_graphics(here("thesis", "methodschapter_files", "trap_grid.png"))
+
+```
+
 
 
 ### Trapping effort
@@ -79,7 +133,7 @@ To allow comparison between sampling at grid sites during repeated visits, the G
 The number of individual traps placed within a grid constitutes one aspect of the trapping effort. In the present study, the number of traps per grid was governed by practical rather than scientific considerations, including the number of available traps in the study team’s possession and the time requirement to setup, record and bait the traps for the local study team. A total of 49 traps per grid (7 by 7 traps) was selected. Individual traps within each grid were placed approximately 7m apart, with a view to sampling an area of 2,401m^2^ within each grid. It was not feasible to ensure that individual traps were placed at the exact locations of traps at previous visits.
 
 
-Finally, the number of trap nights to be conducted at each village was selected following a review of the rodent trapping studies identified in Chapter \@ref(chapter2). Studies typically reported 1-4 trap nights conducted at each location, following discussions with the local study team four nights were selected as optimal.
+Finally, the number of trap nights to be conducted at each village was selected following a review of the rodent trapping studies identified in Chapter \@ref(chapter2). Studies typically reported 1-4 trap nights conducted at each location, following discussions with the local study team four nights were selected as optimal. The number of trap nights obtained across the entire study period within each trap grid with each village study site are shown in Appendix \@ref(baiama-traps)-\@ref(seilama-traps).
 
 
 ### Trap type selection
@@ -115,7 +169,7 @@ To ensure the study protocol was implemented as intended, a trap-check form was 
 ## Data collection, storage, and processing
 
 
-Data collected in the field were recorded in real-time. Initially, paper data entry forms were used. These forms were trialled during the pilot and improved following feedback from the field team. The forms required digitisation, which could lead to data entry errors and delays in reviewing for accuracy and completeness. To counter this and allow for remote support in data entry, a digital data capture tool was subsequently adopted. The OpenDataKit (ODK) is an open-source software that has been constructed to support offline data entry through powerful forms and allow multi-media data entry, including photos [@open_data_kit_odk_2023]. The ability to store data locally when offline for it to be subsequently uploaded to dedicated servers when a network connection is found is particularly valuable when conducting research in remote regions.
+Data collected in the field were recorded in real-time. Initially, paper data entry forms were used. These forms were trialed during the pilot and improved following feedback from the field team. The forms required digitisation, which could lead to data entry errors and delays in reviewing for accuracy and completeness. To counter this and allow for remote support in data entry, a digital data capture tool was subsequently adopted. The OpenDataKit (ODK) is an open-source software that has been constructed to support offline data entry through powerful forms and allow multi-media data entry, including photos [@open_data_kit_odk_2023]. The ability to store data locally when offline for it to be subsequently uploaded to dedicated servers when a network connection is found is particularly valuable when conducting research in remote regions.
 
 
 The data entry forms could be completed on any smart device. Initially, the field team was provided with tablets. However, they preferred to use their own smartphones for data entry as these were more portable and faster to use. The forms were accessed through a mobile ODK application (ODK Collect) with users given access to the forms required for their role [@odk_collect_odk_2023]. Data were encrypted locally after form completion and sent securely to an ODK Central server hosted by the London School of Hygiene and Tropical Medicine. Data were then downloaded from this server using the `ruODK` R client for the ODK Central API [@mayer_ruodk_2023]. The instant availability of data allowed real-time support to the field team to be provided.
@@ -130,7 +184,7 @@ Data on the following measures were obtained from all trapped rodents and shrews
 Data were obtained for all individuals on standard morphological measurements including weight and length of body, head, ear, hind foot and tail, in addition to the sex and reproductive status of individuals. These measurements, alongside more general characteristics, including pelage colour supported classification using the produced taxonomic key (Appendix \@ref(taxonomic-key)). Morphological measurements and reproductive status were also used to age stratify individuals into juvenile or adult age classes. Eye lenses were obtained from rodents with the aim to further classify by age using standardised eye-lens weight growth charts for species where this was available [@hardy_estimation_1983; @fichet-calvet_reproductive_2008].
 
 
-Several rodent and all shrew species were not able to be differentiated based on the taxonomic key; for these species, additional molecular identification was required. Sequencing of Cytochrome b has previously been used for rodent and shrew species in West Africa and has been shown to be able to discriminate between these cryptic species [@bradley_test_2001; @lecompte_cytochrome_2002]. While some rodent species could be unambiguously classified using the taxonomic key, molecular sequencing was performed on all individuals to improve confidence in field-based identification and reduce the impact of misclassification on subsequent analysis.
+Several rodent and all shrew species were not able to be differentiated based on the taxonomic key (Appendix \@ref(taxonomic-key)); for these species, additional molecular identification was required. Sequencing of Cytochrome b has previously been used for rodent and shrew species in West Africa and has been shown to be able to discriminate between these cryptic species [@bradley_test_2001; @lecompte_cytochrome_2002]. While some rodent species could be unambiguously classified using the taxonomic key, molecular sequencing was performed on all individuals to improve confidence in field-based identification and reduce the impact of misclassification on subsequent analysis.
 
 
 ### Biological measures
@@ -142,7 +196,7 @@ Biological samples (i.e., blood, tissue) were collected following established pr
 Samples were stored in appropriate storage media (i.e., formalin or ethanol) and placed in cool boxes on ice packs to maintain a cold chain. Ideally, samples would be stored in liquid nitrogen at the point of processing; however, this was not feasible, as liquid nitrogen is not readily available in Sierra Leone. To reduce the time that samples were stored outside of an effective cold chain, we partnered with Panguma District Hospital and Kenema General Hospital to store samples in -20°C freezers at the end of each sampling day. Long term storage of samples was within our local collaborator’s lab, located in Mercy Hospital, Bo. At Mercy Hospital, back-up power banks were able to maintain a cold chain during the daily episodes of disrupted electricity supply. However, at several points during our study, municipal power was not available for prolonged periods. It is likely that this led to samples temporarily increasing above -20°C, although it is not expected that this would have a significant impact on the degradation of antibodies during the short period they were stored prior to analysis [@amini_reliability_2021]. However, sample degradation may limit the possibility of these samples being re-used in future work. 
 
 
-All sample processing and analysis (i.e., LASV serology and Cytochrome b PCR) was conducted in-country within Sierra Leone. The final stage of the analysis pipeline could not be conducted in Sierra Leone as there were no available Sanger sequencing machines. Therefore, following sample processing, the PCR products were shipped to Germany for sequencing. Conducting all laboratory analysis in Sierra Leone was a deliberate choice to improve local ownership of the research project and to consolidate the knowledge and skills of the local workforce in the processing of biological samples. In addition, where possible, students from local higher education institutes were included in the steps of sample analysis to improve training. All samples remain in Sierra Leone for future use by the local research community and international collaborators.
+The steps followed throughout the sampling protocol are described in Appendix \@ref(study-protocol). All sample processing and analysis (i.e., LASV serology and Cytochrome b PCR) was conducted in-country within Sierra Leone. The final stage of the analysis pipeline could not be conducted in Sierra Leone as there were no available Sanger sequencing machines. Therefore, following sample processing, the PCR products were shipped to Germany for sequencing. Conducting all laboratory analysis in Sierra Leone was a deliberate choice to improve local ownership of the research project and to consolidate the knowledge and skills of the local workforce in the processing of biological samples. In addition, where possible, students from local higher education institutes were included in the steps of sample analysis to improve training. All samples remain in Sierra Leone for future use by the local research community and international collaborators.
 
 
 ### Trap locations
