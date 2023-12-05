@@ -196,7 +196,8 @@ ghs_data <- read_csv(here("thesis", "introduction_files", "ghs_index.csv"), show
 ghs_data <- ghs_data %>%
   mutate(iso3c = countrycode(Country, origin = "country.name", destination = "iso3c")) %>%
   left_join(codelist %>%
-              select(iso3c, un.region.name, region23), by = "iso3c")
+              select(iso3c, un.region.name, region23), by = "iso3c") %>%
+  mutate(Value = cut(Value, breaks = c(0, 25, 50, 75, 100), include.lowest = TRUE))
 
 world <- ne_countries(scale = 110, returnclass = "sf") %>%
   select(adm0_a3, admin)
@@ -209,7 +210,8 @@ fig_1_3a <- ghs_data %>%
   ggplot() +
   geom_sf(aes(fill = Value)) +
   geom_sf_text(aes(label = iso3c)) +
-  scale_fill_viridis_c(option = "cividis", direction = -1, limits = c(0, 100)) +
+  scale_fill_viridis_d(option = "cividis", direction = -1,
+                       limits = levels(ghs_data$Value)) +
   labs(fill = "GHS Index score",
        title = "A) Real-time surveillance and reporting",
        x = element_blank(),
@@ -224,7 +226,8 @@ fig_1_3b <- ghs_data %>%
   ggplot() +
   geom_sf(aes(fill = Value)) +
   geom_sf_text(aes(label = iso3c)) +
-  scale_fill_viridis_c(option = "cividis", direction = -1, limits = c(0, 100)) +
+  scale_fill_viridis_d(option = "cividis", direction = -1,
+                       limits = levels(ghs_data$Value)) +
   labs(fill = "GHS Index score",
        title = "B) Zoonotic disease surveillance - animals",
        x = element_blank(),
@@ -281,7 +284,7 @@ Survivors of symptomatic Lassa fever may have lasting effects of the disease. Se
 ### Lassa fever epidemiology
 
 
-Annual Lassa fever incidence is unknown, with estimates ranging between 150,000 to 900,000 cases per year annually [@mccormick_prospective_1987; @basinski_bridging_2021]. The wide uncertainty surrounding these estimates is due to a combination of few serological studies, limited disease surveillance and an overlap between the symptomatology of Lassa fever with other infectious diseases in these endemic regions (e.g., malaria, Rift Valley fever). Lassa fever is currently considered endemic in 8 West African countries: Benin, Ghana, Guinea, Liberia, Mali, Nigeria, Sierra Leone and Togo by the World Health Organisation (WHO), with sporadic cases reported from Burkina Faso and the Ivory Coast (Figure \@ref(fig:lassa-endemic)) [@world_health_organisation_lassa_2022]. The endemic region is entirely contained within the range of the reservoir species *M. natalensis*. Imported cases have been reported from non-West African countries such as the United Kingdom, Germany and the United States of America with a limited number of secondary human-to-human transmission events observed outside the endemic region [@tuite_potential_2019; @wolf_fifty_2020].
+Annual Lassa fever incidence is unknown, with estimates ranging between 150,000 to 900,000 cases per year annually [@mccormick_prospective_1987; @basinski_bridging_2021]. The wide uncertainty surrounding these estimates is due to a combination of few serological studies, limited disease surveillance and an overlap between the symptomatology of Lassa fever with other infectious diseases in these endemic regions (e.g., malaria, Rift Valley fever). Lassa fever is currently considered endemic in 8 West African countries: Benin, Ghana, Guinea, Liberia, Mali, Nigeria, Sierra Leone and Togo by the World Health Organisation (WHO), with sporadic cases reported from Burkina Faso and the Ivory Coast (Figure \@ref(fig:lassa-endemic)) [@world_health_organisation_lassa_2022]. Countries designated as endemic by the WHO do not all regularly reported cases of Lassa fever (e.g., Guinea) and between endemic countries there are substantial differences in the number of annually reported cases [@simons_lassa_2022]. The endemic region is entirely contained within the range of the reservoir species *M. natalensis*. Imported cases have been reported from non-West African countries such as the United Kingdom, Germany and the United States of America with a limited number of secondary human-to-human transmission events observed outside the endemic region [@tuite_potential_2019; @wolf_fifty_2020].
 
 
 ```{r lassa-endemic, warning = FALSE, message = FALSE, echo = FALSE, out.width = "100%", fig.scap = '(ref:short-4)', fig.cap = '(ref:long-1)'}
