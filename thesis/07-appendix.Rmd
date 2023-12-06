@@ -145,6 +145,16 @@ knitr::include_graphics(here("thesis", "appendices_files", "C2-3.png"))
 
 (ref:long-c3) The marginal effect of trapping effort (TN) on the probability of detection of a species in a grid cell. The black line shows the mean modelled probability of detection trapping effort, the shaded grey region represents the 95% CrI. Probability of detection is low for all species at low levels of TN. The probability of detection with increasing TN varies by species. The invasive rodent species *M. musculus* and *R. rattus* show a sinusoidal response over the range of TNs that were observed in this study with the probability of detection being greater than 50% at relatively low numbers of TN (17 and 22 respectively). Much greater trapping effort were required to obtain the same probability of detection for the native rodent species. Only *M. natalensis* requiring 29 TN to reach a probability of 50% detection.
 
+## Posterior predictive checks {#ppc}
+
+``` {r ppc, fig.scap = "Posterior predictive checks", fig.cap = '(ref:long-c3)'}
+
+knitr::include_graphics(here("thesis", "appendices_files", "C4.png"))
+
+```
+
+(ref:long-c4) Posterior predictive checks of the final Bayesian multi-species occupancy model. The fit statistic for the observed data and fitted model is shown. Pink points represent a positive discrepancy in the fit statistic with blue points representing a negative discrepancy in the fit statistic. Fit statistics clustered around the black line (representing no discrepancy) indicate better model validation to data.
+
 \FloatBarrier
 \newpage
 # Appendix D
