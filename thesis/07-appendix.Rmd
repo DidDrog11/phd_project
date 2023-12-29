@@ -143,13 +143,13 @@ knitr::include_graphics(here("thesis", "appendices_files", "C2-3.png"))
 
 ## Posterior predictive checks {#ppc}
 
-``` {r ppc, fig.scap = "Posterior predictive checks", fig.cap = '(ref:long-c3)'}
+``` {r ppc, fig.scap = "Posterior predictive checks", fig.cap = '(ref:long-c24)'}
 
-knitr::include_graphics(here("thesis", "appendices_files", "C4.png"))
+knitr::include_graphics(here("thesis", "appendices_files", "C2-4.png"))
 
 ```
 
-(ref:long-c4) Posterior predictive checks of the final Bayesian multi-species occupancy model. The fit statistic for the observed data and fitted model is shown. Pink points represent a positive discrepancy in the fit statistic with blue points representing a negative discrepancy in the fit statistic. Fit statistics clustered around the black line (representing no discrepancy) indicate better model validation to data.
+(ref:long-c24) Posterior predictive checks of the final Bayesian multi-species occupancy model. The fit statistic for the observed data and fitted model is shown. Pink points represent a positive discrepancy in the fit statistic with blue points representing a negative discrepancy in the fit statistic. Fit statistics clustered around the black line (representing no discrepancy) indicate better model validation to data.
 
 \FloatBarrier
 \newpage
@@ -199,6 +199,7 @@ knitr::include_graphics(here("thesis", "appendices_files", "C4-2.png"))
 ```
 
 \FloatBarrier
+\elandscape
 
 ## Sensitivity analysis 1 {#S1}
 
@@ -217,7 +218,7 @@ knitr::include_graphics(here("thesis", "appendices_files", "C5-1.png"))
 
 ### Random-effects meta-analysis 50m contacts
 
-```{r s-1b, fig.scap = '(ref:short-s1a)', fig.cap = '(ref:long-s1a)'}
+```{r s-1b, fig.scap = '(ref:short-s1b)', fig.cap = '(ref:long-s1b)'}
 
 knitr::include_graphics(here("thesis", "appendices_files", "C5-2.png"))
 
@@ -226,5 +227,3 @@ knitr::include_graphics(here("thesis", "appendices_files", "C5-2.png"))
 (ref:short-s1b) Random effects meta-analysis of ERGMs (50m) estimating the odds of a contact being observed for *M natalensis*.
 
 (ref:long-s1b) Random effects meta-analysis of ERGMs (50m) estimating the odds of a contact being observed for *M natalensis*. Points represent the weighted estimate of the pooled effect size, whiskers encompass the 95% Confidence Interval. A) The odds ratio of a contact being observed for *M. natalensis* in Agricultural or Village land use types. B) The odds ratio of a contact being observed between *M. natalensis* and an individual of a different species. C) The odds ratio of a contact being observed between *M. natalensis* and another *M. natalensis*.
-
-\elandscape
