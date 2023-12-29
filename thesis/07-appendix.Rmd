@@ -18,10 +18,6 @@
 
 # Appendix B
 
-## Images representative of trapping grid locations {#trap-location-images}
-
-\includepdf[pages=-, pagecommand={}, templatesize={\textwidth}{\textheight  - 25pt}, trim=0 0 0 20pt,]{appendices_files/B1.pdf}
-
 \FloatBarrier
 
 ## Trapping effort within each trapping grid {#trap-effort-grid}
@@ -204,5 +200,31 @@ knitr::include_graphics(here("thesis", "appendices_files", "C4-2.png"))
 
 \FloatBarrier
 
+## Sensitivity analysis 1 {#S1}
+
+
+### Random-effects meta-analysis 15m contacts
+
+```{r s-1a, fig.scap = '(ref:short-s1a)', fig.cap = '(ref:long-s1a)'}
+
+knitr::include_graphics(here("thesis", "appendices_files", "C5-1.png"))
+
+```
+
+(ref:short-s1a) Random effects meta-analysis of ERGMs (15m) estimating the odds of a contact being observed for *M natalensis*.
+
+(ref:long-s1a) Random effects meta-analysis of ERGMs (15m) estimating the odds of a contact being observed for *M natalensis*. Points represent the weighted estimate of the pooled effect size, whiskers encompass the 95% Confidence Interval. A) The odds ratio of a contact being observed for *M. natalensis* in Agricultural or Village land use types. B) The odds ratio of a contact being observed between *M. natalensis* and an individual of a different species. C) The odds ratio of a contact being observed between *M. natalensis* and another *M. natalensis*.
+
+### Random-effects meta-analysis 50m contacts
+
+```{r s-1b, fig.scap = '(ref:short-s1a)', fig.cap = '(ref:long-s1a)'}
+
+knitr::include_graphics(here("thesis", "appendices_files", "C5-2.png"))
+
+```
+
+(ref:short-s1b) Random effects meta-analysis of ERGMs (50m) estimating the odds of a contact being observed for *M natalensis*.
+
+(ref:long-s1b) Random effects meta-analysis of ERGMs (50m) estimating the odds of a contact being observed for *M natalensis*. Points represent the weighted estimate of the pooled effect size, whiskers encompass the 95% Confidence Interval. A) The odds ratio of a contact being observed for *M. natalensis* in Agricultural or Village land use types. B) The odds ratio of a contact being observed between *M. natalensis* and an individual of a different species. C) The odds ratio of a contact being observed between *M. natalensis* and another *M. natalensis*.
 
 \elandscape
